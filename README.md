@@ -1,6 +1,6 @@
 # Quaerere Veritatem
 
-> *Quaerere Veritatem* - "Buscar la verdad" || "To seek the truth"
+> **Quaerere Veritatem** - "Buscar la verdad" || "To seek the truth"
 
 
 ———
@@ -15,4 +15,4 @@ Languages:
 
 ————-
 
-**Veritas liberavit vos**
+*Veritas liberavit vos*
