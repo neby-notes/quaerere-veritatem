@@ -3,7 +3,7 @@
 > **Quaerere Veritatem** - "Buscar la verdad" || "To seek the truth"
 
 
-———
+---
 
 ## Documentación || Documentation
 
@@ -13,6 +13,6 @@ Languages:
 - English: README.en.md
 - Español: README.es.md
 
-————-
+---
 
 *Veritas liberavit vos*
