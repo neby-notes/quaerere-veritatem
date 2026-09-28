@@ -7,17 +7,27 @@ interface Props {
 const { tags, lang } = Astro.props;
 ---
 
-<div class="flex flex-wrap gap-2">
-  <p class="text-sm font-medium text-stone-600 dark:text-stone-400 w-full mb-1">
+<div class="flex flex-col gap-2">
+  <p class="nav-interface text-sm font-medium text-muted">
     {lang === 'es' ? 'Filtrar por tags:' : 'Filter by tags:'}
   </p>
-  {tags.map((tag) => (
-    <button
-      type="button"
-      data-tag={tag.id}
-      class="tag-button px-3 py-1 text-sm rounded-full border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
-    >
-      {tag.label}
-    </button>
-  ))}
+  <div class="flex flex-wrap gap-2">
+    {tags.map((tag) => (
+      <button
+        type="button"
+        data-tag={tag.id}
+        class="tag-button nav-interface text-xs font-medium tracking-wide px-2.5 py-1 border border-border rounded-sm text-muted hover:text-accent hover:border-accent transition-colors cursor-pointer bg-transparent"
+      >
+        {tag.label}
+      </button>
+    ))}
+  </div>
 </div>
+
+<style>
+  .tag-button.active {
+    background-color: var(--color-accent-soft);
+    color: var(--color-accent);
+    border-color: var(--color-accent);
+  }
+</style>

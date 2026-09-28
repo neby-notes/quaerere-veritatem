@@ -4,8 +4,16 @@ import { readFile, readdir } from 'node:fs/promises';
 import { join, basename, extname } from 'node:path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'node:url';
+import MarkdownIt from 'markdown-it';
 
 const ARTICLE_ID_REGEX = /^\d{4}-\d{2}-\d{2}-\d{2,}$/;
+
+const md = new MarkdownIt({
+  html: true,
+  breaks: false,
+  linkify: true,
+  typographer: true,
+});
 
 const articleSchema = z.object({
   title: z.string().min(1, 'title is required'),
@@ -175,7 +183,7 @@ export function articleLoader(): Loader {
           store.set({
             id: `${articleId}-${lang}`,
             data: parsedData,
-            rendered: { html: parsed.content },
+            rendered: { html: md.render(parsed.content) },
           });
         }
       }

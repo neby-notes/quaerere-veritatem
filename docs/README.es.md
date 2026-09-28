@@ -44,10 +44,11 @@ Principios:
 | Tecnología | Versión | Propósito |
 | --- | --- | --- |
 | Astro | 7.x | Framework SSG |
-| Tailwind CSS | 4.x | Estilos |
+| Tailwind CSS | 4.x | Estilos (via Vite plugin) |
 | TypeScript | — | Tipado |
 | MiniSearch | — | Búsqueda en cliente |
 | Zod | — | Validación de schemas |
+| Markdown-it | — | Renderizado Markdown |
 
 ---
 
@@ -68,7 +69,10 @@ quaerere-veritatem/
 │   ├── layouts/
 │   ├── pages/
 │   ├── lib/
-│   └── styles/
+│   ├── styles/
+│   └── content/
+│       └── loaders/
+│           └── articleLoader.ts  ← Loader con markdown-it
 ├── docs/                  ← Documentación de autor y de proyecto
 ├── public/                ← Assets estáticos
 └── package.json
@@ -153,6 +157,43 @@ La única autoridad es `content/config/tags.json`:
 - En `frontmatter.tags` solo pueden aparecer los `id`.
 - La UI se encarga de traducirlos al idioma activo.
 - Un tag desconocido en un artículo provoca **fallo del build**.
+
+---
+
+## Sistema de diseño visual
+
+### Paleta
+
+Todos los colores son variables CSS. El modo oscuro redefine las **mismas** variables (`src/styles/palette.css`). No hay clases `dark:` duplicadas.
+
+| Token | Claro | Oscuro |
+|-------|-------|--------|
+| `paper` | `#F5F1E8` | `#1E211D` |
+| `surface` | `#FAF8F3` | `#252A25` |
+| `ink` | `#252820` | `#E8E5DB` |
+| `muted` | `#667064` | `#A7AEA4` |
+| `border` | `#D8D2C5` | `#454A43` |
+| `accent` | `#285C46` | `#82B494` |
+
+### Tipografía
+
+- **Literata**: cuerpo, headings, todo el contenido Markdown.
+- **Inter**: navegación, metadata, tags, botones, controles.
+- **Libre Baskerville**: blockquotes, citas, voz citada.
+
+### Layouts por contexto
+
+| Contexto | Ancho máximo |
+|----------|-------------|
+| Artículo | `68ch` |
+| About | `72ch` |
+| Landing / Default | `80ch` |
+
+### Componentes UI
+
+- **LanguageSwitcher**: toggle segmentado ESP / ENG. Estado activo: fondo `accent`, texto `paper`.
+- **ThemeToggle**: toggle segmentado ☀️ / 🌙. Controlado por JS, persiste en `localStorage`.
+- **Mobile menu**: botón hamburguesa visible solo en móvil, menú desplegable con indicador activo (borde lateral verde).
 
 ---
 

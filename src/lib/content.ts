@@ -15,7 +15,7 @@ export async function getAllArticles(): Promise<ArticleTranslation[]> {
     draft: entry.data.draft,
     featured: entry.data.featured,
     tags: entry.data.tags,
-    body: entry.data.body,
+    body: entry.rendered?.html ?? entry.data.body,
   }));
 }
 

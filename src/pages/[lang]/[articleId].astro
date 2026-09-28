@@ -35,38 +35,37 @@ if (!article) {
   description={article.description}
   articleId={articleId}
   canonicalPath={articleId}
+  contentType="article"
 >
-  <article class="prose dark:prose-invert max-w-none">
-    <header class="mb-8">
-      <h1 class="text-3xl md:text-4xl font-serif font-bold">{article.title}</h1>
-      <p class="mt-2 text-stone-600 dark:text-stone-400">{article.description}</p>
-      <div class="mt-4 flex flex-wrap gap-4 text-sm text-stone-500 dark:text-stone-400">
+  <article class="pt-2">
+    <header class="border-b border-border mb-10 pb-8">
+      <h1 class="font-literata text-3xl md:text-4xl font-semibold leading-tight mb-3 text-ink">{article.title}</h1>
+      <p class="text-lg leading-relaxed text-muted mb-5 max-w-[60ch]">{article.description}</p>
+      <div class="nav-interface text-sm text-muted flex items-center gap-2 flex-wrap font-medium">
         <span>{lang === 'es' ? 'Por' : 'By'} {article.author}</span>
-        <span>•</span>
+        <span class="opacity-50">•</span>
         <time datetime={article.created.toISOString()}>
-          {new Date(article.created).toLocaleDateString(lang)}
+          {new Date(article.created).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
         </time>
       </div>
       {article.heroImage && (
         <img
           src={article.heroImage}
           alt={article.title}
-          class="mt-6 w-full h-64 object-cover rounded-lg"
+          class="mt-6 w-full max-h-96 object-cover rounded-md"
         />
       )}
     </header>
 
-    <div class="markdown-body">
+    <div class="text-[1.05rem] leading-[1.72]">
       <div set:html={article.body} />
     </div>
 
     {article.tags.length > 0 && (
-      <footer class="mt-8 pt-6 border-t border-stone-200 dark:border-stone-800">
+      <footer class="border-t border-border mt-12 pt-6">
         <div class="flex flex-wrap gap-2">
           {article.tags.map((tag) => (
-            <span class="px-3 py-1 text-sm rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
-              {tag}
-            </span>
+            <span class="nav-interface text-xs font-medium tracking-wide px-2 py-1 border border-border rounded-sm text-muted">{tag}</span>
           ))}
         </div>
       </footer>

@@ -44,10 +44,11 @@ Principles:
 | Technology | Version | Purpose |
 | --- | --- | --- |
 | Astro | 7.x | SSG framework |
-| Tailwind CSS | 4.x | Styling |
+| Tailwind CSS | 4.x | Styling (via Vite plugin) |
 | TypeScript | — | Static typing |
 | MiniSearch | — | Client-side search |
 | Zod | — | Schema validation |
+| Markdown-it | — | Markdown rendering |
 
 ---
 
@@ -68,7 +69,10 @@ quaerere-veritatem/
 │   ├── layouts/
 │   ├── pages/
 │   ├── lib/
-│   └── styles/
+│   ├── styles/
+│   └── content/
+│       └── loaders/
+│           └── articleLoader.ts  ← Loader with markdown-it
 ├── docs/                  ← Author and project documentation
 ├── public/                ← Static assets
 └── package.json
@@ -153,6 +157,43 @@ The sole authority is `content/config/tags.json`:
 - In `frontmatter.tags`, only `id` values may appear.
 - The UI handles translation to the active language.
 - An unknown tag in an article causes the **build to fail**.
+
+---
+
+## Visual Design System
+
+### Palette
+
+All colors are CSS custom properties. Dark mode redefines the **same** variables (`src/styles/palette.css`). No duplicated `dark:` classes.
+
+| Token | Light | Dark |
+|-------|-------|------|
+| `paper` | `#F5F1E8` | `#1E211D` |
+| `surface` | `#FAF8F3` | `#252A25` |
+| `ink` | `#252820` | `#E8E5DB` |
+| `muted` | `#667064` | `#A7AEA4` |
+| `border` | `#D8D2C5` | `#454A43` |
+| `accent` | `#285C46` | `#82B494` |
+
+### Typography
+
+- **Literata**: body, headings, all Markdown content.
+- **Inter**: navigation, metadata, tags, buttons, controls.
+- **Libre Baskerville**: blockquotes, quotations, quoted voice.
+
+### Layouts by context
+
+| Context | Max width |
+|---------|-----------|
+| Article | `68ch` |
+| About | `72ch` |
+| Landing / Default | `80ch` |
+
+### UI Components
+
+- **LanguageSwitcher**: segmented toggle ESP / ENG. Active state: `accent` background, `paper` text.
+- **ThemeToggle**: segmented toggle ☀️ / 🌙. Controlled by JS, persists in `localStorage`.
+- **Mobile menu**: hamburger button visible only on mobile, dropdown with active indicator (green left border).
 
 ---
 

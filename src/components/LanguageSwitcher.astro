@@ -20,11 +20,19 @@ if (articleId && translationMap[articleId]?.includes(alternateLang)) {
 } else {
   targetUrl = `/${alternateLang}/`;
 }
+
+const labels = { es: 'ESP', en: 'ENG' };
 ---
 
 <a
   href={targetUrl}
-  class="text-sm font-medium px-2 py-1 rounded border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
+  class="nav-interface flex items-center border border-border rounded overflow-hidden text-xs font-semibold tracking-wider uppercase no-underline hover:border-accent transition-colors"
+  aria-label={`Switch to ${alternateLang}`}
 >
-  {alternateLang.toUpperCase()}
+  <span class={`px-2.5 py-[0.35rem] min-w-[2.5rem] text-center leading-none transition-colors ${currentLang === 'es' ? 'bg-accent text-paper' : 'text-muted hover:bg-surface hover:text-ink'}`}>
+    {labels.es}
+  </span>
+  <span class={`px-2.5 py-[0.35rem] min-w-[2.5rem] text-center leading-none transition-colors border-l border-border ${currentLang === 'en' ? 'bg-accent text-paper' : 'text-muted hover:bg-surface hover:text-ink'}`}>
+    {labels.en}
+  </span>
 </a>

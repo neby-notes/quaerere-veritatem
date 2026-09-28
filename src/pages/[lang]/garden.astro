@@ -23,7 +23,6 @@ if (!isValidLocale(lang)) {
 const articles = await getPublicArticles(lang);
 const registry = await loadTagRegistry();
 
-// Collect unique tags used in public articles
 const usedTagIds = new Set<string>();
 for (const article of articles) {
   for (const tag of article.tags) {
@@ -36,30 +35,30 @@ const tagList = Array.from(usedTagIds).map((id) => ({
   label: translateTag(id, lang, registry),
 }));
 
-// Sort tags alphabetically by label
 tagList.sort((a, b) => a.label.localeCompare(b.label));
 
-// Initial sort: featured first, then created desc
 const initialSorted = sortArticles(articles, 'featured');
 ---
 
-<BaseLayout lang={lang} title={lang === 'es' ? 'Garden' : 'Garden'} canonicalPath="garden">
-  <h1 class="text-3xl font-serif font-bold mb-8">{lang === 'es' ? 'Garden' : 'Garden'}</h1>
+<BaseLayout lang={lang} title={lang === 'es' ? 'Garden' : 'Garden'} canonicalPath="garden" contentType="default">
+  <h1 class="font-literata text-3xl md:text-4xl font-semibold leading-tight mb-8 text-ink">
+    {lang === 'es' ? 'Garden' : 'Garden'}
+  </h1>
 
-  <div class="mb-6 space-y-4">
+  <div class="flex flex-col gap-4 mb-6">
     <SearchBar placeholder={lang === 'es' ? 'Buscar artículos...' : 'Search articles...'} />
     <SortControl lang={lang} />
     <TagCloud tags={tagList} lang={lang} />
   </div>
 
-  <div id="article-count" class="text-sm text-stone-500 dark:text-stone-400 mb-4">
+  <div id="article-count" class="nav-interface text-sm text-muted mb-6">
     {articles.length} {lang === 'es' ? 'artículos' : 'articles'}
   </div>
 
-  <div id="article-list" class="grid gap-6">
+  <div id="article-list" class="flex flex-col gap-5">
     {initialSorted.map((article) => (
       <article
-        class="article-card border border-stone-200 dark:border-stone-800 rounded-lg p-6 transition-opacity"
+        class="article-card bg-surface border border-border rounded-md p-5 transition-colors hover:border-accent"
         data-article-id={article.articleId}
         data-tags={article.tags.join(',')}
         data-created={article.created.toISOString()}
@@ -67,21 +66,21 @@ const initialSorted = sortArticles(articles, 'featured');
         data-featured={article.featured ? 'true' : 'false'}
         data-title={article.title.toLowerCase()}
       >
-        <a href={`/${lang}/${article.articleId}/`} class="block group">
-          <h2 class="text-xl font-bold group-hover:underline">{article.title}</h2>
-          <p class="mt-2 text-stone-600 dark:text-stone-400">{article.description}</p>
+        <a href={`/${lang}/${article.articleId}/`} class="block no-underline text-inherit hover:text-inherit">
+          <h2 class="font-literata text-lg font-semibold leading-snug mb-2 text-ink">{article.title}</h2>
+          <p class="text-sm leading-relaxed text-muted">{article.description}</p>
         </a>
-        <div class="mt-3 flex flex-wrap gap-2">
+        <div class="flex flex-wrap gap-2 mt-3">
           {article.tags.map((tag) => (
-            <span class="px-2 py-0.5 text-xs rounded-full bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400">
+            <span class="nav-interface text-xs font-medium tracking-wide px-2 py-0.5 border border-border rounded-sm text-muted">
               {translateTag(tag, lang, registry)}
             </span>
           ))}
         </div>
-        <div class="mt-2 text-xs text-stone-500 dark:text-stone-500">
-          {new Date(article.created).toLocaleDateString(lang)}
+        <div class="flex items-center gap-2 mt-2 nav-interface text-xs text-muted flex-wrap font-medium">
+          <span>{new Date(article.created).toLocaleDateString(lang)}</span>
           {article.featured && (
-            <span class="ml-2 px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200">
+            <span class="nav-interface text-xs font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-accent-soft text-accent">
               {lang === 'es' ? 'Destacado' : 'Featured'}
             </span>
           )}
@@ -100,12 +99,12 @@ const initialSorted = sortArticles(articles, 'featured');
       const searchInput = document.getElementById('search-input');
       const tagButtons = document.querySelectorAll('.tag-button');
 
-      let selectedTags = new Set();
+      let selectedTags = new Set<string>();
       let currentSort = 'featured';
       let currentQuery = '';
-      let miniSearch = null;
+      let miniSearch: MiniSearch | null = null;
       let indexLoaded = false;
-      let searchScores = null; // Map<articleId, number> — null when no active query
+      let searchScores: Map<string, number> | null = null;
 
       async function ensureIndex() {
         if (indexLoaded) return;
@@ -125,7 +124,7 @@ const initialSorted = sortArticles(articles, 'featured');
           return;
         }
         await ensureIndex();
-        const results = miniSearch.search(currentQuery, {
+        const results = miniSearch!.search(currentQuery, {
           prefix: true,
           fuzzy: 0.2,
           boost: { title: 4, tags: 2.5, description: 1.5, body: 1 },
@@ -134,7 +133,7 @@ const initialSorted = sortArticles(articles, 'featured');
       }
 
       function getCards() {
-        return Array.from(articleList.querySelectorAll('.article-card'));
+        return Array.from(articleList!.querySelectorAll('.article-card'));
       }
 
       function filterCards() {
@@ -143,16 +142,13 @@ const initialSorted = sortArticles(articles, 'featured');
 
         for (const card of cards) {
           const cardTags = card.dataset.tags ? card.dataset.tags.split(',') : [];
-          const articleId = card.dataset.articleId;
+          const articleId = card.dataset.articleId!;
 
-          // Tag filter: intersection
           const tagMatch = selectedTags.size === 0 || Array.from(selectedTags).every((t) => cardTags.includes(t));
-
-          // Search filter via MiniSearch
           const searchMatch = searchScores === null || searchScores.has(articleId);
 
           const isVisible = tagMatch && searchMatch;
-          card.style.display = isVisible ? '' : 'none';
+          (card as HTMLElement).style.display = isVisible ? '' : 'none';
           if (isVisible) visibleCount++;
         }
 
@@ -165,48 +161,45 @@ const initialSorted = sortArticles(articles, 'featured');
 
       function sortCards() {
         const cards = getCards();
-        const visibleCards = cards.filter((c) => c.style.display !== 'none');
+        const visibleCards = cards.filter((c) => (c as HTMLElement).style.display !== 'none');
 
         visibleCards.sort((a, b) => {
-          // When searching, relevance (score) is the primary sort.
-          // The select dropdown only breaks ties.
           if (searchScores) {
-            const scoreA = searchScores.get(a.dataset.articleId) || 0;
-            const scoreB = searchScores.get(b.dataset.articleId) || 0;
+            const scoreA = searchScores.get(a.dataset.articleId!) || 0;
+            const scoreB = searchScores.get(b.dataset.articleId!) || 0;
             if (scoreB !== scoreA) {
               return scoreB - scoreA;
             }
           }
 
-          // Tie-breaker: the user-selected sort mode
           switch (currentSort) {
             case 'created-asc':
-              return new Date(a.dataset.created) - new Date(b.dataset.created);
+              return new Date(a.dataset.created!).getTime() - new Date(b.dataset.created!).getTime();
             case 'created-desc':
-              return new Date(b.dataset.created) - new Date(a.dataset.created);
+              return new Date(b.dataset.created!).getTime() - new Date(a.dataset.created!).getTime();
             case 'edited-asc':
-              return new Date(a.dataset.edited) - new Date(b.dataset.edited);
+              return new Date(a.dataset.edited!).getTime() - new Date(b.dataset.edited!).getTime();
             case 'edited-desc':
-              return new Date(b.dataset.edited) - new Date(a.dataset.edited);
+              return new Date(b.dataset.edited!).getTime() - new Date(a.dataset.edited!).getTime();
             case 'alpha-asc':
-              return a.dataset.title.localeCompare(b.dataset.title);
+              return (a.dataset.title || '').localeCompare(b.dataset.title || '');
             case 'alpha-desc':
-              return b.dataset.title.localeCompare(a.dataset.title);
+              return (b.dataset.title || '').localeCompare(a.dataset.title || '');
             case 'featured':
               if (a.dataset.featured === 'true' && b.dataset.featured !== 'true') return -1;
               if (a.dataset.featured !== 'true' && b.dataset.featured === 'true') return 1;
-              return new Date(b.dataset.created) - new Date(a.dataset.created);
+              return new Date(b.dataset.created!).getTime() - new Date(a.dataset.created!).getTime();
             default:
               return 0;
           }
         });
 
         for (const card of visibleCards) {
-          articleList.appendChild(card);
+          articleList!.appendChild(card);
         }
         for (const card of cards) {
-          if (card.style.display === 'none') {
-            articleList.appendChild(card);
+          if ((card as HTMLElement).style.display === 'none') {
+            articleList!.appendChild(card);
           }
         }
       }
@@ -217,36 +210,31 @@ const initialSorted = sortArticles(articles, 'featured');
         sortCards();
       }
 
-      // Tag buttons
       for (const btn of tagButtons) {
         btn.addEventListener('click', () => {
-          const tag = btn.dataset.tag;
+          const tag = (btn as HTMLElement).dataset.tag!;
           if (selectedTags.has(tag)) {
             selectedTags.delete(tag);
-            btn.classList.remove('bg-stone-200', 'dark:bg-stone-600');
-            btn.classList.add('bg-white', 'dark:bg-stone-800');
+            btn.classList.remove('active');
           } else {
             selectedTags.add(tag);
-            btn.classList.add('bg-stone-200', 'dark:bg-stone-600');
-            btn.classList.remove('bg-white', 'dark:bg-stone-800');
+            btn.classList.add('active');
           }
           applyFilters();
         });
       }
 
-      // Sort select
       if (sortSelect) {
         sortSelect.addEventListener('change', (e) => {
-          currentSort = e.target.value;
+          currentSort = (e.target as HTMLSelectElement).value;
           applyFilters();
         });
       }
 
-      // Search input with debounce
       if (searchInput) {
-        let debounceTimer;
+        let debounceTimer: ReturnType<typeof setTimeout>;
         searchInput.addEventListener('input', (e) => {
-          currentQuery = e.target.value;
+          currentQuery = (e.target as HTMLInputElement).value;
           clearTimeout(debounceTimer);
           debounceTimer = setTimeout(() => {
             applyFilters();

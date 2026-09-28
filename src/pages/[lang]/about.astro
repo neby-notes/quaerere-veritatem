@@ -18,8 +18,11 @@ if (!isValidLocale(lang)) {
 const about = await getAboutContent(lang);
 ---
 
-<BaseLayout lang={lang} title={about?.title ?? (lang === 'es' ? 'Sobre' : 'About')} canonicalPath="about">
-  <article class="prose dark:prose-invert max-w-none">
-    <div set:html={about?.body} />
+<BaseLayout lang={lang} title={about?.title ?? (lang === 'es' ? 'Sobre' : 'About')} canonicalPath="about" contentType="about">
+  <article class="pt-2">
+    {about?.title && <h1 class="font-literata text-3xl md:text-4xl font-semibold leading-tight mb-8 text-ink">{about.title}</h1>}
+    <div class="text-[1.05rem] leading-[1.72]">
+      <div set:html={about?.body} />
+    </div>
   </article>
 </BaseLayout>

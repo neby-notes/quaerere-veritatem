@@ -11,9 +11,10 @@ interface Props {
   lang: Locale;
   articleId?: string;
   canonicalPath?: string;
+  contentType?: 'landing' | 'about' | 'article' | 'default';
 }
 
-const { title, description, lang, articleId, canonicalPath = '' } = Astro.props;
+const { title, description, lang, articleId, canonicalPath = '', contentType = 'default' } = Astro.props;
 const site = 'https://quaerere-veritatem.pages.dev';
 const pageTitle = title ? `${title} — Quaerere Veritatem` : 'Quaerere Veritatem';
 const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
@@ -21,7 +22,6 @@ const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/(https?:)\/+/g, '
 const concepts = await getPublicArticleConcepts();
 const translationMap = getTranslationMap(concepts);
 
-// Generate hreflang links
 const alternateLangs: Locale[] = ['es', 'en'];
 const hreflangLinks = alternateLangs.map((l) => {
   let path = '';
@@ -35,20 +35,31 @@ const hreflangLinks = alternateLangs.map((l) => {
     url: `${site}/${l}/${path}`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/'),
   };
 }).filter((link) => {
-  // Only include links that make sense: if articleId exists, only include langs that have translation
   if (articleId) {
     return translationMap[articleId]?.includes(link.lang);
   }
   return true;
 });
 
-// Add x-default
 if (hreflangLinks.length > 0) {
   const defaultLink = hreflangLinks.find((l) => l.lang === 'es') ?? hreflangLinks[0];
   hreflangLinks.push({
     lang: 'x-default',
     url: defaultLink.url,
   });
+}
+
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: `/${lang}/`, label: 'Home' },
+  { href: `/${lang}/garden`, label: 'Garden' },
+  { href: `/${lang}/about`, label: 'About' },
+];
+
+function isActive(href: string): boolean {
+  const cleanCurrent = currentPath.replace(/\/+$/, '') || '/';
+  const cleanHref = href.replace(/\/+$/, '') || '/';
+  return cleanCurrent === cleanHref;
 }
 ---
 
@@ -61,6 +72,9 @@ if (hreflangLinks.length > 0) {
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&display=swap" rel="stylesheet">
     <link rel="canonical" href={canonical} />
     {hreflangLinks.map((link) => (
       <link rel="alternate" hreflang={link.lang} href={link.url} />
@@ -72,28 +86,78 @@ if (hreflangLinks.length > 0) {
       })();
     </script>
   </head>
-  <body class="bg-white text-stone-900 dark:bg-stone-900 dark:text-stone-100 min-h-screen flex flex-col">
-    <header class="border-b border-stone-200 dark:border-stone-800">
-      <div class="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href={`/${lang}/`} class="text-xl font-serif font-bold tracking-tight hover:opacity-80 transition-opacity">
+  <body class="min-h-screen flex flex-col bg-paper text-ink">
+    <header class="border-b border-border">
+      <div class="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
+        <a 
+          href={`/${lang}/`} 
+          class="font-literata text-lg font-semibold tracking-tight text-ink hover:opacity-80 transition-opacity"
+        >
           Quaerere Veritatem
         </a>
-        <div class="flex items-center gap-4">
-          <nav class="flex items-center gap-4 text-sm">
-            <a href={`/${lang}/`} class="hover:underline">Home</a>
-            <a href={`/${lang}/garden`} class="hover:underline">Garden</a>
-            <a href={`/${lang}/about`} class="hover:underline">About</a>
+        <div class="flex items-center gap-5">
+          <nav class="hidden sm:flex items-center gap-6 text-sm nav-interface">
+            {navItems.map((item) => (
+              <a
+                href={item.href}
+                class={`text-muted no-underline font-medium transition-colors hover:text-accent pb-1 ${isActive(item.href) ? 'text-ink font-semibold border-b-2 border-accent' : ''}`}
+              >
+                {item.label}
+              </a>
+            ))}
           </nav>
-          <LanguageSwitcher currentLang={lang} articleId={articleId} canonicalPath={canonicalPath} translationMap={translationMap} />
-          <ThemeToggle />
+          <div class="hidden sm:block w-px h-5 bg-border opacity-50 mx-0.5"></div>
+          <div class="flex items-center gap-2">
+            <LanguageSwitcher currentLang={lang} articleId={articleId} canonicalPath={canonicalPath} translationMap={translationMap} />
+            <ThemeToggle />
+          </div>
+          <button
+            id="mobile-menu-toggle"
+            class="sm:hidden nav-interface p-1 text-muted hover:text-ink transition-colors"
+            aria-label="Toggle navigation menu"
+            type="button"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
         </div>
       </div>
+      <div id="mobile-menu" class="hidden sm:hidden border-t border-border">
+        <nav class="flex flex-col px-5 py-3 gap-3 nav-interface">
+          {navItems.map((item) => (
+            <a
+              href={item.href}
+              class={`text-sm text-muted no-underline font-medium transition-colors hover:text-accent py-1 ${isActive(item.href) ? 'text-ink font-semibold border-l-2 border-accent pl-3' : 'pl-3'}`}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </div>
     </header>
-    <main class="flex-1 max-w-4xl mx-auto w-full px-4 py-8">
+
+    <script is:inline>
+      (function() {
+        const toggle = document.getElementById('mobile-menu-toggle');
+        const menu = document.getElementById('mobile-menu');
+        if (!toggle || !menu) return;
+        toggle.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+        });
+      })();
+    </script>
+
+    <main class={`flex-1 w-full ${contentType === 'article' ? 'max-w-[68ch] mx-auto px-5 pt-10 pb-16' : contentType === 'about' ? 'max-w-[72ch] mx-auto px-5 pt-12 pb-16' : contentType === 'landing' ? 'max-w-[80ch] mx-auto px-5 pt-12 pb-16' : 'max-w-[80ch] mx-auto px-5 pt-8 pb-16'}`}>
       <slot />
     </main>
-    <footer class="border-t border-stone-200 dark:border-stone-800 py-6 text-center text-sm text-stone-500">
-      <p>Quaerere Veritatem — <em>Veritas liberavit vos</em></p>
+
+    <footer class="border-t border-border">
+      <div class="max-w-5xl mx-auto px-5 py-6 text-center text-sm text-muted nav-interface">
+        <p>Quaerere Veritatem — <em>Veritas liberavit vos</em></p>
+      </div>
     </footer>
   </body>
 </html>

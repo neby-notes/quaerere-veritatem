@@ -8,7 +8,7 @@
 
 Este repositorio ofrece documentacion en varios idiomas. / This repository provides documentation in multiple languages:
 
-- **Espanol**: [docs/README.es.md](docs/README.es.md)
+- **Español**: [docs/README.es.md](docs/README.es.md)
 - **English**: [docs/README.en.md](docs/README.en.md)
 
 ---
@@ -35,7 +35,7 @@ Este repositorio ofrece documentacion en varios idiomas. / This repository provi
 
 - **SSG puro / Pure SSG**: Sin SSR ni edge functions / No SSR or edge functions
 - **Contenido fuera de `src/` / Content outside `src/`**: Markdown en `content/`, codigo en `src/` / Markdown in `content/`, code in `src/`
-- **Bilingue / Bilingual**: Espanol (`es`) e ingles (`en`) con prefijo obligatorio en URLs / Spanish (`es`) and English (`en`) with mandatory URL prefix
+- **Bilingue / Bilingual**: Español (`es`) e ingles (`en`) con prefijo obligatorio en URLs / Spanish (`es`) and English (`en`) with mandatory URL prefix
 - **Tags como taxonomia / Tags as taxonomy**: Sin secciones por disciplina / No sections by discipline
 - **Dark mode**: Deteccion automatica + toggle manual + persistencia / Auto detection + manual toggle + persistence
 
