@@ -4,16 +4,19 @@ import type { Locale } from '../lib/i18n';
 interface Props {
   currentLang: Locale;
   articleId?: string;
+  canonicalPath?: string;
   translationMap: Record<string, Locale[]>;
 }
 
-const { currentLang, articleId, translationMap } = Astro.props;
+const { currentLang, articleId, canonicalPath = '', translationMap } = Astro.props;
 
 const alternateLang: Locale = currentLang === 'es' ? 'en' : 'es';
 let targetUrl: string;
 
 if (articleId && translationMap[articleId]?.includes(alternateLang)) {
   targetUrl = `/${alternateLang}/${articleId}/`;
+} else if (canonicalPath) {
+  targetUrl = `/${alternateLang}/${canonicalPath}/`;
 } else {
   targetUrl = `/${alternateLang}/`;
 }

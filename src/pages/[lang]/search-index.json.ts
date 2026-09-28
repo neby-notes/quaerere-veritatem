@@ -1,6 +1,8 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 import { buildSearchDocuments, createMiniSearch, serializeIndex } from '../../lib/search';
+import { loadTagRegistry, translateTag } from '../../lib/tags';
+import type { Locale } from '../../lib/i18n';
 
 export async function getStaticPaths() {
   return [
@@ -10,7 +12,8 @@ export async function getStaticPaths() {
 }
 
 export const GET: APIRoute = async ({ params }) => {
-  const { lang } = params;
+  const { lang } = params as { lang: Locale };
+  const registry = await loadTagRegistry();
 
   const entries = await getCollection('articles');
   const articles = entries
@@ -20,7 +23,7 @@ export const GET: APIRoute = async ({ params }) => {
       lang: e.data.lang,
       title: e.data.title,
       description: e.data.description,
-      tags: e.data.tags,
+      tags: e.data.tags.map((tag) => translateTag(tag, lang, registry)),
       body: e.data.body,
     }));
 

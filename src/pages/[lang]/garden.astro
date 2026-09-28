@@ -105,7 +105,7 @@ const initialSorted = sortArticles(articles, 'featured');
       let currentQuery = '';
       let miniSearch = null;
       let indexLoaded = false;
-      let searchResults = null;
+      let searchScores = null; // Map<articleId, number> — null when no active query
 
       async function ensureIndex() {
         if (indexLoaded) return;
@@ -120,13 +120,17 @@ const initialSorted = sortArticles(articles, 'featured');
       }
 
       async function updateSearchResults() {
-        if (!currentQuery || currentQuery.length < 2) {
-          searchResults = null;
+        if (!currentQuery || currentQuery.length < 1) {
+          searchScores = null;
           return;
         }
         await ensureIndex();
-        const results = miniSearch.search(currentQuery);
-        searchResults = new Set(results.map((r) => r.articleId));
+        const results = miniSearch.search(currentQuery, {
+          prefix: true,
+          fuzzy: 0.2,
+          boost: { title: 4, tags: 2.5, description: 1.5, body: 1 },
+        });
+        searchScores = new Map(results.map((r) => [r.articleId, r.score]));
       }
 
       function getCards() {
@@ -145,7 +149,7 @@ const initialSorted = sortArticles(articles, 'featured');
           const tagMatch = selectedTags.size === 0 || Array.from(selectedTags).every((t) => cardTags.includes(t));
 
           // Search filter via MiniSearch
-          const searchMatch = searchResults === null || searchResults.has(articleId);
+          const searchMatch = searchScores === null || searchScores.has(articleId);
 
           const isVisible = tagMatch && searchMatch;
           card.style.display = isVisible ? '' : 'none';
@@ -164,6 +168,17 @@ const initialSorted = sortArticles(articles, 'featured');
         const visibleCards = cards.filter((c) => c.style.display !== 'none');
 
         visibleCards.sort((a, b) => {
+          // When searching, relevance (score) is the primary sort.
+          // The select dropdown only breaks ties.
+          if (searchScores) {
+            const scoreA = searchScores.get(a.dataset.articleId) || 0;
+            const scoreB = searchScores.get(b.dataset.articleId) || 0;
+            if (scoreB !== scoreA) {
+              return scoreB - scoreA;
+            }
+          }
+
+          // Tie-breaker: the user-selected sort mode
           switch (currentSort) {
             case 'created-asc':
               return new Date(a.dataset.created) - new Date(b.dataset.created);
@@ -235,7 +250,7 @@ const initialSorted = sortArticles(articles, 'featured');
           clearTimeout(debounceTimer);
           debounceTimer = setTimeout(() => {
             applyFilters();
-          }, 150);
+          }, 50);
         });
       }
     });
