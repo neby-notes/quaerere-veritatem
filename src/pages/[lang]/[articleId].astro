@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPublicArticle, getPublicArticleConcepts } from '../../lib/content';
+import { isValidLocale, type Locale } from '../../lib/i18n';
+
+export async function getStaticPaths() {
+  const concepts = await getPublicArticleConcepts();
+  const paths: Array<{ params: { lang: Locale; articleId: string } }> = [];
+
+  for (const concept of concepts) {
+    for (const lang of concept.availableLangs) {
+      paths.push({
+        params: { lang, articleId: concept.articleId },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { lang, articleId } = Astro.params;
+if (!isValidLocale(lang)) {
+  return Astro.redirect('/es/');
+}
+
+const article = await getPublicArticle(articleId, lang);
+if (!article) {
+  return Astro.redirect(`/${lang}/`);
+}
+---
+
+<BaseLayout
+  lang={lang}
+  title={article.title}
+  description={article.description}
+  articleId={articleId}
+  canonicalPath={articleId}
+>
+  <article class="prose dark:prose-invert max-w-none">
+    <header class="mb-8">
+      <h1 class="text-3xl md:text-4xl font-serif font-bold">{article.title}</h1>
+      <p class="mt-2 text-stone-600 dark:text-stone-400">{article.description}</p>
+      <div class="mt-4 flex flex-wrap gap-4 text-sm text-stone-500 dark:text-stone-400">
+        <span>{lang === 'es' ? 'Por' : 'By'} {article.author}</span>
+        <span>•</span>
+        <time datetime={article.created.toISOString()}>
+          {new Date(article.created).toLocaleDateString(lang)}
+        </time>
+      </div>
+      {article.heroImage && (
+        <img
+          src={article.heroImage}
+          alt={article.title}
+          class="mt-6 w-full h-64 object-cover rounded-lg"
+        />
+      )}
+    </header>
+
+    <div class="markdown-body">
+      <div set:html={article.body} />
+    </div>
+
+    {article.tags.length > 0 && (
+      <footer class="mt-8 pt-6 border-t border-stone-200 dark:border-stone-800">
+        <div class="flex flex-wrap gap-2">
+          {article.tags.map((tag) => (
+            <span class="px-3 py-1 text-sm rounded-full bg-stone-100 dark:bg-stone-800 text-stone-700 dark:text-stone-300">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </footer>
+    )}
+  </article>
+</BaseLayout>

@@ -1,0 +1,243 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SearchBar from '../../components/SearchBar.astro';
+import TagCloud from '../../components/TagCloud.astro';
+import SortControl from '../../components/SortControl.astro';
+import { getPublicArticles } from '../../lib/content';
+import { loadTagRegistry, translateTag } from '../../lib/tags';
+import { isValidLocale, type Locale } from '../../lib/i18n';
+import { sortArticles } from '../../lib/sort';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: 'es' } },
+    { params: { lang: 'en' } },
+  ];
+}
+
+const { lang } = Astro.params;
+if (!isValidLocale(lang)) {
+  return Astro.redirect('/es/');
+}
+
+const articles = await getPublicArticles(lang);
+const registry = await loadTagRegistry();
+
+// Collect unique tags used in public articles
+const usedTagIds = new Set<string>();
+for (const article of articles) {
+  for (const tag of article.tags) {
+    usedTagIds.add(tag);
+  }
+}
+
+const tagList = Array.from(usedTagIds).map((id) => ({
+  id,
+  label: translateTag(id, lang, registry),
+}));
+
+// Sort tags alphabetically by label
+tagList.sort((a, b) => a.label.localeCompare(b.label));
+
+// Initial sort: featured first, then created desc
+const initialSorted = sortArticles(articles, 'featured');
+---
+
+<BaseLayout lang={lang} title={lang === 'es' ? 'Garden' : 'Garden'} canonicalPath="garden">
+  <h1 class="text-3xl font-serif font-bold mb-8">{lang === 'es' ? 'Garden' : 'Garden'}</h1>
+
+  <div class="mb-6 space-y-4">
+    <SearchBar placeholder={lang === 'es' ? 'Buscar artículos...' : 'Search articles...'} />
+    <SortControl lang={lang} />
+    <TagCloud tags={tagList} lang={lang} />
+  </div>
+
+  <div id="article-count" class="text-sm text-stone-500 dark:text-stone-400 mb-4">
+    {articles.length} {lang === 'es' ? 'artículos' : 'articles'}
+  </div>
+
+  <div id="article-list" class="grid gap-6">
+    {initialSorted.map((article) => (
+      <article
+        class="article-card border border-stone-200 dark:border-stone-800 rounded-lg p-6 transition-opacity"
+        data-article-id={article.articleId}
+        data-tags={article.tags.join(',')}
+        data-created={article.created.toISOString()}
+        data-edited={article.edited.toISOString()}
+        data-featured={article.featured ? 'true' : 'false'}
+        data-title={article.title.toLowerCase()}
+      >
+        <a href={`/${lang}/${article.articleId}/`} class="block group">
+          <h2 class="text-xl font-bold group-hover:underline">{article.title}</h2>
+          <p class="mt-2 text-stone-600 dark:text-stone-400">{article.description}</p>
+        </a>
+        <div class="mt-3 flex flex-wrap gap-2">
+          {article.tags.map((tag) => (
+            <span class="px-2 py-0.5 text-xs rounded-full bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-400">
+              {translateTag(tag, lang, registry)}
+            </span>
+          ))}
+        </div>
+        <div class="mt-2 text-xs text-stone-500 dark:text-stone-500">
+          {new Date(article.created).toLocaleDateString(lang)}
+          {article.featured && (
+            <span class="ml-2 px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200">
+              {lang === 'es' ? 'Destacado' : 'Featured'}
+            </span>
+          )}
+        </div>
+      </article>
+    ))}
+  </div>
+
+  <script>
+    import MiniSearch from 'minisearch';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const articleList = document.getElementById('article-list');
+      const countEl = document.getElementById('article-count');
+      const sortSelect = document.getElementById('sort-select');
+      const searchInput = document.getElementById('search-input');
+      const tagButtons = document.querySelectorAll('.tag-button');
+
+      let selectedTags = new Set();
+      let currentSort = 'featured';
+      let currentQuery = '';
+      let miniSearch = null;
+      let indexLoaded = false;
+      let searchResults = null;
+
+      async function ensureIndex() {
+        if (indexLoaded) return;
+        const lang = document.documentElement.lang;
+        const response = await fetch(`/${lang}/search-index.json`);
+        const data = await response.json();
+        miniSearch = MiniSearch.loadJSON(data, {
+          fields: ['title', 'description', 'tags', 'body'],
+          storeFields: ['articleId', 'lang', 'title'],
+        });
+        indexLoaded = true;
+      }
+
+      async function updateSearchResults() {
+        if (!currentQuery || currentQuery.length < 2) {
+          searchResults = null;
+          return;
+        }
+        await ensureIndex();
+        const results = miniSearch.search(currentQuery);
+        searchResults = new Set(results.map((r) => r.articleId));
+      }
+
+      function getCards() {
+        return Array.from(articleList.querySelectorAll('.article-card'));
+      }
+
+      function filterCards() {
+        const cards = getCards();
+        let visibleCount = 0;
+
+        for (const card of cards) {
+          const cardTags = card.dataset.tags ? card.dataset.tags.split(',') : [];
+          const articleId = card.dataset.articleId;
+
+          // Tag filter: intersection
+          const tagMatch = selectedTags.size === 0 || Array.from(selectedTags).every((t) => cardTags.includes(t));
+
+          // Search filter via MiniSearch
+          const searchMatch = searchResults === null || searchResults.has(articleId);
+
+          const isVisible = tagMatch && searchMatch;
+          card.style.display = isVisible ? '' : 'none';
+          if (isVisible) visibleCount++;
+        }
+
+        if (countEl) {
+          const lang = document.documentElement.lang;
+          const plural = lang === 'es' ? 'artículos' : 'articles';
+          countEl.textContent = visibleCount + ' ' + plural;
+        }
+      }
+
+      function sortCards() {
+        const cards = getCards();
+        const visibleCards = cards.filter((c) => c.style.display !== 'none');
+
+        visibleCards.sort((a, b) => {
+          switch (currentSort) {
+            case 'created-asc':
+              return new Date(a.dataset.created) - new Date(b.dataset.created);
+            case 'created-desc':
+              return new Date(b.dataset.created) - new Date(a.dataset.created);
+            case 'edited-asc':
+              return new Date(a.dataset.edited) - new Date(b.dataset.edited);
+            case 'edited-desc':
+              return new Date(b.dataset.edited) - new Date(a.dataset.edited);
+            case 'alpha-asc':
+              return a.dataset.title.localeCompare(b.dataset.title);
+            case 'alpha-desc':
+              return b.dataset.title.localeCompare(a.dataset.title);
+            case 'featured':
+              if (a.dataset.featured === 'true' && b.dataset.featured !== 'true') return -1;
+              if (a.dataset.featured !== 'true' && b.dataset.featured === 'true') return 1;
+              return new Date(b.dataset.created) - new Date(a.dataset.created);
+            default:
+              return 0;
+          }
+        });
+
+        for (const card of visibleCards) {
+          articleList.appendChild(card);
+        }
+        for (const card of cards) {
+          if (card.style.display === 'none') {
+            articleList.appendChild(card);
+          }
+        }
+      }
+
+      async function applyFilters() {
+        await updateSearchResults();
+        filterCards();
+        sortCards();
+      }
+
+      // Tag buttons
+      for (const btn of tagButtons) {
+        btn.addEventListener('click', () => {
+          const tag = btn.dataset.tag;
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+            btn.classList.remove('bg-stone-200', 'dark:bg-stone-600');
+            btn.classList.add('bg-white', 'dark:bg-stone-800');
+          } else {
+            selectedTags.add(tag);
+            btn.classList.add('bg-stone-200', 'dark:bg-stone-600');
+            btn.classList.remove('bg-white', 'dark:bg-stone-800');
+          }
+          applyFilters();
+        });
+      }
+
+      // Sort select
+      if (sortSelect) {
+        sortSelect.addEventListener('change', (e) => {
+          currentSort = e.target.value;
+          applyFilters();
+        });
+      }
+
+      // Search input with debounce
+      if (searchInput) {
+        let debounceTimer;
+        searchInput.addEventListener('input', (e) => {
+          currentQuery = e.target.value;
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(() => {
+            applyFilters();
+          }, 150);
+        });
+      }
+    });
+  </script>
+</BaseLayout>

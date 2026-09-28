@@ -1,0 +1,23 @@
+---
+interface Props {
+  tags: Array<{ id: string; label: string }>;
+  lang: string;
+}
+
+const { tags, lang } = Astro.props;
+---
+
+<div class="flex flex-wrap gap-2">
+  <p class="text-sm font-medium text-stone-600 dark:text-stone-400 w-full mb-1">
+    {lang === 'es' ? 'Filtrar por tags:' : 'Filter by tags:'}
+  </p>
+  {tags.map((tag) => (
+    <button
+      type="button"
+      data-tag={tag.id}
+      class="tag-button px-3 py-1 text-sm rounded-full border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-700 transition-colors"
+    >
+      {tag.label}
+    </button>
+  ))}
+</div>

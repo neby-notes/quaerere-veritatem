@@ -1,0 +1,31 @@
+---
+interface Props {
+  lang: string;
+}
+
+const { lang } = Astro.props;
+
+const options = [
+  { value: 'created-desc', label: lang === 'es' ? 'Creado: más reciente' : 'Created: newest' },
+  { value: 'created-asc', label: lang === 'es' ? 'Creado: más antiguo' : 'Created: oldest' },
+  { value: 'edited-desc', label: lang === 'es' ? 'Editado: más reciente' : 'Edited: newest' },
+  { value: 'edited-asc', label: lang === 'es' ? 'Editado: más antiguo' : 'Edited: oldest' },
+  { value: 'alpha-asc', label: lang === 'es' ? 'Alfabético: A-Z' : 'Alphabetical: A-Z' },
+  { value: 'alpha-desc', label: lang === 'es' ? 'Alfabético: Z-A' : 'Alphabetical: Z-A' },
+  { value: 'featured', label: lang === 'es' ? 'Destacados primero' : 'Featured first' },
+];
+---
+
+<div class="flex items-center gap-2">
+  <label for="sort-select" class="text-sm font-medium text-stone-600 dark:text-stone-400">
+    {lang === 'es' ? 'Ordenar por:' : 'Sort by:'}
+  </label>
+  <select
+    id="sort-select"
+    class="px-3 py-1.5 rounded border border-stone-300 dark:border-stone-700 bg-white dark:bg-stone-800 text-sm focus:outline-none focus:ring-2 focus:ring-stone-500"
+  >
+    {options.map((opt) => (
+      <option value={opt.value}>{opt.label}</option>
+    ))}
+  </select>
+</div>

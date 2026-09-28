@@ -1,0 +1,23 @@
+---
+---
+
+<button
+  id="theme-toggle"
+  class="p-2 rounded-lg border border-stone-300 dark:border-stone-700 hover:bg-stone-100 dark:hover:bg-stone-800 transition-colors"
+  aria-label="Toggle dark mode"
+>
+  <span id="theme-icon-light" class="hidden dark:inline">🌙</span>
+  <span id="theme-icon-dark" class="inline dark:hidden">☀️</span>
+</button>
+
+<script is:inline>
+  (function() {
+    const toggle = document.getElementById('theme-toggle');
+    if (!toggle) return;
+
+    toggle.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+  })();
+</script>

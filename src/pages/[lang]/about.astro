@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAboutContent } from '../../lib/content';
+import { isValidLocale, type Locale } from '../../lib/i18n';
+
+export async function getStaticPaths() {
+  return [
+    { params: { lang: 'es' } },
+    { params: { lang: 'en' } },
+  ];
+}
+
+const { lang } = Astro.params;
+if (!isValidLocale(lang)) {
+  return Astro.redirect('/es/');
+}
+
+const about = await getAboutContent(lang);
+---
+
+<BaseLayout lang={lang} title={about?.title ?? (lang === 'es' ? 'Sobre' : 'About')} canonicalPath="about">
+  <article class="prose dark:prose-invert max-w-none">
+    <div set:html={about?.body} />
+  </article>
+</BaseLayout>

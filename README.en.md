@@ -1,3 +1,0 @@
-# Quarere Veritatem (ENG)
-
-pending...
