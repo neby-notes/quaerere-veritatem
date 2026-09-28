@@ -111,8 +111,8 @@ const initialSorted = sortArticles(articles, 'featured');
         if (indexLoaded) return;
         const lang = document.documentElement.lang;
         const response = await fetch(`/${lang}/search-index.json`);
-        const data = await response.json();
-        miniSearch = MiniSearch.loadJSON(data, {
+        const jsonText = await response.text();
+        miniSearch = MiniSearch.loadJSON(jsonText, {
           fields: ['title', 'description', 'tags', 'body'],
           storeFields: ['articleId', 'lang', 'title'],
         });

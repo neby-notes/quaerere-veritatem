@@ -2,8 +2,8 @@
 title: "Science and the Experimental Method"
 author: "Quaerere Veritatem"
 description: "How the scientific method transformed our way of understanding the world."
-created: 2026-09-28
-edited: 2026-09-28
+created: 2026-09-25
+edited: 2026-09-25
 draft: false
 featured: true
 tags:

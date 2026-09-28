@@ -42,7 +42,7 @@ Principles:
 ## Tech Stack
 
 | Technology | Version | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Astro | 7.x | SSG framework |
 | Tailwind CSS | 4.x | Styling |
 | TypeScript | — | Static typing |

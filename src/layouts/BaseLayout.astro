@@ -16,7 +16,7 @@ interface Props {
 const { title, description, lang, articleId, canonicalPath = '' } = Astro.props;
 const site = 'https://quaerere-veritatem.pages.dev';
 const pageTitle = title ? `${title} — Quaerere Veritatem` : 'Quaerere Veritatem';
-const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/\/+/g, '/');
+const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
 
 const concepts = await getPublicArticleConcepts();
 const translationMap = getTranslationMap(concepts);
@@ -32,7 +32,7 @@ const hreflangLinks = alternateLangs.map((l) => {
   }
   return {
     lang: l,
-    url: `${site}/${l}/${path}`.replace(/\/+/g, '/'),
+    url: `${site}/${l}/${path}`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/'),
   };
 }).filter((link) => {
   // Only include links that make sense: if articleId exists, only include langs that have translation

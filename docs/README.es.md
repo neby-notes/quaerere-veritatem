@@ -42,7 +42,7 @@ Principios:
 ## Stack tecnológico
 
 | Tecnología | Versión | Propósito |
-|---|---|---|
+| --- | --- | --- |
 | Astro | 7.x | Framework SSG |
 | Tailwind CSS | 4.x | Estilos |
 | TypeScript | — | Tipado |

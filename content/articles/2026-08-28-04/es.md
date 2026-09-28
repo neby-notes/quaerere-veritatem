@@ -3,8 +3,8 @@ title: "El arte como forma de conocimiento"
 author: "Quaerere Veritatem"
 description: "Reflexiones sobre cómo el arte nos permite acceder a verdades que escapan al lenguaje conceptual."
 heroImage: "https://mir2.com/defaultHeroImage.png"
-created: 2026-09-28
-edited: 2026-09-28
+created: 2026-08-28
+edited: 2026-08-28
 draft: false
 featured: false
 tags:

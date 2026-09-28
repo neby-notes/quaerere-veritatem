@@ -2,8 +2,8 @@
 title: "Ciencia y método experimental"
 author: "Quaerere Veritatem"
 description: "Cómo el método científico transformó nuestra manera de entender el mundo."
-created: 2026-09-28
-edited: 2026-09-28
+created: 2026-09-25
+edited: 2026-09-25
 draft: false
 featured: true
 tags:
