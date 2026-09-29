@@ -47,7 +47,44 @@ const initialSorted = sortArticles(articles, 'featured');
 
   <div class="flex flex-col gap-4 mb-6">
     <SearchBar placeholder={lang === 'es' ? 'Buscar artículos...' : 'Search articles...'} />
-    <SortControl lang={lang} />
+    <div class="flex items-center justify-between gap-4">
+      <SortControl lang={lang} />
+      <button
+        id="clear-filters"
+        type="button"
+        class="nav-interface text-sm font-medium text-muted hover:text-accent transition-colors hidden"
+      >
+        {lang === 'es' ? 'Quitar filtros' : 'Clear filters'}
+      </button>
+    </div>
+
+    <!-- Date range filter -->
+    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3 nav-interface">
+      <label class="text-sm font-medium text-muted">
+        {lang === 'es' ? 'Filtrar por fecha:' : 'Filter by date:'}
+      </label>
+      <div class="flex items-center gap-2 flex-wrap">
+        <select
+          id="date-type"
+          class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 outline-none cursor-pointer focus:border-accent"
+        >
+          <option value="created">{lang === 'es' ? 'Creado' : 'Created'}</option>
+          <option value="edited">{lang === 'es' ? 'Editado' : 'Edited'}</option>
+        </select>
+        <input
+          id="date-from"
+          type="date"
+          class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 outline-none focus:border-accent"
+        />
+        <span class="text-muted text-sm">–</span>
+        <input
+          id="date-to"
+          type="date"
+          class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 outline-none focus:border-accent"
+        />
+      </div>
+    </div>
+
     <TagCloud tags={tagList} lang={lang} />
   </div>
 
@@ -72,13 +109,21 @@ const initialSorted = sortArticles(articles, 'featured');
         </a>
         <div class="flex flex-wrap gap-2 mt-3">
           {article.tags.map((tag) => (
-            <span class="nav-interface text-xs font-medium tracking-wide px-2 py-0.5 border border-border rounded-sm text-muted">
+            <a
+              href={`/${lang}/garden?tag=${tag}`}
+              class="nav-interface text-xs font-medium tracking-wide px-2 py-0.5 border border-border rounded-sm text-muted hover:text-accent hover:border-accent transition-colors no-underline tag-link"
+              data-tag={tag}
+            >
               {translateTag(tag, lang, registry)}
-            </span>
+            </a>
           ))}
         </div>
-        <div class="flex items-center gap-2 mt-2 nav-interface text-xs text-muted flex-wrap font-medium">
-          <span>{new Date(article.created).toLocaleDateString(lang)}</span>
+        <div class="flex items-center justify-between mt-2 nav-interface text-xs text-muted font-medium">
+          <span>
+            {lang === 'es' ? 'Creado:' : 'Created:'} {new Date(article.created).toLocaleDateString(lang)}
+            <span class="opacity-50 mx-1">•</span>
+            {lang === 'es' ? 'Editado:' : 'Edited:'} {new Date(article.edited).toLocaleDateString(lang)}
+          </span>
           {article.featured && (
             <span class="nav-interface text-xs font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded-sm bg-accent-soft text-accent">
               {lang === 'es' ? 'Destacado' : 'Featured'}
@@ -95,16 +140,96 @@ const initialSorted = sortArticles(articles, 'featured');
     document.addEventListener('DOMContentLoaded', () => {
       const articleList = document.getElementById('article-list');
       const countEl = document.getElementById('article-count');
-      const sortSelect = document.getElementById('sort-select');
-      const searchInput = document.getElementById('search-input');
+      const sortSelect = document.getElementById('sort-select') as HTMLSelectElement | null;
+      const searchInput = document.getElementById('search-input') as HTMLInputElement | null;
       const tagButtons = document.querySelectorAll('.tag-button');
+      const clearFiltersBtn = document.getElementById('clear-filters');
+      const dateType = document.getElementById('date-type') as HTMLSelectElement | null;
+      const dateFrom = document.getElementById('date-from') as HTMLInputElement | null;
+      const dateTo = document.getElementById('date-to') as HTMLInputElement | null;
+      const tagLinks = document.querySelectorAll('.tag-link');
 
       let selectedTags = new Set<string>();
       let currentSort = 'featured';
       let currentQuery = '';
+      let currentDateType = 'created';
+      let currentDateFrom = '';
+      let currentDateTo = '';
       let miniSearch: MiniSearch | null = null;
       let indexLoaded = false;
       let searchScores: Map<string, number> | null = null;
+
+      const STORAGE_KEY = 'garden-state';
+      const VALID_SORTS = ['created-asc', 'created-desc', 'edited-asc', 'edited-desc', 'alpha-asc', 'alpha-desc', 'featured'];
+
+      function saveState() {
+        const state = {
+          sort: currentSort,
+          tags: Array.from(selectedTags),
+          query: currentQuery,
+          dateType: currentDateType,
+          dateFrom: currentDateFrom,
+          dateTo: currentDateTo,
+        };
+        sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      }
+
+      function loadState() {
+        try {
+          const raw = sessionStorage.getItem(STORAGE_KEY);
+          if (raw) return JSON.parse(raw);
+        } catch {}
+        return null;
+      }
+
+      function updateClearButton() {
+        if (!clearFiltersBtn) return;
+        const hasFilters = selectedTags.size > 0 || currentQuery.length > 0 || currentDateFrom || currentDateTo;
+        clearFiltersBtn.classList.toggle('hidden', !hasFilters);
+      }
+
+      // Initialise state: saved > url param > default
+      const savedState = loadState();
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlSort = urlParams.get('sort');
+      const urlTag = urlParams.get('tag');
+
+      // Default
+      currentSort = 'featured';
+
+      // Restore saved state first
+      if (savedState) {
+        if (VALID_SORTS.includes(savedState.sort)) currentSort = savedState.sort;
+        if (savedState.query) currentQuery = savedState.query;
+        if (savedState.tags) {
+          for (const t of savedState.tags) selectedTags.add(t);
+        }
+        if (savedState.dateType) currentDateType = savedState.dateType;
+        if (savedState.dateFrom) currentDateFrom = savedState.dateFrom;
+        if (savedState.dateTo) currentDateTo = savedState.dateTo;
+      }
+
+      // URL sort overrides saved state
+      if (urlSort && VALID_SORTS.includes(urlSort)) {
+        currentSort = urlSort;
+      }
+
+      // URL tag overrides saved tags (single-tag filter from article)
+      if (urlTag) {
+        selectedTags.clear();
+        selectedTags.add(urlTag);
+      }
+
+      // Apply to UI
+      if (sortSelect) sortSelect.value = currentSort;
+      if (searchInput && currentQuery) searchInput.value = currentQuery;
+      if (dateType) dateType.value = currentDateType;
+      if (dateFrom && currentDateFrom) dateFrom.value = currentDateFrom;
+      if (dateTo && currentDateTo) dateTo.value = currentDateTo;
+      for (const btn of tagButtons) {
+        const tag = (btn as HTMLElement).dataset.tag!;
+        if (selectedTags.has(tag)) btn.classList.add('active');
+      }
 
       async function ensureIndex() {
         if (indexLoaded) return;
@@ -140,14 +265,20 @@ const initialSorted = sortArticles(articles, 'featured');
         const cards = getCards();
         let visibleCount = 0;
 
+        const fromMs = currentDateFrom ? new Date(currentDateFrom).getTime() : 0;
+        const toEndOfDay = currentDateTo ? new Date(currentDateTo).getTime() + 86399999 : Infinity;
+
         for (const card of cards) {
           const cardTags = card.dataset.tags ? card.dataset.tags.split(',') : [];
           const articleId = card.dataset.articleId!;
+          const dateField = currentDateType === 'created' ? card.dataset.created : card.dataset.edited;
+          const articleDate = dateField ? new Date(dateField).getTime() : 0;
 
           const tagMatch = selectedTags.size === 0 || Array.from(selectedTags).every((t) => cardTags.includes(t));
           const searchMatch = searchScores === null || searchScores.has(articleId);
+          const dateMatch = (!currentDateFrom && !currentDateTo) || (articleDate >= fromMs && articleDate <= toEndOfDay);
 
-          const isVisible = tagMatch && searchMatch;
+          const isVisible = tagMatch && searchMatch && dateMatch;
           (card as HTMLElement).style.display = isVisible ? '' : 'none';
           if (isVisible) visibleCount++;
         }
@@ -167,9 +298,7 @@ const initialSorted = sortArticles(articles, 'featured');
           if (searchScores) {
             const scoreA = searchScores.get(a.dataset.articleId!) || 0;
             const scoreB = searchScores.get(b.dataset.articleId!) || 0;
-            if (scoreB !== scoreA) {
-              return scoreB - scoreA;
-            }
+            if (scoreB !== scoreA) return scoreB - scoreA;
           }
 
           switch (currentSort) {
@@ -194,13 +323,9 @@ const initialSorted = sortArticles(articles, 'featured');
           }
         });
 
-        for (const card of visibleCards) {
-          articleList!.appendChild(card);
-        }
+        for (const card of visibleCards) articleList!.appendChild(card);
         for (const card of cards) {
-          if ((card as HTMLElement).style.display === 'none') {
-            articleList!.appendChild(card);
-          }
+          if ((card as HTMLElement).style.display === 'none') articleList!.appendChild(card);
         }
       }
 
@@ -208,8 +333,11 @@ const initialSorted = sortArticles(articles, 'featured');
         await updateSearchResults();
         filterCards();
         sortCards();
+        saveState();
+        updateClearButton();
       }
 
+      // Tag buttons (cloud)
       for (const btn of tagButtons) {
         btn.addEventListener('click', () => {
           const tag = (btn as HTMLElement).dataset.tag!;
@@ -224,6 +352,25 @@ const initialSorted = sortArticles(articles, 'featured');
         });
       }
 
+      // Tag links inside cards (prevent navigation, toggle filter)
+      for (const link of tagLinks) {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const tag = (link as HTMLElement).dataset.tag!;
+          if (selectedTags.has(tag)) {
+            selectedTags.delete(tag);
+          } else {
+            selectedTags.add(tag);
+          }
+          for (const btn of tagButtons) {
+            const btnTag = (btn as HTMLElement).dataset.tag!;
+            btn.classList.toggle('active', selectedTags.has(btnTag));
+          }
+          applyFilters();
+        });
+      }
+
+      // Sort select
       if (sortSelect) {
         sortSelect.addEventListener('change', (e) => {
           currentSort = (e.target as HTMLSelectElement).value;
@@ -231,16 +378,57 @@ const initialSorted = sortArticles(articles, 'featured');
         });
       }
 
+      // Search input
       if (searchInput) {
         let debounceTimer: ReturnType<typeof setTimeout>;
         searchInput.addEventListener('input', (e) => {
           currentQuery = (e.target as HTMLInputElement).value;
           clearTimeout(debounceTimer);
-          debounceTimer = setTimeout(() => {
-            applyFilters();
-          }, 50);
+          debounceTimer = setTimeout(() => applyFilters(), 50);
         });
       }
+
+      // Date filters
+      if (dateType) {
+        dateType.addEventListener('change', () => {
+          currentDateType = dateType.value;
+          applyFilters();
+        });
+      }
+      if (dateFrom) {
+        dateFrom.addEventListener('change', () => {
+          currentDateFrom = dateFrom.value;
+          applyFilters();
+        });
+      }
+      if (dateTo) {
+        dateTo.addEventListener('change', () => {
+          currentDateTo = dateTo.value;
+          applyFilters();
+        });
+      }
+
+      // Clear filters button
+      if (clearFiltersBtn) {
+        clearFiltersBtn.addEventListener('click', () => {
+          selectedTags.clear();
+          currentQuery = '';
+          currentSort = 'featured';
+          currentDateType = 'created';
+          currentDateFrom = '';
+          currentDateTo = '';
+          if (searchInput) searchInput.value = '';
+          if (sortSelect) sortSelect.value = 'featured';
+          if (dateType) dateType.value = 'created';
+          if (dateFrom) dateFrom.value = '';
+          if (dateTo) dateTo.value = '';
+          for (const btn of tagButtons) btn.classList.remove('active');
+          applyFilters();
+        });
+      }
+
+      // Initial apply
+      applyFilters();
     });
   </script>
 </BaseLayout>

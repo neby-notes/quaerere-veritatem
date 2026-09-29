@@ -17,11 +17,17 @@ if (!isValidLocale(lang)) {
 
 const landing = await getLandingContent(lang);
 const featured = await getFeaturedArticles(lang);
-const latest = await getLatestArticles(lang, 5);
+const latest = await getLatestArticles(lang, 10);
 ---
 
 <BaseLayout lang={lang} title={landing?.title} contentType="landing">
   <div class="pt-4">
+    {landing?.title && (
+      <h1 class="font-literata font-semibold text-ink leading-tight mb-10"
+          style="font-size: clamp(2.5rem, 6vw, 3.75rem);">
+        {landing.title}
+      </h1>
+    )}
     {landing?.body && (
       <div class="mb-14">
         <div set:html={landing.body} />
@@ -42,6 +48,13 @@ const latest = await getLatestArticles(lang, 5);
               </a>
             </article>
           ))}
+          <article class="border border-dashed border-border rounded-md p-5 transition-colors hover:border-accent flex items-center justify-center">
+            <a href={`/${lang}/garden?sort=featured`} class="block no-underline text-inherit hover:text-inherit text-center">
+              <span class="font-literata text-base font-semibold text-muted">
+                {lang === 'es' ? 'Ver más artículos destacados →' : 'See more featured articles →'}
+              </span>
+            </a>
+          </article>
         </div>
       </section>
     )}
@@ -53,13 +66,20 @@ const latest = await getLatestArticles(lang, 5);
         </h2>
         <div class="flex flex-col gap-4">
           {latest.map((article) => (
-            <article class="border-b border-border pb-4 last:border-b-0">
+            <article class="border-b border-border pb-4">
               <a href={`/${lang}/${article.articleId}/`} class="block no-underline text-inherit hover:text-inherit">
                 <h3 class="font-literata text-base font-semibold leading-snug mb-1 text-ink">{article.title}</h3>
                 <p class="text-sm leading-relaxed text-muted">{article.description}</p>
               </a>
             </article>
           ))}
+          <article class="pt-2">
+            <a href={`/${lang}/garden?sort=edited-desc`} class="block no-underline text-inherit hover:text-inherit">
+              <span class="font-literata text-base font-semibold text-muted">
+                {lang === 'es' ? 'Ver más artículos →' : 'See more articles →'}
+              </span>
+            </a>
+          </article>
         </div>
       </section>
     )}

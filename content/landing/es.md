@@ -1,5 +1,5 @@
 ---
-title: "Quaerere Veritatem"
+title: "¡Bienvenido!"
 ---
 
 **Quaerere Veritatem** es un digital garden polimático dedicado a la búsqueda de la verdad a través de múltiples disciplinas y perspectivas. No es un blog convencional ni un archivo académico: es un jardín de ideas que crecen, se ramifican y se conectan sin jerarquías predefinidas.

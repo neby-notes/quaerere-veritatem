@@ -6,12 +6,45 @@ interface Props {
 const { placeholder = 'Buscar...' } = Astro.props;
 ---
 
-<div class="w-full">
+<div class="w-full relative">
   <input
     id="search-input"
     type="text"
-    class="nav-interface w-full px-4 py-2 text-sm bg-surface text-ink border border-border rounded-md outline-none transition-colors focus:border-accent placeholder:text-muted"
+    class="nav-interface w-full px-4 py-2 pr-9 text-sm bg-surface text-ink border border-border rounded-md outline-none transition-colors focus:border-accent placeholder:text-muted"
     placeholder={placeholder}
     autocomplete="off"
   />
+  <button
+    id="search-clear"
+    type="button"
+    class="absolute right-2 top-1/2 -translate-y-1/2 text-muted hover:text-ink transition-colors hidden"
+    aria-label="Clear search"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18" y1="6" x2="6" y2="18"></line>
+      <line x1="6" y1="6" x2="18" y2="18"></line>
+    </svg>
+  </button>
 </div>
+
+<script is:inline>
+  (function() {
+    var input = document.getElementById('search-input');
+    var clearBtn = document.getElementById('search-clear');
+    if (!input || !clearBtn) return;
+    
+    function updateVisibility() {
+      clearBtn.classList.toggle('hidden', !input.value);
+    }
+    
+    input.addEventListener('input', updateVisibility);
+    clearBtn.addEventListener('click', function() {
+      input.value = '';
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      updateVisibility();
+      input.focus();
+    });
+    
+    updateVisibility();
+  })();
+</script>

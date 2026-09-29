@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getPublicArticle, getPublicArticleConcepts } from '../../lib/content';
 import { isValidLocale, type Locale } from '../../lib/i18n';
+import { loadTagRegistry, translateTag } from '../../lib/tags';
 
 export async function getStaticPaths() {
   const concepts = await getPublicArticleConcepts();
@@ -27,6 +28,12 @@ const article = await getPublicArticle(articleId, lang);
 if (!article) {
   return Astro.redirect(`/${lang}/`);
 }
+
+const registry = await loadTagRegistry();
+const translatedTags = article.tags.map((tag) => ({
+  id: tag,
+  label: translateTag(tag, lang, registry),
+}));
 ---
 
 <BaseLayout
@@ -48,6 +55,18 @@ if (!article) {
           {new Date(article.created).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
         </time>
       </div>
+      {translatedTags.length > 0 && (
+        <div class="flex flex-wrap gap-2 mt-4">
+          {translatedTags.map((tag) => (
+            <a
+              href={`/${lang}/garden?tag=${tag.id}`}
+              class="nav-interface text-xs font-medium tracking-wide px-2 py-1 border border-border rounded-sm text-muted hover:text-accent hover:border-accent transition-colors no-underline"
+            >
+              {tag.label}
+            </a>
+          ))}
+        </div>
+      )}
       {article.heroImage && (
         <img
           src={article.heroImage}
@@ -61,11 +80,16 @@ if (!article) {
       <div set:html={article.body} />
     </div>
 
-    {article.tags.length > 0 && (
+    {translatedTags.length > 0 && (
       <footer class="border-t border-border mt-12 pt-6">
         <div class="flex flex-wrap gap-2">
-          {article.tags.map((tag) => (
-            <span class="nav-interface text-xs font-medium tracking-wide px-2 py-1 border border-border rounded-sm text-muted">{tag}</span>
+          {translatedTags.map((tag) => (
+            <a
+              href={`/${lang}/garden?tag=${tag.id}`}
+              class="nav-interface text-xs font-medium tracking-wide px-2 py-1 border border-border rounded-sm text-muted hover:text-accent hover:border-accent transition-colors no-underline"
+            >
+              {tag.label}
+            </a>
           ))}
         </div>
       </footer>

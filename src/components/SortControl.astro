@@ -6,13 +6,13 @@ interface Props {
 const { lang } = Astro.props;
 
 const options = [
-  { value: 'created-desc', label: lang === 'es' ? 'Creado: más reciente' : 'Created: newest' },
-  { value: 'created-asc', label: lang === 'es' ? 'Creado: más antiguo' : 'Created: oldest' },
-  { value: 'edited-desc', label: lang === 'es' ? 'Editado: más reciente' : 'Edited: newest' },
-  { value: 'edited-asc', label: lang === 'es' ? 'Editado: más antiguo' : 'Edited: oldest' },
+  { value: 'featured', label: lang === 'es' ? 'Destacados primero' : 'Featured first' },
   { value: 'alpha-asc', label: lang === 'es' ? 'Alfabético: A-Z' : 'Alphabetical: A-Z' },
   { value: 'alpha-desc', label: lang === 'es' ? 'Alfabético: Z-A' : 'Alphabetical: Z-A' },
-  { value: 'featured', label: lang === 'es' ? 'Destacados primero' : 'Featured first' },
+  { value: 'edited-desc', label: lang === 'es' ? 'Editado: más reciente' : 'Edited: newest' },
+  { value: 'edited-asc', label: lang === 'es' ? 'Editado: más antiguo' : 'Edited: oldest' },
+  { value: 'created-desc', label: lang === 'es' ? 'Creado: más reciente' : 'Created: newest' },
+  { value: 'created-asc', label: lang === 'es' ? 'Creado: más antiguo' : 'Created: oldest' },
 ];
 ---
 

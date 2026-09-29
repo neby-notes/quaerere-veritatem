@@ -73,13 +73,13 @@ export async function getPublicArticle(articleId: string, lang: Locale): Promise
 
 export async function getFeaturedArticles(lang: Locale): Promise<ArticleTranslation[]> {
   const publicArticles = await getPublicArticles(lang);
-  return publicArticles.filter((a) => a.featured);
+  return publicArticles.filter((a) => a.featured).slice(0, 5);
 }
 
 export async function getLatestArticles(lang: Locale, limit?: number): Promise<ArticleTranslation[]> {
   const publicArticles = await getPublicArticles(lang);
   const sorted = [...publicArticles].sort(
-    (a, b) => new Date(b.created).getTime() - new Date(a.created).getTime()
+    (a, b) => new Date(b.edited).getTime() - new Date(a.edited).getTime()
   );
   return limit ? sorted.slice(0, limit) : sorted;
 }
