@@ -118,14 +118,14 @@ Pueden existir ambas, solo una, o una publicada y otra en borrador.
 title: "Título del artículo"
 author: "Nombre del autor"
 description: "Descripción breve"
-heroImage: "https://mir2.com/defaultHeroImage.png"  # opcional
+heroImage: ""  # opcional
 created: 2026-09-28
 edited: 2026-09-28
 draft: true          # true = no público
 featured: false      # true = puede aparecer en destacados
 tags:
-  - philosophy
-  - truth
+  - tag
+  - otro-tag
 ---
 ```
 
@@ -146,9 +146,9 @@ La única autoridad es `content/config/tags.json`:
 {
   "tags": [
     {
-      "id": "philosophy",
-      "es": "filosofía",
-      "en": "philosophy"
+      "id": "tag",
+      "es": "etiqueta",
+      "en": "tag"
     }
   ]
 }
@@ -191,7 +191,7 @@ Todos los colores son variables CSS. El modo oscuro redefine las **mismas** vari
 
 ### Componentes UI
 
-- **LanguageSwitcher**: toggle segmentado ESP / ENG. Estado activo: fondo `accent`, texto `paper`.
+- **LanguageSwitcher**: toggle segmentado ES / EN. Estado activo: fondo `accent`, texto `paper`.
 - **ThemeToggle**: toggle segmentado ☀️ / 🌙. Controlado por JS, persiste en `localStorage`.
 - **Mobile menu**: botón hamburguesa visible solo en móvil, menú desplegable con indicador activo (borde lateral verde).
 

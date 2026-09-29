@@ -1,10 +1,10 @@
 ---
 title: ""
-author: ""
+author: "NEBY"
 description: ""
-heroImage: "https://mir2.com/defaultHeroImage.png"
-created: 2026-09-28
-edited: 2026-09-28
+heroImage: ""
+created: YYYY-MM-DD
+edited: YYYY-MM-DD
 draft: true
 featured: false
 tags: []

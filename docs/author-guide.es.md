@@ -51,16 +51,16 @@ Cada archivo `.md` debe comenzar con este bloque:
 ```yaml
 ---
 title: "Titulo del articulo"
-author: "Tu nombre"
+author: "NEBY"
 description: "Descripcion breve del articulo (1-2 frases)"
-heroImage: "https://mir2.com/defaultHeroImage.png"  # opcional; URL absoluta
+heroImage: ""  # opcional; URL absoluta
 created: 2026-10-15
 edited: 2026-10-15
 draft: true          # true = no publico; false = publico
 featured: false     # true = puede aparecer en destacados
 tags:
-  - philosophy
-  - inquiry
+  - tag
+  - otro-tag
 ---
 ```
 
@@ -72,6 +72,19 @@ tags:
 - `draft`: mientras trabajes, mantenlo en `true`.
 - `featured`: solo `true` si el articulo es destacado.
 
+### Imagenes de cabecera (heroImage)
+
+El campo `heroImage` es opcional. Si lo incluyes, usa una URL absoluta (idealmente alojada en R2 o un CDN).
+
+Especificaciones recomendadas para un resultado optimo:
+
+- **Proporcion**: 16:9 o 3:2
+- **Ancho minimo**: 900px (el contenedor del articulo mide `68ch` de ancho)
+- **Zona segura**: evita colocar elementos importantes cerca del borde superior; la imagen se recorta por arriba si supera la altura maxima
+- **Altura maxima de visualizacion**: 384px (`max-h-96`). El CSS recorta con `object-cover`, asi que la imagen nunca se deformara
+
+Si omites `heroImage`, el articulo simplemente no muestra imagen de cabecera.
+
 ### 5. Tags
 
 Los tags deben ser **IDs canonicos** definidos en `content/config/tags.json`.
@@ -80,19 +93,39 @@ Ejemplo valido:
 
 ```yaml
 tags:
-  - philosophy
-  - truth
+  - tag
 ```
 
 Ejemplo invalido:
 
 ```yaml
 tags:
-  - filosofia       # ERROR: no es el ID canonico
-  - filosofía         # ERROR: acentos no coinciden con ID
+  - etiqueta       # ERROR: no es el ID canonico
+  - Tag            # ERROR: las mayusculas no coinciden con el ID
 ```
 
-Si necesitas un tag nuevo, debes anadirlo primero a `content/config/tags.json` con sus traducciones.
+### Como crear un tag nuevo
+
+Los tags no se definen en el articulo: se registran en `content/config/tags.json`. Para crear uno nuevo:
+
+1. Abre `content/config/tags.json`.
+2. Anade un objeto dentro del array `tags` con esta forma:
+
+   ```json
+   {
+     "id": "mi-nuevo-tag",
+     "es": "Mi nueva etiqueta",
+     "en": "My new tag"
+   }
+   ```
+
+3. Guarda el archivo.
+4. Usa el `id` (no la traduccion) en el frontmatter del articulo.
+
+**Reglas para el `id`:**
+- Solo letras minusculas, numeros y guiones medios.
+- Sin espacios ni acentos.
+- Unico en todo el registro.
 
 ### 6. Contenido
 
@@ -202,16 +235,15 @@ Archivo: `content/articles/2026-10-15-01/es.md`
 ```yaml
 ---
 title: "La naturaleza del conocimiento"
-author: "Juan Perez"
+author: "NEBY"
 description: "Una reflexion sobre como adquirimos conocimiento."
-heroImage: "https://mir2.com/defaultHeroImage.png"
+heroImage: ""
 created: 2026-10-15
 edited: 2026-10-15
 draft: false
 featured: false
 tags:
-  - epistemology
-  - philosophy
+  - tag
 ---
 
 El conocimiento humano es un proceso continuo de indagacion...

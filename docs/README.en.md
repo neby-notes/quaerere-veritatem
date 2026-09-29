@@ -118,14 +118,14 @@ Both may exist, only one, or one published and the other a draft.
 title: "Article Title"
 author: "Author Name"
 description: "Short description"
-heroImage: "https://mir2.com/defaultHeroImage.png"  # optional
+heroImage: ""  # optional
 created: 2026-09-28
 edited: 2026-09-28
 draft: true          # true = not public
 featured: false      # true = may appear in featured
 tags:
-  - philosophy
-  - truth
+  - tag
+  - another-tag
 ---
 ```
 
@@ -146,9 +146,9 @@ The sole authority is `content/config/tags.json`:
 {
   "tags": [
     {
-      "id": "philosophy",
-      "es": "filosofía",
-      "en": "philosophy"
+      "id": "tag",
+      "es": "etiqueta",
+      "en": "tag"
     }
   ]
 }
@@ -191,7 +191,7 @@ All colors are CSS custom properties. Dark mode redefines the **same** variables
 
 ### UI Components
 
-- **LanguageSwitcher**: segmented toggle ESP / ENG. Active state: `accent` background, `paper` text.
+- **LanguageSwitcher**: segmented toggle ES / EN. Active state: `accent` background, `paper` text.
 - **ThemeToggle**: segmented toggle ☀️ / 🌙. Controlled by JS, persists in `localStorage`.
 - **Mobile menu**: hamburger button visible only on mobile, dropdown with active indicator (green left border).
 

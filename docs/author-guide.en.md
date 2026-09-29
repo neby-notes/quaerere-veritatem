@@ -51,16 +51,16 @@ Each `.md` file must begin with this block:
 ```yaml
 ---
 title: "Article Title"
-author: "Your Name"
+author: "NEBY"
 description: "Brief description of the article (1-2 sentences)"
-heroImage: "https://mir2.com/defaultHeroImage.png"  # optional; absolute URL
+heroImage: ""  # optional; absolute URL
 created: 2026-10-15
 edited: 2026-10-15
 draft: true          # true = not public; false = public
 featured: false     # true = may appear in featured
 tags:
-  - philosophy
-  - inquiry
+  - tag
+  - another-tag
 ---
 ```
 
@@ -72,6 +72,19 @@ tags:
 - `draft`: keep `true` while working.
 - `featured`: only `true` if the article is featured.
 
+### Hero images
+
+The `heroImage` field is optional. If you include one, use an absolute URL (ideally hosted on R2 or a CDN).
+
+Recommended specs for best results:
+
+- **Aspect ratio**: 16:9 or 3:2
+- **Minimum width**: 900px (the container is `68ch` wide)
+- **Safe area**: keep important content away from the top edge; the image is cropped from the top when it exceeds the max height
+- **Max display height**: 384px (`max-h-96`). The CSS crops via `object-cover`, so the image will never look stretched
+
+If you omit `heroImage`, the article simply shows no header image.
+
 ### 5. Tags
 
 Tags must be **canonical IDs** defined in `content/config/tags.json`.
@@ -80,19 +93,39 @@ Valid example:
 
 ```yaml
 tags:
-  - philosophy
-  - truth
+  - tag
 ```
 
 Invalid example:
 
 ```yaml
 tags:
-  - filosofía       # ERROR: not the canonical ID
-  - Philosophy      # ERROR: case mismatch
+  - etiqueta       # ERROR: not the canonical ID
+  - Tag            # ERROR: case mismatch
 ```
 
-If you need a new tag, add it first to `content/config/tags.json` with translations.
+### How to create a new tag
+
+Tags are not defined inside the article: they are registered in `content/config/tags.json`. To create a new one:
+
+1. Open `content/config/tags.json`.
+2. Add an object inside the `tags` array with this shape:
+
+   ```json
+   {
+     "id": "my-new-tag",
+     "es": "Mi nueva etiqueta",
+     "en": "My new tag"
+   }
+   ```
+
+3. Save the file.
+4. Use the `id` (not the translation) in the article frontmatter.
+
+**Rules for the `id`:**
+- Lowercase letters, numbers, and hyphens only.
+- No spaces or accents.
+- Must be unique across the entire registry.
 
 ### 6. Content
 
@@ -202,16 +235,15 @@ File: `content/articles/2026-10-15-01/en.md`
 ```yaml
 ---
 title: "The Nature of Knowledge"
-author: "John Doe"
+author: "NEBY"
 description: "A reflection on how we acquire knowledge."
-heroImage: "https://mir2.com/defaultHeroImage.png"
+heroImage: ""
 created: 2026-10-15
 edited: 2026-10-15
 draft: false
 featured: false
 tags:
-  - epistemology
-  - philosophy
+  - tag
 ---
 
 Human knowledge is a continuous process of inquiry...

@@ -47,26 +47,34 @@ const initialSorted = sortArticles(articles, 'featured');
 
   <div class="flex flex-col gap-4 mb-6">
     <SearchBar placeholder={lang === 'es' ? 'Buscar artículos...' : 'Search articles...'} />
-    <div class="flex items-center justify-between gap-4">
+
+    <!-- Controls: Sort + Date toggle -->
+    <div class="flex items-center justify-between gap-2 flex-wrap">
       <SortControl lang={lang} />
       <button
-        id="clear-filters"
         type="button"
-        class="nav-interface text-sm font-medium text-muted hover:text-accent transition-colors hidden"
+        id="date-toggle"
+        class="nav-interface flex items-center gap-1 px-2 py-1.5 text-sm text-muted hover:text-ink transition-colors border border-border rounded-md bg-surface"
+        aria-label={lang === 'es' ? 'Filtrar por fecha' : 'Filter by date'}
       >
-        {lang === 'es' ? 'Quitar filtros' : 'Clear filters'}
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        <svg id="date-chevron" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 transition-transform duration-200">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
       </button>
     </div>
 
-    <!-- Date range filter -->
-    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3 nav-interface">
-      <label class="text-sm font-medium text-muted">
-        {lang === 'es' ? 'Filtrar por fecha:' : 'Filter by date:'}
-      </label>
-      <div class="flex items-center gap-2 flex-wrap">
+    <!-- Date panel (expandable) -->
+    <div id="date-panel" class="hidden nav-interface">
+      <div class="flex items-center gap-2 flex-wrap border border-border rounded-md p-3 bg-surface">
         <select
           id="date-type"
-          class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 outline-none cursor-pointer focus:border-accent"
+          class="nav-interface text-sm bg-paper text-ink border border-border rounded-md px-2 py-1 outline-none cursor-pointer focus:border-accent"
         >
           <option value="created">{lang === 'es' ? 'Creado' : 'Created'}</option>
           <option value="edited">{lang === 'es' ? 'Editado' : 'Edited'}</option>
@@ -74,22 +82,32 @@ const initialSorted = sortArticles(articles, 'featured');
         <input
           id="date-from"
           type="date"
-          class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 outline-none focus:border-accent"
+          class="nav-interface text-sm bg-paper text-ink border border-border rounded-md px-2 py-1 outline-none focus:border-accent"
         />
         <span class="text-muted text-sm">–</span>
         <input
           id="date-to"
           type="date"
-          class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 outline-none focus:border-accent"
+          class="nav-interface text-sm bg-paper text-ink border border-border rounded-md px-2 py-1 outline-none focus:border-accent"
         />
       </div>
     </div>
 
     <TagCloud tags={tagList} lang={lang} />
-  </div>
 
-  <div id="article-count" class="nav-interface text-sm text-muted mb-6">
-    {articles.length} {lang === 'es' ? 'artículos' : 'articles'}
+    <!-- Article count + Clear filters -->
+    <div class="flex items-center justify-between">
+      <div id="article-count" class="nav-interface text-sm text-muted">
+        {articles.length} {lang === 'es' ? 'artículos' : 'articles'}
+      </div>
+      <button
+        id="clear-filters"
+        type="button"
+        class="nav-interface text-sm font-medium text-muted hover:text-accent transition-colors invisible"
+      >
+        {lang === 'es' ? 'Quitar filtros' : 'Clear filters'}
+      </button>
+    </div>
   </div>
 
   <div id="article-list" class="flex flex-col gap-5">
@@ -135,7 +153,7 @@ const initialSorted = sortArticles(articles, 'featured');
   </div>
 
   <div id="empty-message" class="hidden text-center py-10">
-    <p class="font-literata text-lg text-muted">{lang === 'es' ? 'Ningún artículo coincide con estos filtros. Prueba a ampliar el rango de fechas o quitar algunos tags.' : 'No articles match these filters. Try widening the date range or removing some tags.'}</p>
+    <p class="font-literata text-lg text-muted">{lang === 'es' ? 'Ningún artículo coincide con estos filtros. Prueba a ampliar el rango de fechas o quitar algunas etiquetas.' : 'No articles match these filters. Try widening the date range or removing some tags.'}</p>
   </div>
 
   <div id="pagination" class="flex items-center justify-center gap-2 mt-8 nav-interface"></div>
@@ -155,6 +173,9 @@ const initialSorted = sortArticles(articles, 'featured');
       const dateTo = document.getElementById('date-to') as HTMLInputElement | null;
       const paginationEl = document.getElementById('pagination');
       const emptyMessage = document.getElementById('empty-message');
+      const dateToggle = document.getElementById('date-toggle');
+      const datePanel = document.getElementById('date-panel');
+      const dateChevron = document.getElementById('date-chevron');
 
       const lang = document.documentElement.lang;
       const ITEMS_PER_PAGE = 25;
@@ -201,7 +222,7 @@ const initialSorted = sortArticles(articles, 'featured');
       function updateClearButton() {
         if (!clearFiltersBtn) return;
         const hasFilters = selectedTags.size > 0 || currentQuery.length > 0 || currentDateFrom || currentDateTo;
-        clearFiltersBtn.classList.toggle('hidden', !hasFilters);
+        clearFiltersBtn.classList.toggle('invisible', !hasFilters);
       }
 
       // Initialise state: saved > url param > default
@@ -501,6 +522,14 @@ const initialSorted = sortArticles(articles, 'featured');
           if (dateTo) dateTo.value = '';
           for (const btn of tagButtons) btn.classList.remove('active');
           applyFilters();
+        });
+      }
+
+      // Date filter accordion toggle
+      if (dateToggle && datePanel) {
+        dateToggle.addEventListener('click', () => {
+          datePanel.classList.toggle('hidden');
+          dateChevron?.classList.toggle('rotate-180');
         });
       }
 

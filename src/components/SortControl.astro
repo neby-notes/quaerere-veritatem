@@ -17,12 +17,12 @@ const options = [
 ---
 
 <div class="flex items-center gap-2 nav-interface">
-  <label for="sort-select" class="text-sm font-medium text-muted">
+  <label for="sort-select" class="text-xs sm:text-sm font-medium text-muted hidden sm:inline">
     {lang === 'es' ? 'Ordenar por:' : 'Sort by:'}
   </label>
   <select
     id="sort-select"
-    class="nav-interface text-sm bg-surface text-ink border border-border rounded-md px-3 py-1.5 outline-none cursor-pointer focus:border-accent transition-colors"
+    class="nav-interface text-xs sm:text-sm bg-surface text-ink border border-border rounded-md px-2 py-1 sm:px-3 sm:py-1.5 outline-none cursor-pointer focus:border-accent transition-colors"
   >
     {options.map((opt) => (
       <option value={opt.value}>{opt.label}</option>

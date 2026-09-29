@@ -108,13 +108,13 @@ function isActive(href: string): boolean {
   </head>
   <body class="min-h-screen flex flex-col bg-paper text-ink">
     <header class="border-b border-border">
-      <div class="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
+      <div class="max-w-5xl mx-auto px-4 sm:px-5 py-4 flex items-center justify-between">
         <a 
           href={`/${lang}/`} 
-          class="flex items-center gap-3 text-ink hover:opacity-80 transition-opacity"
+          class="flex items-center gap-1.5 sm:gap-2.5 text-ink hover:opacity-80 transition-opacity"
           style="font-family: var(--font-baskerville);"
         >
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="28" height="28" class="shrink-0 self-center" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" class="shrink-0 self-center w-[22px] h-[22px] sm:w-[26px] sm:h-[26px]" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
             <path d="M50 18 C45 14, 30 12, 20 16 C15 18, 12 22, 12 28 L12 72 C12 78, 15 80, 20 78 C30 74, 45 74, 50 78 C55 74, 70 74, 80 78 C85 80, 88 78, 88 72 L88 28 C88 22, 85 18, 80 16 C70 12, 55 14, 50 18 Z" />
             <line x1="50" y1="18" x2="50" y2="78" />
             <line x1="20" y1="30" x2="44" y2="30" stroke-width="4" />
@@ -124,9 +124,9 @@ function isActive(href: string): boolean {
             <line x1="56" y1="38" x2="80" y2="38" stroke-width="4" />
             <line x1="56" y1="46" x2="80" y2="46" stroke-width="4" />
           </svg>
-          <span class="text-[1.20rem] font-semibold underline underline-offset-[0.16em] decoration-1 leading-none">Quaerere Veritatem</span>
+          <span class="text-[1.05rem] sm:text-[1.14rem] font-semibold underline underline-offset-[0.16em] decoration-1 leading-none">Quaerere Veritatem</span>
         </a>
-        <div class="flex items-center gap-5">
+        <div class="flex items-center gap-2 sm:gap-5">
           <nav class="hidden sm:flex items-center gap-6 text-sm nav-interface">
             {navItems.map((item) => (
               <a
@@ -144,11 +144,11 @@ function isActive(href: string): boolean {
           </div>
           <button
             id="mobile-menu-toggle"
-            class="sm:hidden nav-interface p-1 text-muted hover:text-ink transition-colors"
+            class="sm:hidden nav-interface p-1.5 text-muted hover:text-ink transition-colors"
             aria-label="Toggle navigation menu"
             type="button"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>

@@ -5,23 +5,35 @@ interface Props {
 }
 
 const { tags, lang } = Astro.props;
+const hasMore = tags.length > 8;
 ---
 
 <div class="flex flex-col gap-2">
   <p class="nav-interface text-sm font-medium text-muted">
-    {lang === 'es' ? 'Filtrar por tags:' : 'Filter by tags:'}
+    {lang === 'es' ? 'Etiquetas:' : 'Tags:'}
   </p>
-  <div class="flex flex-wrap gap-2">
+  <div class="flex flex-wrap gap-2" id="tag-cloud-container">
     {tags.map((tag) => (
       <button
         type="button"
         data-tag={tag.id}
-        class="tag-button nav-interface text-xs font-medium tracking-wide px-2.5 py-1 border border-border rounded-sm text-muted hover:text-accent hover:border-accent transition-colors cursor-pointer bg-transparent"
+        class="tag-item tag-button nav-interface text-xs font-medium tracking-wide px-2.5 py-1 border border-border rounded-sm text-muted hover:text-accent hover:border-accent transition-colors cursor-pointer bg-transparent"
       >
         {tag.label}
       </button>
     ))}
   </div>
+  {hasMore && (
+    <button
+      type="button"
+      id="tag-toggle-more"
+      class="nav-interface text-sm text-muted hover:text-accent transition-colors self-start mt-0.5"
+      data-label-more={lang === 'es' ? 'Mostrar más' : 'Show more'}
+      data-label-less={lang === 'es' ? 'Mostrar menos' : 'Show less'}
+    >
+      {lang === 'es' ? 'Mostrar más' : 'Show more'}
+    </button>
+  )}
 </div>
 
 <style>
@@ -31,3 +43,53 @@ const { tags, lang } = Astro.props;
     border-color: var(--color-accent);
   }
 </style>
+
+<script>
+  (function() {
+    const toggleBtn = document.getElementById('tag-toggle-more');
+    const container = document.getElementById('tag-cloud-container');
+    if (!container) return;
+    
+    const allTags = container.querySelectorAll('.tag-item');
+    if (allTags.length <= 8) {
+      if (toggleBtn) toggleBtn.classList.add('hidden');
+      return;
+    }
+    
+    const labelMore = toggleBtn?.dataset.labelMore || 'Show more';
+    const labelLess = toggleBtn?.dataset.labelLess || 'Show less';
+    let isExpanded = false;
+    
+    function getLimit() {
+      return window.innerWidth < 640 ? 8 : 16;
+    }
+    
+    function applyLimit() {
+      const limit = getLimit();
+      for (let i = 0; i < allTags.length; i++) {
+        if (isExpanded) {
+          allTags[i].classList.remove('hidden');
+        } else {
+          allTags[i].classList.toggle('hidden', i >= limit);
+        }
+      }
+      if (toggleBtn) {
+        const needsButton = allTags.length > limit;
+        toggleBtn.classList.toggle('hidden', !needsButton);
+      }
+    }
+    
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        isExpanded = !isExpanded;
+        applyLimit();
+        toggleBtn.textContent = isExpanded ? labelLess : labelMore;
+      });
+    }
+    
+    applyLimit();
+    window.addEventListener('resize', () => {
+      applyLimit();
+    });
+  })();
+</script>

@@ -88,14 +88,12 @@ const schemaOrg = {
           ))}
         </div>
       )}
-      {article.heroImage ? (
+      {article.heroImage && (
         <img
           src={article.heroImage}
           alt={article.title}
           class="mt-6 w-full max-h-96 object-cover rounded-md"
         />
-      ) : (
-        <div class="hero-fallback mt-6" aria-hidden="true"></div>
       )}
     </header>
 

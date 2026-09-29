@@ -1,44 +1,28 @@
 {
   "tags": [
-    {
-      "id": "philosophy",
-      "es": "filosofía",
-      "en": "philosophy"
-    },
-    {
-      "id": "truth",
-      "es": "verdad",
-      "en": "truth"
-    },
-    {
-      "id": "inquiry",
-      "es": "indagación",
-      "en": "inquiry"
-    },
-    {
-      "id": "science",
-      "es": "ciencia",
-      "en": "science"
-    },
-    {
-      "id": "art",
-      "es": "arte",
-      "en": "art"
-    },
-    {
-      "id": "history",
-      "es": "historia",
-      "en": "history"
-    },
-    {
-      "id": "methodology",
-      "es": "metodología",
-      "en": "methodology"
-    },
-    {
-      "id": "epistemology",
-      "es": "epistemología",
-      "en": "epistemology"
-    }
+    { "id": "lorem", "es": "lorem", "en": "lorem" },
+    { "id": "ipsum", "es": "ipsum", "en": "ipsum" },
+    { "id": "dolor", "es": "dolor", "en": "dolor" },
+    { "id": "sit", "es": "sit", "en": "sit" },
+    { "id": "amet", "es": "amet", "en": "amet" },
+    { "id": "consectetur", "es": "consectetur", "en": "consectetur" },
+    { "id": "adipiscing", "es": "adipiscing", "en": "adipiscing" },
+    { "id": "elit", "es": "elit", "en": "elit" },
+    { "id": "sed", "es": "sed", "en": "sed" },
+    { "id": "eiusmod", "es": "eiusmod", "en": "eiusmod" },
+    { "id": "tempor", "es": "tempor", "en": "tempor" },
+    { "id": "incididunt", "es": "incididunt", "en": "incididunt" },
+    { "id": "labore", "es": "labore", "en": "labore" },
+    { "id": "dolore", "es": "dolore", "en": "dolore" },
+    { "id": "magna", "es": "magna", "en": "magna" },
+    { "id": "aliqua", "es": "aliqua", "en": "aliqua" },
+    { "id": "enim", "es": "enim", "en": "enim" },
+    { "id": "minim", "es": "minim", "en": "minim" },
+    { "id": "veniam", "es": "veniam", "en": "veniam" },
+    { "id": "quis", "es": "quis", "en": "quis" },
+    { "id": "nostrud", "es": "nostrud", "en": "nostrud" },
+    { "id": "exercitation", "es": "exercitation", "en": "exercitation" },
+    { "id": "ullamco", "es": "ullamco", "en": "ullamco" },
+    { "id": "laboris", "es": "laboris", "en": "laboris" }
   ]
 }
