@@ -12,12 +12,16 @@ interface Props {
   articleId?: string;
   canonicalPath?: string;
   contentType?: 'landing' | 'about' | 'article' | 'default';
+  image?: string;
 }
 
-const { title, description, lang, articleId, canonicalPath = '', contentType = 'default' } = Astro.props;
+const { title, description, lang, articleId, canonicalPath = '', contentType = 'default', image } = Astro.props;
 const site = 'https://quaerere-veritatem.pages.dev';
 const pageTitle = title ? `${title} — Quaerere Veritatem` : 'Quaerere Veritatem';
 const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
+const ogType = contentType === 'article' ? 'article' : 'website';
+const ogLocale = lang === 'es' ? 'es_ES' : 'en_US';
+const ogImage = image || `${site}/favicon.svg`;
 
 const concepts = await getPublicArticleConcepts();
 const translationMap = getTranslationMap(concepts);
@@ -53,7 +57,7 @@ const currentPath = Astro.url.pathname;
 const navItems = [
   { href: `/${lang}/`, label: lang === 'es' ? 'Inicio' : 'Home' },
   { href: `/${lang}/garden`, label: lang === 'es' ? 'Jardín' : 'Garden' },
-  { href: `/${lang}/about`, label: lang === 'es' ? 'Sobre' : 'About' },
+  { href: `/${lang}/about`, label: lang === 'es' ? 'Proyecto' : 'Project' },
 ];
 
 function isActive(href: string): boolean {
@@ -72,6 +76,22 @@ function isActive(href: string): boolean {
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={pageTitle} />
+    {description && <meta property="og:description" content={description} />}
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:site_name" content="Quaerere Veritatem" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    {description && <meta name="twitter:description" content={description} />}
+    <meta name="twitter:image" content={ogImage} />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400&display=swap" rel="stylesheet">
@@ -167,7 +187,7 @@ function isActive(href: string): boolean {
 
     <footer class="border-t border-border">
       <div class="max-w-5xl mx-auto px-5 py-5 flex items-center justify-between text-sm text-muted nav-interface">
-        <span>Quaerere Veritatem — <em>Veritas liberavit vos</em></span>
+        <span><em>Veritas liberabit vos</em></span>
         <span class="font-semibold tracking-wider">NEBY</span>
         <button
           id="back-to-top"

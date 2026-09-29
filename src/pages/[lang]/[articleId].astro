@@ -34,6 +34,24 @@ const translatedTags = article.tags.map((tag) => ({
   id: tag,
   label: translateTag(tag, lang, registry),
 }));
+const site = 'https://quaerere-veritatem.pages.dev';
+const articleUrl = `${site}/${lang}/${articleId}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
+
+const schemaOrg = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: article.title,
+  description: article.description,
+  author: {
+    '@type': 'Person',
+    name: article.author,
+  },
+  datePublished: article.created.toISOString().split('T')[0],
+  dateModified: article.edited.toISOString().split('T')[0],
+  inLanguage: lang,
+  url: articleUrl,
+  ...(article.heroImage ? { image: article.heroImage } : {}),
+};
 ---
 
 <BaseLayout
@@ -43,7 +61,10 @@ const translatedTags = article.tags.map((tag) => ({
   articleId={articleId}
   canonicalPath={articleId}
   contentType="article"
+  image={article.heroImage}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(schemaOrg)} />
+
   <article class="pt-2">
     <header class="border-b border-border mb-10 pb-8">
       <h1 class="font-literata text-3xl md:text-4xl font-semibold leading-tight mb-3 text-ink">{article.title}</h1>
@@ -67,12 +88,14 @@ const translatedTags = article.tags.map((tag) => ({
           ))}
         </div>
       )}
-      {article.heroImage && (
+      {article.heroImage ? (
         <img
           src={article.heroImage}
           alt={article.title}
           class="mt-6 w-full max-h-96 object-cover rounded-md"
         />
+      ) : (
+        <div class="hero-fallback mt-6" aria-hidden="true"></div>
       )}
     </header>
 

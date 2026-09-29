@@ -18,9 +18,23 @@ if (!isValidLocale(lang)) {
 const landing = await getLandingContent(lang);
 const featured = await getFeaturedArticles(lang);
 const latest = await getLatestArticles(lang, 10);
+
+const site = 'https://quaerere-veritatem.pages.dev';
+const landingUrl = `${site}/${lang}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
+
+const schemaOrg = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Quaerere Veritatem',
+  url: landingUrl,
+  inLanguage: lang,
+  author: { '@type': 'Person', name: 'NEBY' },
+};
 ---
 
 <BaseLayout lang={lang} title={landing?.title} contentType="landing">
+  <script type="application/ld+json" set:html={JSON.stringify(schemaOrg)} />
+
   <div class="pt-4">
     {landing?.title && (
       <h1 class="font-literata font-semibold text-ink leading-tight mb-10"

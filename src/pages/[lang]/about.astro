@@ -16,9 +16,22 @@ if (!isValidLocale(lang)) {
 }
 
 const about = await getAboutContent(lang);
+
+const site = 'https://quaerere-veritatem.pages.dev';
+const aboutUrl = `${site}/${lang}/about/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
+
+const schemaOrg = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: lang === 'es' ? 'Proyecto' : 'Project',
+  url: aboutUrl,
+  inLanguage: lang,
+};
 ---
 
-<BaseLayout lang={lang} title={about?.title ?? (lang === 'es' ? 'Sobre' : 'About')} canonicalPath="about" contentType="about">
+<BaseLayout lang={lang} title={about?.title ?? (lang === 'es' ? 'Proyecto' : 'Project')} canonicalPath="about" contentType="about">
+  <script type="application/ld+json" set:html={JSON.stringify(schemaOrg)} />
+
   <article class="pt-2">
     {about?.title && <h1 class="font-literata text-3xl md:text-4xl font-semibold leading-tight mb-8 text-ink">{about.title}</h1>}
     <div class="text-[1.05rem] leading-[1.72]">

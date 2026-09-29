@@ -154,3 +154,15 @@
 .control-interface {
   font-family: var(--font-inter);
 }
+
+/* Hero image fallback — subtle manuscript margin pattern */
+.hero-fallback {
+  width: 100%;
+  height: 16rem;
+  background-image:
+    linear-gradient(var(--color-ink) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-ink) 1px, transparent 1px);
+  background-size: 2.5rem 2.5rem;
+  opacity: 0.06;
+  border-radius: 4px;
+}
