@@ -134,6 +134,8 @@ const initialSorted = sortArticles(articles, 'featured');
     ))}
   </div>
 
+  <div id="pagination" class="flex items-center justify-center gap-2 mt-8 nav-interface"></div>
+
   <script>
     import MiniSearch from 'minisearch';
 
@@ -148,6 +150,10 @@ const initialSorted = sortArticles(articles, 'featured');
       const dateFrom = document.getElementById('date-from') as HTMLInputElement | null;
       const dateTo = document.getElementById('date-to') as HTMLInputElement | null;
       const tagLinks = document.querySelectorAll('.tag-link');
+      const paginationEl = document.getElementById('pagination');
+
+      const lang = document.documentElement.lang;
+      const ITEMS_PER_PAGE = 25;
 
       let selectedTags = new Set<string>();
       let currentSort = 'featured';
@@ -155,6 +161,7 @@ const initialSorted = sortArticles(articles, 'featured');
       let currentDateType = 'created';
       let currentDateFrom = '';
       let currentDateTo = '';
+      let currentPage = 1;
       let miniSearch: MiniSearch | null = null;
       let indexLoaded = false;
       let searchScores: Map<string, number> | null = null;
@@ -170,6 +177,7 @@ const initialSorted = sortArticles(articles, 'featured');
           dateType: currentDateType,
           dateFrom: currentDateFrom,
           dateTo: currentDateTo,
+          page: currentPage,
         };
         sessionStorage.setItem(STORAGE_KEY, JSON.stringify(state));
       }
@@ -196,6 +204,7 @@ const initialSorted = sortArticles(articles, 'featured');
 
       // Default
       currentSort = 'featured';
+      currentPage = 1;
 
       // Restore saved state first
       if (savedState) {
@@ -207,6 +216,7 @@ const initialSorted = sortArticles(articles, 'featured');
         if (savedState.dateType) currentDateType = savedState.dateType;
         if (savedState.dateFrom) currentDateFrom = savedState.dateFrom;
         if (savedState.dateTo) currentDateTo = savedState.dateTo;
+        if (typeof savedState.page === 'number') currentPage = savedState.page;
       }
 
       // URL sort overrides saved state
@@ -218,6 +228,7 @@ const initialSorted = sortArticles(articles, 'featured');
       if (urlTag) {
         selectedTags.clear();
         selectedTags.add(urlTag);
+        currentPage = 1;
       }
 
       // Apply to UI
@@ -233,7 +244,6 @@ const initialSorted = sortArticles(articles, 'featured');
 
       async function ensureIndex() {
         if (indexLoaded) return;
-        const lang = document.documentElement.lang;
         const response = await fetch(`/${lang}/search-index.json`);
         const jsonText = await response.text();
         miniSearch = MiniSearch.loadJSON(jsonText, {
@@ -263,7 +273,6 @@ const initialSorted = sortArticles(articles, 'featured');
 
       function filterCards() {
         const cards = getCards();
-        let visibleCount = 0;
 
         const fromMs = currentDateFrom ? new Date(currentDateFrom).getTime() : 0;
         const toEndOfDay = currentDateTo ? new Date(currentDateTo).getTime() + 86399999 : Infinity;
@@ -278,23 +287,16 @@ const initialSorted = sortArticles(articles, 'featured');
           const searchMatch = searchScores === null || searchScores.has(articleId);
           const dateMatch = (!currentDateFrom && !currentDateTo) || (articleDate >= fromMs && articleDate <= toEndOfDay);
 
-          const isVisible = tagMatch && searchMatch && dateMatch;
-          (card as HTMLElement).style.display = isVisible ? '' : 'none';
-          if (isVisible) visibleCount++;
-        }
-
-        if (countEl) {
-          const lang = document.documentElement.lang;
-          const plural = lang === 'es' ? 'artículos' : 'articles';
-          countEl.textContent = visibleCount + ' ' + plural;
+          const passesFilters = tagMatch && searchMatch && dateMatch;
+          (card as HTMLElement).dataset.filtered = passesFilters ? 'true' : 'false';
         }
       }
 
       function sortCards() {
         const cards = getCards();
-        const visibleCards = cards.filter((c) => (c as HTMLElement).style.display !== 'none');
+        const filteredCards = cards.filter((c) => (c as HTMLElement).dataset.filtered === 'true');
 
-        visibleCards.sort((a, b) => {
+        filteredCards.sort((a, b) => {
           if (searchScores) {
             const scoreA = searchScores.get(a.dataset.articleId!) || 0;
             const scoreB = searchScores.get(b.dataset.articleId!) || 0;
@@ -323,9 +325,95 @@ const initialSorted = sortArticles(articles, 'featured');
           }
         });
 
-        for (const card of visibleCards) articleList!.appendChild(card);
+        // Re-append in sorted order: filtered first, then non-filtered
+        for (const card of filteredCards) articleList!.appendChild(card);
         for (const card of cards) {
-          if ((card as HTMLElement).style.display === 'none') articleList!.appendChild(card);
+          if ((card as HTMLElement).dataset.filtered !== 'true') articleList!.appendChild(card);
+        }
+      }
+
+      function applyPagination() {
+        const cards = getCards();
+        const filteredCards = cards.filter((c) => (c as HTMLElement).dataset.filtered === 'true');
+        const totalVisible = filteredCards.length;
+        const totalPages = Math.max(1, Math.ceil(totalVisible / ITEMS_PER_PAGE));
+
+        // Clamp current page
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentPage < 1) currentPage = 1;
+
+        const start = (currentPage - 1) * ITEMS_PER_PAGE;
+        const end = start + ITEMS_PER_PAGE;
+
+        for (let i = 0; i < filteredCards.length; i++) {
+          const card = filteredCards[i] as HTMLElement;
+          card.style.display = (i >= start && i < end) ? '' : 'none';
+        }
+
+        // Hide non-filtered cards
+        for (const card of cards) {
+          if ((card as HTMLElement).dataset.filtered !== 'true') {
+            (card as HTMLElement).style.display = 'none';
+          }
+        }
+
+        if (countEl) {
+          const plural = lang === 'es' ? 'artículos' : 'articles';
+          countEl.textContent = totalVisible + ' ' + plural;
+        }
+
+        renderPagination(totalPages, totalVisible);
+      }
+
+      function renderPagination(totalPages: number, totalVisible: number) {
+        if (!paginationEl) return;
+
+        if (totalVisible <= ITEMS_PER_PAGE) {
+          paginationEl.innerHTML = '';
+          return;
+        }
+
+        const prevLabel = lang === 'es' ? 'Anterior' : 'Previous';
+        const nextLabel = lang === 'es' ? 'Siguiente' : 'Next';
+
+        let html = '';
+
+        // Previous
+        html += `<button type="button" data-page="prev" class="px-2.5 py-1 text-sm rounded border border-border transition-colors ${currentPage <= 1 ? 'text-muted/50 cursor-not-allowed' : 'text-muted hover:text-accent hover:border-accent'}">${prevLabel}</button>`;
+
+        // Page numbers
+        const maxVisible = 5;
+        let startPage = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+        let endPage = Math.min(totalPages, startPage + maxVisible - 1);
+        if (endPage - startPage + 1 < maxVisible) {
+          startPage = Math.max(1, endPage - maxVisible + 1);
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+          const isActive = i === currentPage;
+          html += `<button type="button" data-page="${i}" class="min-w-[2rem] px-2 py-1 text-sm rounded border transition-colors ${isActive ? 'bg-accent text-paper border-accent font-semibold' : 'text-muted border-border hover:text-accent hover:border-accent'}">${i}</button>`;
+        }
+
+        // Next
+        html += `<button type="button" data-page="next" class="px-2.5 py-1 text-sm rounded border border-border transition-colors ${currentPage >= totalPages ? 'text-muted/50 cursor-not-allowed' : 'text-muted hover:text-accent hover:border-accent'}">${nextLabel}</button>`;
+
+        paginationEl.innerHTML = html;
+
+        // Attach listeners to new buttons
+        for (const btn of paginationEl.querySelectorAll('button[data-page]')) {
+          btn.addEventListener('click', (e) => {
+            const page = (e.currentTarget as HTMLElement).dataset.page!;
+            if (page === 'prev') {
+              if (currentPage > 1) currentPage--;
+            } else if (page === 'next') {
+              if (currentPage < totalPages) currentPage++;
+            } else {
+              currentPage = parseInt(page, 10);
+            }
+            applyPagination();
+            saveState();
+            articleList!.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          });
         }
       }
 
@@ -333,6 +421,8 @@ const initialSorted = sortArticles(articles, 'featured');
         await updateSearchResults();
         filterCards();
         sortCards();
+        currentPage = 1;
+        applyPagination();
         saveState();
         updateClearButton();
       }
@@ -417,6 +507,7 @@ const initialSorted = sortArticles(articles, 'featured');
           currentDateType = 'created';
           currentDateFrom = '';
           currentDateTo = '';
+          currentPage = 1;
           if (searchInput) searchInput.value = '';
           if (sortSelect) sortSelect.value = 'featured';
           if (dateType) dateType.value = 'created';
@@ -428,7 +519,10 @@ const initialSorted = sortArticles(articles, 'featured');
       }
 
       // Initial apply
-      applyFilters();
+      filterCards();
+      sortCards();
+      applyPagination();
+      updateClearButton();
     });
   </script>
 </BaseLayout>
