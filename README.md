@@ -41,7 +41,7 @@ Este repositorio ofrece documentacion en varios idiomas. / This repository provi
 
 ---
 
-> *Veritas liberavit vos*
+> *Veritas liberabit vos*
 
 ---
 ---

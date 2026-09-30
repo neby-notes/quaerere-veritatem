@@ -257,6 +257,10 @@ El conocimiento humano es un proceso continuo de indagacion...
 - [Author guide in English](author-guide.en.md) — English version of this guide.
 
 ---
+
+> *Veritas liberabit vos*
+
+---
 ---
 
-  -- NEBY --
+    -- NEBY --

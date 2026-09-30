@@ -8,7 +8,7 @@ title: "Welcome!"
 
 Here you will find reflections, essays, and explorations that transcend traditional academic boundaries. Content is organized through *tags* that represent real conceptual connections, without imposing a rigid structure of categories or disciplines.
 
-> Veritas liberavit vos
+> Veritas liberabit vos
 >
 > — founding principle
 

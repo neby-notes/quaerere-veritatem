@@ -257,6 +257,10 @@ Human knowledge is a continuous process of inquiry...
 - [Guia del autor en español](author-guide.es.md) — Spanish version of this guide.
 
 ---
+
+> *Veritas liberabit vos*
+
+---
 ---
 
-  -- NEBY --
+    -- NEBY --

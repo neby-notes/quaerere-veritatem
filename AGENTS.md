@@ -161,4 +161,4 @@ npm run preview # Preview build
 
 ---
 
-> *Veritas liberavit vos*
+> *Veritas liberabit vos*

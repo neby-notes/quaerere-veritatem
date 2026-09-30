@@ -8,7 +8,7 @@ title: "¡Bienvenido!"
 
 Aquí encontrarás reflexiones, ensayos y exploraciones que trascienden las fronteras académicas tradicionales. El contenido se organiza mediante *tags* que representan conexiones conceptuales reales, sin imponer una estructura rígida de categorías o disciplinas.
 
-> Veritas liberavit vos
+> Veritas liberabit vos
 >
 > — principio fundacional
 

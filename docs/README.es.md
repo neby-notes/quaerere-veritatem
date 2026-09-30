@@ -255,9 +255,9 @@ npm run preview
 
 ---
 
-> *Veritas liberavit vos*
+> *Veritas liberabit vos*
 
 ---
 ---
 
-  -- NEBY --
+    -- NEBY --

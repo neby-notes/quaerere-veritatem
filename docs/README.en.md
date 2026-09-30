@@ -254,6 +254,10 @@ npm run preview
 ```
 
 ---
+
+> *Veritas liberabit vos*
+
+---
 ---
 
-  -- NEBY --
+    -- NEBY --
