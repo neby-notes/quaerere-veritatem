@@ -129,7 +129,29 @@ Los tags no se definen en el articulo: se registran en `content/config/tags.json
 
 ### 6. Contenido
 
-Despues del frontmatter, escribe el cuerpo del articulo en Markdown estandar.
+Despues del frontmatter, escribe el cuerpo del articulo en Markdown estandar. El titulo del frontmatter se renderiza como H1 de la pagina, asi que el cuerpo no debe repetirlo y empieza directamente con el primer parrafo o un encabezado `##`.
+
+**Enlaces entre articulos:** enlaza a otros articulos con rutas absolutas desde la raiz — `[Texto](/es/2026-09-30-01/)` en `es.md`, `[Texto](/en/2026-09-30-01/)` en `en.md`. Nunca uses enlaces relativos a archivos `.md`: esas rutas no existen en la web.
+
+**Anclas de encabezados:** el renderizador genera anclas automaticas para los encabezados `##`, `###` y `####`. No insertes anclas HTML a mano (`<a name="..."></a>`).
+
+**Voz del sitio:** el sitio habla en primera persona (firmo como NEBY). No te refieras al autor en tercera persona en ningun contenido.
+
+**Santos catolicos:** llevan siempre su titulo en menciones, titulos y tags — `San/Santo ...` en espanol, `Saint ...` en ingles (San Agustin / Saint Augustine, Santo Tomas de Aquino / Saint Thomas Aquinas). Excepcion: nombres propios de obras (un titulo de libro se deja intacto). Los no catolicos (Lutero, Tertuliano, el Pseudo-Dionisio) no llevan titulo. Los adjetivos derivados (agustiniana / Augustinian) tampoco cambian.
+
+**La Biblia:** nunca nombres versiones ni ediciones (Reina-Valera, Biblia de Jerusalen, identificadores como NA28...), sobre todo en las referencias — la Biblia es la Biblia. Discutir la forma griega, hebrea o latina del texto en si esta permitido.
+
+**Terminos en otros idiomas:** toda palabra, frase o titulo de obra en un idioma distinto al del articulo lleva traduccion al idioma del articulo en su primera mencion dentro del cuerpo (ej. *Oper und Drama* («Ópera y drama»)). Las referencias finales estan exentas. Sin redundancia: traducido una vez, el termino se usa libremente despues.
+
+**Paridad de traducciones:** si el articulo existe en ambos idiomas, las dos versiones deben contener exactamente la misma cantidad de contenido. En concreto:
+
+- Mismas secciones y encabezados (traducidos), en el mismo orden.
+- Mismas listas, tablas, citas y notas.
+- Mismos enlaces internos a otros articulos (solo cambia el prefijo `/es/` → `/en/`).
+- Titulo y descripcion traducidos por completo; nunca abreviados en un solo idioma.
+- Los mismos IDs de tags en ambos frontmatter.
+
+Si una version avanza mas que la otra, la mas completa es la fuente de verdad y la otra debe alinearse a ella antes de publicar. La paridad aplica igualmente a `content/landing/` y `content/about/`.
 
 ---
 
@@ -162,7 +184,10 @@ Antes de cambiar `draft: false`, revisa:
 
 ### Traducciones
 
-- [ ] Si hay `es.md` y `en.md`, ambos cubren el mismo tema.
+- [ ] Si hay `es.md` y `en.md`, ambos cubren el mismo tema con la misma cantidad de contenido.
+- [ ] Mismas secciones, listas, tablas, citas y enlaces internos en ambos idiomas.
+- [ ] Titulo y descripcion traducidos por completo en ambos, sin abreviar en uno solo.
+- [ ] Los enlaces internos usan rutas absolutas `/es/...` o `/en/...` segun el idioma del archivo.
 - [ ] Los tags son los mismos IDs en ambos idiomas.
 - [ ] Un idioma puede estar en draft mientras el otro se publica.
 

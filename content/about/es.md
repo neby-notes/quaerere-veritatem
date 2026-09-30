@@ -1,35 +1,41 @@
 ---
-title: "Sobre el proyecto"
+title: "Sobre este sitio"
 ---
 
-Quaerere Veritatem nace de la convicción de que la verdad es fragmentaria, multidimensional y nunca completamente alcanzable. Este espacio no pretende ser una enciclopedia ni un blog: es un *digital garden*, un terreno donde las ideas se siembran, crecen y se entrelazan sin obedecer a una estructura disciplinar impuesta.
+**Quaerere Veritatem** significa, en latín, «buscar la verdad» — *quaerere*, buscar; *veritatem*, la verdad —. El nombre designa una actividad y su objeto, no una doctrina.
 
-## Filosofía editorial
+Este sitio es un *digital garden*: un conjunto de artículos independientes que estudian, cada uno, un concepto, un autor, una tradición o una cuestión, y que se enlazan entre sí por afinidad conceptual, no por una división en disciplinas.
 
-### Disciplinas como conexiones, no como cajas
+## Buscar la verdad
 
-La clasificación tradicional del conocimiento —física, historia, estética, epistemología— tiene utilidad institucional, pero también distorsiona. En la práctica del pensamiento, los conceptos migran entre territorios. Un problema de física puede iluminar una cuestión ética; una intuición artística puede reconfigurar un argumento científico.
+Aquí la búsqueda de la verdad se entiende como una **orientación**, no como curiosidad indefinida ni como acumulación de información. Es un deseo que tiende a un término — la contemplación — y que transforma a quien lo persigue.
 
-Por eso este proyecto rechaza la estructura jerárquica y apuesta por los *tags* como única taxonomía.
+Los dos polos de esa búsqueda son el deseo de saber por sí mismo y el examen de la propia vida, que se estudian en [El conocimiento en Aristóteles](/es/2026-09-30-02/) y en [Sócrates y Platón: la vida examinada y el deseo de verdad](/es/2026-09-30-03/).
 
-### Identidad inmutable
+## Por qué este sitio no está organizado por disciplinas
 
-Cada artículo se identifica por una carpeta con formato `YYYY-MM-DD-NN`. Este identificador nunca cambia. Los títulos, descripciones y cuerpos pueden editarse, pero la identidad permanece.
+La premisa de este sitio es que la realidad es una y que las disciplinas no son cortes en ella, sino divisiones del modo en que un intelecto finito accede a lo real. Organizar el conocimiento por disciplinas es, por tanto, una decisión instrumental, no una necesidad del objeto.
 
-> El jardín no se organiza: se recorre.
+Esa idea sustenta la arquitectura del sitio y se argumenta en [Realidad, disciplinas y unidad del conocimiento](/es/2026-09-30-04/): distintas investigaciones, realizadas con métodos diferentes, pueden iluminar la misma realidad.
 
-## Tecnología
+## La verdad y sus registros
 
-El proyecto utiliza tecnologías web modernas para ofrecer una experiencia de lectura limpia y centrada en el contenido:
+El sitio no reduce «verdad» a un solo sentido. La verdad se da en registros distintos — proposicional, personal y artístico — que se estudian por separado y que se iluminan mutuamente.
 
-- **Astro** para generación estática pura (SSG)
-- **Tailwind CSS** v4 para estilos con tokens de diseño
-- **MiniSearch** para búsqueda en cliente con índices estáticos
-- **Markdown** como único formato de contenido editable
-- **Zod** para validación de esquemas y frontmatter
+Para el registro proposicional véase [¿Qué es la verdad?](/es/2026-09-30-01/); para el personal, [Agustín: el corazón inquieto y la verdad](/es/2026-09-30-05/); para el artístico, [La mímesis: arte y realidad](/es/2026-09-30-08/).
 
-El código fuente está disponible públicamente.
+## Trabajo, publicación y comunidad
 
-## Sobre el diseño
+Este sitio entiende el trabajo intelectual como una estructura de **contemplar y transmitir**: se investiga para comprender, y se publica para entregar a otros lo comprendido. Lo que se publica no es la opinión apresurada, sino lo contemplado.
 
-La identidad visual busca evocar la publicación académica tradicional sin caer en la nostalgia gratuita. La paleta cromática —papel, tinta, verde biblioteca— acompaña tres familias tipográficas diferenciadas: Literata para el pensamiento, Inter para la interfaz, y Libre Baskerville para la voz citada.
+Esa estructura se estudia en [La tradición intelectual dominicana](/es/2026-09-30-11/) y en [Crear, hacer e imitar la naturaleza](/es/2026-09-30-07/). La dimensión comunitaria de esa búsqueda se formula en la tradición misma que aquí se cita.
+
+## NEBY
+
+Firmo como **NEBY**. El nombre nació con independencia, a partir de acrónimos y transformaciones de nombres anteriores; solo después advertí su cercanía fonética con el árabe *nabī* y el hebreo *nāḇîʾ*, términos que significan «profeta». Es una resonancia descubierta a posteriori, no el origen del nombre.
+
+## Cómo recorrer este sitio
+
+Hay tres puertas de entrada, según lo que se quiera comprender primero. Si la pregunta es la verdad, se puede comenzar por [¿Qué es la verdad?](/es/2026-09-30-01/). Si es la realidad y la no-disciplina, por [Realidad, disciplinas y unidad del conocimiento](/es/2026-09-30-04/). Si es la búsqueda, por [El conocimiento en Aristóteles](/es/2026-09-30-02/).
+
+A partir de ahí, los enlaces entre artículos permiten recorrer el sitio con libertad. Cada artículo es autónomo y puede leerse por separado; juntos componen aproximaciones distintas a una misma búsqueda.

@@ -21,6 +21,12 @@ if (articleId && translationMap[articleId]?.includes(alternateLang)) {
   targetUrl = `/${alternateLang}/`;
 }
 
+// If the current page is an article without a translation, fall back to the
+// target language home so we never link to a non-existent article URL.
+if (articleId && !translationMap[articleId]?.includes(alternateLang) && !canonicalPath) {
+  targetUrl = `/${alternateLang}/`;
+}
+
 const labels = { es: 'ES', en: 'EN' };
 ---
 

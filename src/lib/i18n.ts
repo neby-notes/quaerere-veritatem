@@ -16,14 +16,3 @@ export function getTranslationMap(articles: ArticleConcept[]): Record<string, Lo
   return map;
 }
 
-export function getAlternateLangUrl(
-  currentLang: Locale,
-  targetLang: Locale,
-  articleId: string | undefined,
-  translationMap: Record<string, Locale[]>
-): string {
-  if (articleId && translationMap[articleId]?.includes(targetLang)) {
-    return `/${targetLang}/${articleId}/`;
-  }
-  return `/${targetLang}/`;
-}

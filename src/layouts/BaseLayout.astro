@@ -21,7 +21,7 @@ const pageTitle = title ? `${title} — Quaerere Veritatem` : 'Quaerere Veritate
 const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
 const ogType = contentType === 'article' ? 'article' : 'website';
 const ogLocale = lang === 'es' ? 'es_ES' : 'en_US';
-const ogImage = image || `${site}/favicon.svg`;
+const ogImage = image || `${site}/og-default.png`;
 
 const concepts = await getPublicArticleConcepts();
 const translationMap = getTranslationMap(concepts);

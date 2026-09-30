@@ -1,6 +1,6 @@
 import { defineCollection } from 'astro:content';
-import { glob } from 'astro/loaders';
 import { articleLoader } from './content/loaders/articleLoader';
+import { markdownLoader } from './content/loaders/markdownLoader';
 import { z } from 'astro/zod';
 
 const articles = defineCollection({
@@ -22,11 +22,11 @@ const articles = defineCollection({
 });
 
 const landing = defineCollection({
-  loader: glob({ pattern: '*.md', base: './content/landing' }),
+  loader: markdownLoader('landing'),
 });
 
 const about = defineCollection({
-  loader: glob({ pattern: '*.md', base: './content/about' }),
+  loader: markdownLoader('about'),
 });
 
 export const collections = { articles, landing, about };

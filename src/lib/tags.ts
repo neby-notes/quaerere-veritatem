@@ -30,3 +30,18 @@ export function translateTag(tagId: string, lang: Locale, registry: TagRegistry)
   const tag = registry.tags.find((t) => t.id === tagId);
   return tag?.[lang] ?? tagId;
 }
+
+export function getTagOrder(registry: TagRegistry): Map<string, number> {
+  return new Map(registry.tags.map((t, i) => [t.id, i]));
+}
+
+export function sortTagsByCanonicalOrder<T extends { id: string }>(
+  tags: T[],
+  order: Map<string, number>
+): T[] {
+  return [...tags].sort((a, b) => {
+    const oa = order.get(a.id) ?? Infinity;
+    const ob = order.get(b.id) ?? Infinity;
+    return oa - ob;
+  });
+}

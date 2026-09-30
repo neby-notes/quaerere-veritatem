@@ -5,6 +5,7 @@ import { join, basename, extname } from 'node:path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'node:url';
 import MarkdownIt from 'markdown-it';
+import markdownItAnchor from 'markdown-it-anchor';
 
 const ARTICLE_ID_REGEX = /^\d{4}-\d{2}-\d{2}-\d{2,}$/;
 
@@ -13,6 +14,15 @@ const md = new MarkdownIt({
   breaks: false,
   linkify: true,
   typographer: true,
+}).use(markdownItAnchor, {
+  level: [2, 3, 4],
+  permalink: false,
+  slugify: (s: string) =>
+    s
+      .toLowerCase()
+      .replace(/[^\w\s-]/g, '')
+      .trim()
+      .replace(/\s+/g, '-'),
 });
 
 const articleSchema = z.object({

@@ -129,7 +129,29 @@ Tags are not defined inside the article: they are registered in `content/config/
 
 ### 6. Content
 
-After the frontmatter, write the article body in standard Markdown.
+After the frontmatter, write the article body in standard Markdown. The frontmatter title is rendered as the page's H1, so the body must not repeat it and starts directly with the first paragraph or a `##` heading.
+
+**Links between articles:** link to other articles with absolute root paths — `[Text](/en/2026-09-30-01/)` in `en.md`, `[Texto](/es/2026-09-30-01/)` in `es.md`. Never use relative `.md` links: those paths do not exist on the web.
+
+**Heading anchors:** the renderer generates automatic anchors for `##`, `###` and `####` headings. Do not insert manual anchor HTML (`<a name="..."></a>`).
+
+**Site voice:** the site speaks in first person (I sign as NEBY). Never refer to the author in the third person in any content.
+
+**Catholic saints:** always carry their title in mentions, titles and tags — `San/Santo ...` in Spanish, `Saint ...` in English (San Agustin / Saint Augustine, Santo Tomas de Aquino / Saint Thomas Aquinas). Exception: proper names of works (a book title stays untouched). Non-Catholic figures (Luther, Tertullian, the Pseudo-Dionysius) take no title. Adjectives derived from names (agustiniana / Augustinian) stay untouched either.
+
+**The Bible:** never name Bible versions or editions (Reina-Valera, Jerusalem Bible, edition identifiers like NA28...), especially in references — the Bible is the Bible. Discussing the Greek, Hebrew or Latin wording of the text itself is allowed.
+
+**Foreign-language terms:** every word, phrase or work title in a language other than the article's carries a translation into the article's language on first mention in the body (e.g., *Oper und Drama* ("Opera and Drama")). The references at the end are exempt. No redundancy: once translated, the term can be used freely thereafter.
+
+**Translation parity:** if the article exists in both languages, both versions must contain exactly the same amount of content. Specifically:
+
+- Same sections and headings (translated), in the same order.
+- Same lists, tables, quotes and notes.
+- Same internal links to other articles (only the `/es/` → `/en/` prefix changes).
+- Title and description fully translated; never abbreviated in just one language.
+- The same tag IDs in both frontmatters.
+
+If one version gets ahead of the other, the more complete one is the source of truth and the other must be aligned to it before publishing. Parity applies equally to `content/landing/` and `content/about/`.
 
 ---
 
@@ -162,7 +184,10 @@ Before changing `draft: false`, review:
 
 ### Translations
 
-- [ ] If both `es.md` and `en.md` exist, they cover the same topic.
+- [ ] If both `es.md` and `en.md` exist, they cover the same topic with the same amount of content.
+- [ ] Same sections, lists, tables, quotes and internal links in both languages.
+- [ ] Title and description fully translated in both, never abbreviated in one only.
+- [ ] Internal links use absolute `/es/...` or `/en/...` paths matching the file's language.
 - [ ] Tags are the same IDs in both languages.
 - [ ] One language may be draft while the other is published.
 

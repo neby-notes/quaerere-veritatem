@@ -1,35 +1,41 @@
 ---
-title: "About the project"
+title: "About this site"
 ---
 
-Quaerere Veritatem is born from the conviction that truth is fragmentary, multidimensional, and never fully attainable. This space does not pretend to be an encyclopedia or a blog: it is a *digital garden*, a terrain where ideas are sown, grow, and intertwine without obeying an imposed disciplinary structure.
+**Quaerere Veritatem** means, in Latin, "to seek the truth" — *quaerere*, to seek; *veritatem*, the truth —. The name designates an activity and its object, not a doctrine.
 
-## Editorial Philosophy
+This site is a *digital garden*: a set of independent articles that each study a concept, an author, a tradition or a question, and that are linked to one another by conceptual affinity, not by a division into disciplines.
 
-### Disciplines as connections, not boxes
+## Seeking the truth
 
-The traditional classification of knowledge —physics, history, aesthetics, epistemology— has institutional utility, but also distorts. In the practice of thought, concepts migrate between territories. A physics problem may illuminate an ethical question; an artistic intuition may reconfigure a scientific argument.
+Here the search for truth is understood as an **orientation**, not as indefinite curiosity or the accumulation of information. It is a desire that tends toward a term — contemplation — and that transforms whoever pursues it.
 
-That is why this project rejects hierarchical structure and bets on *tags* as the only taxonomy.
+The two poles of that search are the desire to know for its own sake and the examination of one's own life, which are studied in [Knowledge in Aristotle](/en/2026-09-30-02/) and in [Socrates and Plato: the examined life and the desire for truth](/en/2026-09-30-03/).
 
-### Immutable identity
+## Why this site is not organized by disciplines
 
-Each article is identified by a folder with format `YYYY-MM-DD-NN`. This identifier never changes. Titles, descriptions, and bodies may be edited, but the identity remains.
+The premise of this site is that reality is one and that disciplines are not cuts in it, but divisions of the way in which a finite intellect accesses the real. Organizing knowledge by disciplines is, therefore, an instrumental decision, not a necessity of the object.
 
-> The garden is not organized: it is traversed.
+That idea sustains the architecture of the site and is argued in [Reality, disciplines, and the unity of knowledge](/en/2026-09-30-04/): different investigations, carried out with different methods, can illuminate the same reality.
 
-## Technology
+## Truth and its registers
 
-The project uses modern web technologies to offer a clean reading experience focused on content:
+The site does not reduce "truth" to a single sense. Truth occurs in distinct registers — propositional, personal and artistic — that are studied separately and that illuminate one another.
 
-- **Astro** for pure static generation (SSG)
-- **Tailwind CSS** v4 for styles with design tokens
-- **MiniSearch** for client-side search with static indices
-- **Markdown** as the only editable content format
-- **Zod** for schema and frontmatter validation
+For the propositional register see [What is truth?](/en/2026-09-30-01/); for the personal, [Augustine: the restless heart and truth](/en/2026-09-30-05/); for the artistic, [Mimesis: art and reality](/en/2026-09-30-08/).
 
-The source code is publicly available.
+## Work, publication, and community
 
-## About the design
+This site understands intellectual work as a structure of **contemplating and transmitting**: one investigates in order to understand, and one publishes in order to hand on to others what has been understood. What is published is not hasty opinion, but what has been contemplated.
 
-The visual identity seeks to evoke traditional academic publishing without falling into gratuitous nostalgia. The chromatic palette —paper, ink, library green— accompanies three differentiated typeface families: Literata for thought, Inter for interface, and Libre Baskerville for quoted voice.
+That structure is studied in [The Dominican intellectual tradition](/en/2026-09-30-11/) and in [Creating, making, and imitating nature](/en/2026-09-30-07/). The communal dimension of that search is formulated in the very tradition cited here.
+
+## NEBY
+
+I sign as **NEBY**. The name arose independently, from acronyms and transformations of earlier names; only afterward did I notice its phonetic closeness to the Arabic *nabī* and the Hebrew *nāḇîʾ*, terms meaning "prophet". It is a resonance discovered a posteriori, not the origin of the name.
+
+## How to traverse this site
+
+There are three entry points, depending on what one wishes to understand first. If the question is truth, one can begin with [What is truth?](/en/2026-09-30-01/). If it is reality and non-disciplinarity, with [Reality, disciplines, and the unity of knowledge](/en/2026-09-30-04/). If it is the search, with [Knowledge in Aristotle](/en/2026-09-30-02/).
+
+From there, the links between articles allow the site to be traversed freely. Each article is autonomous and can be read separately; together they compose different approaches to the same search.

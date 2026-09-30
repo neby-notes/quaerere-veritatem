@@ -7,7 +7,8 @@ created: YYYY-MM-DD
 edited: YYYY-MM-DD
 draft: true
 featured: false
-tags: []
+tags:
+  - metafisica
 ---
 
-<!-- Write article content in English here -->
+<!-- Write the article content in English here -->

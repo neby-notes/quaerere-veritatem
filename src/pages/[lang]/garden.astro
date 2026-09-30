@@ -4,7 +4,7 @@ import SearchBar from '../../components/SearchBar.astro';
 import TagCloud from '../../components/TagCloud.astro';
 import SortControl from '../../components/SortControl.astro';
 import { getPublicArticles } from '../../lib/content';
-import { loadTagRegistry, translateTag } from '../../lib/tags';
+import { loadTagRegistry, translateTag, getTagOrder, sortTagsByCanonicalOrder } from '../../lib/tags';
 import { isValidLocale, type Locale } from '../../lib/i18n';
 import { sortArticles } from '../../lib/sort';
 
@@ -30,12 +30,13 @@ for (const article of articles) {
   }
 }
 
-const tagList = Array.from(usedTagIds).map((id) => ({
+let tagList = Array.from(usedTagIds).map((id) => ({
   id,
   label: translateTag(id, lang, registry),
 }));
 
-tagList.sort((a, b) => a.label.localeCompare(b.label));
+const tagOrder = getTagOrder(registry);
+tagList = sortTagsByCanonicalOrder(tagList, tagOrder);
 
 const initialSorted = sortArticles(articles, 'featured');
 ---
@@ -57,7 +58,7 @@ const initialSorted = sortArticles(articles, 'featured');
         class="nav-interface flex items-center gap-1 px-2 py-1.5 text-sm text-muted hover:text-ink transition-colors border border-border rounded-md bg-surface"
         aria-label={lang === 'es' ? 'Filtrar por fecha' : 'Filter by date'}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
           <line x1="16" y1="2" x2="16" y2="6"></line>
           <line x1="8" y1="2" x2="8" y2="6"></line>

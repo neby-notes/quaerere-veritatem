@@ -49,6 +49,8 @@ Principles:
 | MiniSearch | — | Client-side search |
 | Zod | — | Schema validation |
 | Markdown-it | — | Markdown rendering |
+| markdown-it-anchor | — | Automatic heading anchors |
+| @astrojs/rss | — | RSS feeds per language |
 
 ---
 
@@ -111,6 +113,10 @@ Inside the article folder:
 
 Both may exist, only one, or one published and the other a draft.
 
+When both exist, the versions must keep **content parity**: same sections in the same order, same lists, tables, quotes and internal links; title and description fully translated (never abbreviated in one language only); same tag IDs. If one version is further ahead, it is the source of truth and the other is aligned to it. The same rule applies to `content/landing/` and `content/about/`.
+
+Links between articles are written as absolute root paths: `/en/YYYY-MM-DD-NN/` in `en.md` and `/es/YYYY-MM-DD-NN/` in `es.md`. Relative `.md` links are not used.
+
 ### Frontmatter
 
 ```yaml
@@ -159,6 +165,15 @@ The sole authority is `content/config/tags.json`:
 - An unknown tag in an article causes the **build to fail**.
 
 ---
+
+## Site Features
+
+- **Garden**: exploration page with search (MiniSearch), tag filters, date range filtering, sorting and pagination.
+- **Related articles**: each article suggests up to 5 articles with shared tags.
+- **Table of contents**: articles with 3 or more H2–H4 headings show an automatic index.
+- **RSS**: language-specific feeds at `/es/rss.xml` and `/en/rss.xml` with the 20 most recently edited public articles.
+- **Bilingual 404**: `src/pages/404.astro` detects the browser language on the client.
+- **Default SEO**: `og:image` falls back to `/og-default.png`; `robots.txt` points to the sitemap; the sitemap excludes the `/` root (JS redirect).
 
 ## Visual Design System
 

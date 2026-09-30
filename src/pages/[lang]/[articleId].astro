@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getPublicArticle, getPublicArticleConcepts } from '../../lib/content';
+import { getPublicArticle, getPublicArticleConcepts, getRelatedArticles } from '../../lib/content';
 import { isValidLocale, type Locale } from '../../lib/i18n';
-import { loadTagRegistry, translateTag } from '../../lib/tags';
+import { loadTagRegistry, translateTag, getTagOrder, sortTagsByCanonicalOrder } from '../../lib/tags';
 
 export async function getStaticPaths() {
   const concepts = await getPublicArticleConcepts();
@@ -30,10 +30,15 @@ if (!article) {
 }
 
 const registry = await loadTagRegistry();
-const translatedTags = article.tags.map((tag) => ({
-  id: tag,
-  label: translateTag(tag, lang, registry),
-}));
+const relatedArticles = await getRelatedArticles(articleId, lang, 5);
+const tagOrder = getTagOrder(registry);
+const translatedTags = sortTagsByCanonicalOrder(
+  article.tags.map((tag) => ({
+    id: tag,
+    label: translateTag(tag, lang, registry),
+  })),
+  tagOrder
+);
 const site = 'https://quaerere-veritatem.pages.dev';
 const articleUrl = `${site}/${lang}/${articleId}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
 
@@ -93,13 +98,47 @@ const schemaOrg = {
           src={article.heroImage}
           alt={article.title}
           class="mt-6 w-full max-h-96 object-cover rounded-md"
+          loading="lazy"
+          decoding="async"
         />
       )}
     </header>
 
-    <div class="text-[1.05rem] leading-[1.72]">
+    <div class="text-[1.05rem] leading-[1.72] article-body">
       <div set:html={article.body} />
     </div>
+
+    <script is:inline>
+      (function() {
+        var container = document.querySelector('.article-body');
+        if (!container) return;
+        var headings = container.querySelectorAll('h2, h3, h4');
+        if (headings.length < 3) return;
+        var toc = document.createElement('nav');
+        toc.className = 'toc border border-border rounded-md p-4 bg-surface mb-10';
+        toc.setAttribute('aria-label', 'Table of contents');
+        var title = document.createElement('p');
+        title.className = 'nav-interface text-sm font-semibold text-ink mb-3';
+        title.textContent = document.documentElement.lang === 'es' ? 'En esta página' : 'On this page';
+        toc.appendChild(title);
+        var list = document.createElement('ul');
+        list.className = 'space-y-1.5';
+        headings.forEach(function(heading) {
+          if (!heading.id) return;
+          var li = document.createElement('li');
+          var a = document.createElement('a');
+          a.href = '#' + heading.id;
+          a.textContent = heading.textContent;
+          a.className = 'text-sm text-muted hover:text-accent transition-colors no-underline';
+          if (heading.tagName === 'H3') a.classList.add('ml-4');
+          if (heading.tagName === 'H4') a.classList.add('ml-8');
+          li.appendChild(a);
+          list.appendChild(li);
+        });
+        toc.appendChild(list);
+        container.parentNode.insertBefore(toc, container);
+      })();
+    </script>
 
     {translatedTags.length > 0 && (
       <footer class="border-t border-border mt-12 pt-6">
@@ -114,6 +153,24 @@ const schemaOrg = {
           ))}
         </div>
       </footer>
+    )}
+
+    {relatedArticles.length > 0 && (
+      <aside class="mt-14 border-t border-border pt-8">
+        <h2 class="font-literata text-xl md:text-2xl font-semibold mb-6 text-ink">
+          {lang === 'es' ? 'Artículos relacionados' : 'Related articles'}
+        </h2>
+        <div class="flex flex-col gap-4">
+          {relatedArticles.map((related) => (
+            <article class="border-b border-border pb-4 last:border-0">
+              <a href={`/${lang}/${related.articleId}/`} class="block no-underline text-inherit hover:text-inherit">
+                <h3 class="font-literata text-base font-semibold leading-snug mb-1 text-ink">{related.title}</h3>
+                <p class="text-sm leading-relaxed text-muted">{related.description}</p>
+              </a>
+            </article>
+          ))}
+        </div>
+      </aside>
     )}
   </article>
 </BaseLayout>

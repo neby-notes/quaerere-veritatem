@@ -20,7 +20,8 @@ This file provides context for any AI agent, IDE assistant, or automated tool wo
 - TypeScript
 - MiniSearch (client-side search)
 - Zod (schema validation)
-- Markdown-it (Markdown rendering)
+- Markdown-it + markdown-it-anchor (Markdown rendering with heading anchors)
+- @astrojs/rss (RSS feeds by language)
 
 ---
 
@@ -126,8 +127,20 @@ Links: `accent` color, underline 1px with 0.16em offset. Blockquotes: Libre Bask
 - **articleId format**: `YYYY-MM-DD-NN` where date is real and `NN` has 2+ digits.
 - **Frontmatter tags**: Must be canonical IDs from `tags.json`. No translations in frontmatter.
 - **Translations**: `es.md` and/or `en.md` inside the article folder. Independent draft status.
+- **Translation parity**: When both languages exist, they must carry the exact same amount of content — same sections, headings, lists, tables, quotes and internal links. Titles and descriptions are fully translated, never abbreviated in one language only. If one version is more complete, it is the source of truth and the other must be aligned to it. Tags are the same canonical IDs in both files.
+- **Internal article links**: absolute root paths — `/{lang}/YYYY-MM-DD-NN/` (e.g., `/es/2026-09-30-01/` in `es.md`, `/en/2026-09-30-01/` in `en.md`). Never relative `.md` links; those paths do not exist on the site.
+- **Landing/About frontmatter**: `title` only; the H1 is rendered from it, so the body starts directly at the first paragraph or `##` heading. Same parity rule between `es.md` and `en.md`.
+- **Authorial voice**: the site speaks in first person (the author is NEBY). Never refer to the author in the third person anywhere in `content/`.
+- **Saints**: Catholic saints always carry their title in mentions, tags and titles — `San/Santo …` in Spanish, `Saint …` in English (San Agustín / Saint Augustine, Santo Tomás de Aquino / Saint Thomas Aquinas). Exception: proper names of works (a book title like *Initiation à saint Thomas d'Aquin* stays untouched). Non-Catholic figures (Lutero, Tertuliano, the Pseudo-Dionysius) take no title. Adjectives derived from names (agustiniana / Augustinian) stay untouched.
+- **Bible**: never name Bible versions or editions (no Reina-Valera, Biblia de Jerusalén, NA28 identifiers, etc.), especially in references — the Bible is the Bible. Discussing the Greek, Hebrew or Latin wording of the text itself is fine.
+- **Foreign-language terms**: any word, phrase or work title in a language other than the article's must carry a translation into the article's language on first mention in the body (e.g., *Oper und Drama* («Ópera y drama» / "Opera and Drama")). References at the end are exempt. No redundancy required: once translated, the term can be used freely thereafter.
 - **Templates**: `templates/article/YYYY-MM-DD-NN/` with `draft: true`. Not processed by the loader.
-- **Markdown rendering**: Articles use `markdown-it` in the custom loader (`articleLoader.ts`). Landing/About use Astro's built-in `rendered.html`.
+- **Markdown rendering**: Articles, landing and about all use the same `markdown-it` + `markdown-it-anchor` pipeline (via `articleLoader.ts` and `markdownLoader.ts`). H2–H4 headings receive automatic anchors; do not add manual anchor HTML in Markdown.
+- **Related articles**: Article pages display up to 5 related articles ranked by shared tags.
+- **Table of contents**: Articles with 3+ H2–H4 headings get a client-side TOC inserted above the body.
+- **RSS feeds**: One feed per language at `/{lang}/rss.xml` with the 20 most recently edited public articles.
+- **404 page**: Bilingual static `src/pages/404.astro`; detects browser language on the client.
+- **SEO defaults**: `og:image` falls back to `/og-default.png` when no `heroImage` is set; `robots.txt` points to the sitemap; sitemap excludes the root redirect page at `/`.
 
 ---
 

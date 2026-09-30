@@ -84,6 +84,25 @@ export async function getLatestArticles(lang: Locale, limit?: number): Promise<A
   return limit ? sorted.slice(0, limit) : sorted;
 }
 
+export async function getRelatedArticles(
+  articleId: string,
+  lang: Locale,
+  limit = 5
+): Promise<ArticleTranslation[]> {
+  const current = await getPublicArticle(articleId, lang);
+  if (!current) return [];
+  const publicArticles = await getPublicArticles(lang);
+  const scored = publicArticles
+    .filter((a) => a.articleId !== articleId)
+    .map((a) => {
+      const common = a.tags.filter((tag) => current.tags.includes(tag)).length;
+      return { article: a, score: common };
+    })
+    .filter((item) => item.score > 0)
+    .sort((a, b) => b.score - a.score || new Date(b.created).getTime() - new Date(a.created).getTime());
+  return scored.slice(0, limit).map((item) => item.article);
+}
+
 export async function getLandingContent(lang: Locale) {
   const entries = await getCollection('landing');
   const entry = entries.find((e) => e.id === lang);

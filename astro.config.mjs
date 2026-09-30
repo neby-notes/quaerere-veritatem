@@ -17,5 +17,9 @@ export default defineConfig({
       prefixDefaultLocale: true,
     },
   },
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      filter: (page) => page !== 'https://quaerere-veritatem.pages.dev/',
+    }),
+  ],
 });

@@ -49,6 +49,8 @@ Principios:
 | MiniSearch | — | Búsqueda en cliente |
 | Zod | — | Validación de schemas |
 | Markdown-it | — | Renderizado Markdown |
+| markdown-it-anchor | — | Anclas automáticas en encabezados |
+| @astrojs/rss | — | Feed RSS por idioma |
 
 ---
 
@@ -111,6 +113,10 @@ Dentro de la carpeta del artículo:
 
 Pueden existir ambas, solo una, o una publicada y otra en borrador.
 
+Cuando existen ambas, las versiones deben mantener **paridad de contenido**: mismas secciones en el mismo orden, mismas listas, tablas, citas y enlaces internos; título y descripción traducidos por completo (nunca abreviados en un solo idioma); mismos IDs de tags. Si una versión está más avanzada, es la fuente de verdad y la otra se alinea a ella. La misma regla aplica a `content/landing/` y `content/about/`.
+
+Los enlaces entre artículos se escriben como rutas absolutas desde la raíz: `/es/YYYY-MM-DD-NN/` en `es.md` y `/en/YYYY-MM-DD-NN/` en `en.md`. No se usan enlaces relativos a archivos `.md`.
+
 ### Frontmatter
 
 ```yaml
@@ -159,6 +165,15 @@ La única autoridad es `content/config/tags.json`:
 - Un tag desconocido en un artículo provoca **fallo del build**.
 
 ---
+
+## Funcionalidades del sitio
+
+- **Garden**: página de exploración con búsqueda (MiniSearch), filtros por tags, rango de fechas, ordenación y paginación.
+- **Artículos relacionados**: al final de cada artículo se sugieren hasta 5 artículos con tags comunes.
+- **Tabla de contenidos**: los artículos con 3 o más encabezados H2–H4 muestran un índice automático.
+- **RSS**: feed por idioma en `/es/rss.xml` y `/en/rss.xml` con los 20 artículos públicos más recientemente editados.
+- **404 bilingüe**: página `src/pages/404.astro` que detecta el idioma del navegador.
+- **SEO por defecto**: `og:image` cae en `/og-default.png`; `robots.txt` apunta al sitemap; el sitemap excluye la raíz `/` (redirección JS).
 
 ## Sistema de diseño visual
 

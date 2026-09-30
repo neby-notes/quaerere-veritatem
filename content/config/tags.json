@@ -1,9 +1,94 @@
 {
   "tags": [
     {
-      "id": "tag",
-      "es": "etiqueta",
-      "en": "tag"
+      "id": "arte",
+      "es": "arte",
+      "en": "art"
+    },
+    {
+      "id": "conocimiento",
+      "es": "conocimiento",
+      "en": "knowledge"
+    },
+    {
+      "id": "contemplacion",
+      "es": "contemplación",
+      "en": "contemplation"
+    },
+    {
+      "id": "creacion",
+      "es": "creación",
+      "en": "creation"
+    },
+    {
+      "id": "escolastica",
+      "es": "escolástica",
+      "en": "scholasticism"
+    },
+    {
+      "id": "estetica",
+      "es": "estética",
+      "en": "aesthetics"
+    },
+    {
+      "id": "historia-de-las-ideas",
+      "es": "historia de las ideas",
+      "en": "history of ideas"
+    },
+    {
+      "id": "metafisica",
+      "es": "metafísica",
+      "en": "metaphysics"
+    },
+    {
+      "id": "mimesis",
+      "es": "mímesis",
+      "en": "mimesis"
+    },
+    {
+      "id": "polimatia",
+      "es": "polimatía",
+      "en": "polymathy"
+    },
+    {
+      "id": "teologia",
+      "es": "teología",
+      "en": "theology"
+    },
+    {
+      "id": "tradicion-intelectual",
+      "es": "tradición intelectual",
+      "en": "intellectual tradition"
+    },
+    {
+      "id": "verdad",
+      "es": "verdad",
+      "en": "truth"
+    },
+    {
+      "id": "biblia",
+      "es": "Biblia",
+      "en": "Bible"
+    },
+    {
+      "id": "libertad",
+      "es": "libertad",
+      "en": "freedom"
+    },
+    {
+      "id": "agustin",
+      "es": "San Agustín",
+      "en": "Saint Augustine"
+    },
+    {
+      "id": "aristoteles",
+      "es": "Aristóteles",
+      "en": "Aristotle"
+    },
+    {
+      "id": "platon",
+      "es": "Platón",
+      "en": "Plato"
     }
   ]
 }
