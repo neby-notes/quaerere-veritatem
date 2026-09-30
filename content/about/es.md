@@ -22,7 +22,7 @@ Esa idea sustenta la arquitectura del sitio y se argumenta en [Realidad, discipl
 
 El sitio no reduce «verdad» a un solo sentido. La verdad se da en registros distintos — proposicional, personal y artístico — que se estudian por separado y que se iluminan mutuamente.
 
-Para el registro proposicional véase [¿Qué es la verdad?](/es/2026-09-30-01/); para el personal, [Agustín: el corazón inquieto y la verdad](/es/2026-09-30-05/); para el artístico, [La mímesis: arte y realidad](/es/2026-09-30-08/).
+Para el registro proposicional véase [¿Qué es la verdad?](/es/2026-09-30-01/); para el personal, [San Agustín: el corazón inquieto y la verdad](/es/2026-09-30-05/); para el artístico, [La mímesis: arte y realidad](/es/2026-09-30-08/).
 
 ## Trabajo, publicación y comunidad
 

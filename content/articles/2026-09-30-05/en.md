@@ -14,7 +14,7 @@ tags:
 
 ## Introduction
 
-In Saint Augustine the search for truth ceases to be a purely intellectual activity and becomes a restlessness of the whole being. The formula that opens the *Confessions* condenses that transformation and has marked the subsequent tradition.
+According to Saint Augustine, the search for truth ceases to be a purely intellectual activity and becomes a restlessness of the whole being. The formula that opens *Confessions* condenses that transformation and has marked the subsequent tradition.
 
 ## 1. The restless heart
 
@@ -28,7 +28,7 @@ Three features of this formula matter. First, the search is here a **restlessnes
 
 In *De libero arbitrio* ("On Free Will") II Saint Augustine argues that there are truths that neither change nor depend on the mind: mathematical truths and the norms of the good. From the existence of those immutable truths he infers an **eternal truth** that grounds them; and that eternal truth, for Saint Augustine, is God.
 
-In the *Soliloquies* (II,5,8) he defines truth in the ontological register: "verum est id quod est" — "true is that which is". And in the *De vera religione* ("On True Religion") he identifies it with God.
+In *Soliloquies* (II,5,8) he defines truth in the ontological register: "verum est id quod est" — "true is that which is". And in *De vera religione* ("On True Religion") he identifies it with God.
 
 This step is the one that will weigh upon all scholasticism: **immutable ontological truth demands a subsistent Truth**. The search for truth does not then end in a set of propositions, but in a personal reality.
 
@@ -36,7 +36,7 @@ This step is the one that will weigh upon all scholasticism: **immutable ontolog
 
 The relation between faith and search is condensed in the principle "**credo ut intelligam**" — believing in order to understand. Faith does not replace the search, but orients it: understanding presupposes a first trust that opens the way, and understanding in turn deepens what is believed.
 
-In the *De Trinitate* ("On the Trinity") the search becomes interior: the soul gathers itself into itself (*interior intimo meo*) and finds in its own trinitarian structure — memory, understanding, will — a way toward the Truth.
+In *De Trinitate* ("On the Trinity") the search becomes interior: the soul gathers itself into itself (*interior intimo meo*) and finds in its own trinitarian structure — memory, understanding, will — a way toward the Truth.
 
 ## 4. What Saint Augustine contributes to the notion of seeking
 

@@ -18,7 +18,7 @@ Junto a la idea aristotélica de un deseo natural de saber que culmina en la con
 
 ## 1. Sócrates: la ignorancia y el examen
 
-La búsqueda socrática no parte de un saber, sino de la ausencia de saber: la **conciencia de no saber**, la *aporía*. En la *Apología* de Platón, Sócrates narra que el oráculo lo había declarado el más sabio precisamente porque reconocía su ignorancia (21d–23b).
+La búsqueda socrática no parte de un saber, sino de la ausencia de saber: la **conciencia de no saber**, la *aporía*. En *Apología* de Platón, Sócrates narra que el oráculo lo había declarado el más sabio precisamente porque reconocía su ignorancia (21d–23b).
 
 El instrumento de esa búsqueda es el **élenchos**, el examen — de sí mismo y de los otros — que pone a prueba las opiniones. La frase que condensa esta actividad es la de *Apología* 38a5:
 
@@ -28,11 +28,11 @@ Dos precisiones importan aquí. La primera es que *anexétastos* (ἀνεξέτ�
 
 ## 2. Platón: el deseo de lo verdadero
 
-Platón convierte esa actividad en una doctrina del **deseo** (*eros*) orientado hacia lo verdadero. En el *Banquete* y en el *Fedro* el *eros* es la fuerza que asciende de lo sensible a lo inteligible; en el *Fedro* (246a–247e) el alma contempla ya la «llanura de la Verdad». Y el conocer no parte de cero: en el *Menón* (80d–86c) Platón propone la **anámnesis** — conocer es recordar —, de manera que la búsqueda es un movimiento de retorno, no una adquisición desde la nada.
+Platón convierte esa actividad en una doctrina del **deseo** (*eros*) orientado hacia lo verdadero. En *Banquete* y en *Fedro* el *eros* es la fuerza que asciende de lo sensible a lo inteligible; en *Fedro* (246a–247e) el alma contempla ya la «llanura de la Verdad». Y el conocer no parte de cero: en *Menón* (80d–86c) Platón propone la **anámnesis** — conocer es recordar —, de manera que la búsqueda es un movimiento de retorno, no una adquisición desde la nada.
 
 El texto central es la **alegoría de la caverna** (*República* VII, 514a ss.), junto con la **analogía del sol** (*República* VI, 508e–509b). La Idea del **Bien** (τὸ ἀγαθόν) hace cognoscible a la verdad y está «más allá de la esencia» (ἐπέκεινα τῆς οὐσίας, 509b). El conocimiento verdadero se describe como **conversión** (*periagogē*, *República* 518c–d): un vuelco del alma, una transformación del que conoce, no una mera suma de contenidos.
 
-De ahí que, en Platón, **verdad y bien** estén articuladas: conocer lo verdadero es, a la vez, volverse bueno. La búsqueda de la verdad no es un fin teórico aislado de la vida.
+De ahí que, según Platón, **verdad y bien** estén articuladas: conocer lo verdadero es, a la vez, volverse bueno. La búsqueda de la verdad no es un fin teórico aislado de la vida.
 
 ## 3. Dos figuras de la búsqueda
 

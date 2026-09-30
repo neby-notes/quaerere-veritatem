@@ -34,7 +34,7 @@ La escolástica condensó esa intuición en la fórmula de la **adecuación**: l
 
 La expresión «*veritas est adaequatio rei et intellectus*» («la verdad es la adecuación de la cosa al intelecto») no es invención de Santo Tomás de Aquino; él la **cita** de Isaac Israeli, filósofo judío del siglo X. En el cuerpo de su doctrina prefiere el término *conformitas* («conformidad»). San Anselmo de Canterbury ofrecía otra variante: «*veritas est rectitudo sola mente perceptibilis*» («la verdad es la rectitud perceptible solo por la mente», *De veritate* —«De la verdad»—, 12).
 
-Santo Tomás sistematiza la cuestión en la *Summa theologiae* I, q. 16, mediante tres tesis:
+Santo Tomás sistematiza la cuestión en *Summa theologiae* I, q. 16, mediante tres tesis:
 
 1. **La verdad reside primariamente en el intelecto** y secundariamente en las cosas (I q.16 a.1), porque «así como el bien es aquello a lo que tiende el apetito, el verdadero es aquello a lo que tiende el intelecto» (*sicut bonum nominat id in quod tendit appetitus, ita verum nominat id in quod tendit intellectus*).
 2. **La verdad reside propiamente en el juicio** (I q.16 a.2), es decir, en el componer y dividir, no en la mera aprehensión.

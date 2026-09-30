@@ -18,7 +18,7 @@ tags:
 
 ## 1. La fórmula no está en la Regla
 
-La frase «ora et labora» **no aparece en ningún capítulo de la *Regula Benedicti***, ni en el capítulo 48 (sobre el trabajo manual) ni en los otros setenta y dos. Así lo han mostrado los benedictinos **Terrence Kardong** y **Marie-Benoît Meeuws** (1992): la fórmula es de origen relativamente reciente y no figura en la historia benedictina con anterioridad al siglo XIX.
+La frase «ora et labora» **no aparece en ningún capítulo de *Regula Benedicti***, ni en el capítulo 48 (sobre el trabajo manual) ni en los otros setenta y dos. Así lo han mostrado los benedictinos **Terrence Kardong** y **Marie-Benoît Meeuws** (1992): la fórmula es de origen relativamente reciente y no figura en la historia benedictina con anterioridad al siglo XIX.
 
 Su fuente probable es el abad **Maurus Wolter**, de la abadía de Beuron, en *Praecipua Ordinis Monastici Elementa* («Elementos principales de la Orden monástica», 1880), donde escribe: «*Hinc vetus clarissimaque illa monachorum tessera: Ora et labora!*» — «de ahí esa vieja y clarísima consigna de los monjes: ¡ora y trabaja!». El lema se difundió en el contexto del renacimiento benedictino del siglo XIX.
 
@@ -47,5 +47,5 @@ Puede afirmarse con seguridad que «ora et labora» no es benedictino, que proce
 
 ### Fuentes secundarias
 
-- Kardong, T., comentario a la *Regula Benedicti*.
+- Kardong, T., comentario a *Regula Benedicti*.
 - Meeuws, M.-B., sobre el origen de la frase «ora et labora» (1992).

@@ -34,7 +34,7 @@ Scholasticism condensed that intuition into the formula of **adequation**: truth
 
 The expression "*veritas est adaequatio rei et intellectus*" ("truth is the adequation of the thing and the intellect") is not Saint Thomas Aquinas's invention; he **quotes** it from Isaac Israeli, a tenth-century Jewish philosopher. In the body of his doctrine he prefers the term *conformitas* ("conformity"). Saint Anselm of Canterbury offered another variant: "*veritas est rectitudo sola mente perceptibilis*" ("truth is rectitude perceptible only by the mind", *De veritate* —"On Truth"—, 12).
 
-Saint Thomas systematizes the question in the *Summa theologiae* I, q. 16, through three theses:
+Saint Thomas systematizes the question in *Summa theologiae* I, q. 16, through three theses:
 
 1. **Truth resides primarily in the intellect** and secondarily in things (I q.16 a.1), because "just as the good names that to which appetite tends, so the true names that to which the intellect tends" (*sicut bonum nominat id in quod tendit appetitus, ita verum nominat id in quod tendit intellectus*).
 2. **Truth resides properly in judgment** (I q.16 a.2), that is, in composing and dividing, not in mere apprehension.

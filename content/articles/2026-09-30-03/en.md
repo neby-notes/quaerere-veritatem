@@ -28,7 +28,7 @@ Two precisions matter here. The first is that *anexétastos* (ἀνεξέτασ�
 
 ## 2. Plato: the desire for the true
 
-Plato turns that activity into a doctrine of **desire** (*eros*) oriented toward the true. In the *Symposium* and in the *Phaedrus*, *eros* is the force that ascends from the sensible to the intelligible; in the *Phaedrus* (246a–247e) the soul already contemplates the "plain of Truth". And knowing does not start from zero: in the *Meno* (80d–86c) Plato proposes **anamnesis** — to know is to remember — so that the search is a movement of return, not an acquisition from nothing.
+Plato turns that activity into a doctrine of **desire** (*eros*) oriented toward the true. In *Symposium* and in *Phaedrus*, *eros* is the force that ascends from the sensible to the intelligible; in *Phaedrus* (246a–247e) the soul already contemplates the "plain of Truth". And knowing does not start from zero: in *Meno* (80d–86c) Plato proposes **anamnesis** — to know is to remember — so that the search is a movement of return, not an acquisition from nothing.
 
 The central text is the **allegory of the cave** (*Republic* VII, 514a ff.), together with the **analogy of the sun** (*Republic* VI, 508e–509b). The Idea of the **Good** (τὸ ἀγαθόν) makes truth knowable and is "beyond essence" (ἐπέκεινα τῆς οὐσίας, 509b). True knowledge is described as **conversion** (*periagogē*, *Republic* 518c–d): a turning-around of the soul, a transformation of the knower, not a mere sum of contents.
 

@@ -25,7 +25,7 @@ Between **creating** (*creare*: producing from nothing, *ex nihilo*), **making**
 
 The doctrine of creation from nothing has a biblical foundation and a patristic development. In **Genesis 1:1** we read: "In the beginning God created the heavens and the earth"; the Hebrew verb **בָּרָא** (*bara*) is reserved in the Bible to God as subject, for men *asah* (make) and *yatsar* (form), but do not *bara*. **2 Maccabees 7:28** specifies that God made things "out of nothing" (ἐξ οὐκ ὄντων). The doctrine is developed against Gnosticism in **Saint Irenaeus** and **Tertullian** and is fixed in the Nicene Creed.
 
-Saint Thomas Aquinas systematizes it in the *Summa theologiae* I, q. 45. He states that **to create is to make something from nothing** (*creare est aliquid ex nihilo facere*, I q.45 a.1), that **creation is not a change** (*mutatio*) — because every change presupposes a subject that changes, whereas creation presupposes nothing and is rather the total emanation of being from the first principle — and that **creating belongs to God alone** (I q.45 a.5), for man cannot produce the *being* of things and only operates upon what already is.
+Saint Thomas Aquinas systematizes it in *Summa theologiae* I, q. 45. He states that **to create is to make something from nothing** (*creare est aliquid ex nihilo facere*, I q.45 a.1), that **creation is not a change** (*mutatio*) — because every change presupposes a subject that changes, whereas creation presupposes nothing and is rather the total emanation of being from the first principle — and that **creating belongs to God alone** (I q.45 a.5), for man cannot produce the *being* of things and only operates upon what already is.
 
 ## 3. The decisive distinction: *esse* and *forma*
 
@@ -39,7 +39,7 @@ The principle "**ars imitatur naturam**" comes from Aristotle (*Physics* II.2, 1
 
 It is necessary to indicate what "imitating" means here: art **does not copy the appearance** of nature, but **reproduces its operation** — tending toward an end through form —. The physician does not copy the appearance of health; he reproduces the operation by which the body recovers its balance.
 
-Saint Thomas gives the reason for the principle in his commentary on the *Physics* (*In II Physicorum*, lect. 4, n. 6):
+Saint Thomas gives the reason for the principle in his commentary on *Physics* (*In II Physicorum*, lect. 4, n. 6):
 
 > «*Eius autem quod ars imitatur naturam, ratio est, quia principium operationis artificialis cognitio est; omnis autem nostra cognitio est a rebus*.»
 

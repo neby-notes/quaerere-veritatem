@@ -14,7 +14,7 @@ tags:
 
 ## Introducción
 
-La *Metafísica* de Aristóteles se abre con una afirmación sobre la naturaleza humana: «Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει» — «todos los hombres desean por naturaleza saber» (*Metafísica* A.1, 980a21). La prueba que se aduce es el placer de los sentidos, en especial de la vista, que se ama por sí misma y no solo por su utilidad. Sobre esa base se levanta una teoría completa de los grados del conocimiento y de sus ciencias.
+*Metafísica* de Aristóteles se abre con una afirmación sobre la naturaleza humana: «Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει» — «todos los hombres desean por naturaleza saber» (*Metafísica* A.1, 980a21). La prueba que se aduce es el placer de los sentidos, en especial de la vista, que se ama por sí misma y no solo por su utilidad. Sobre esa base se levanta una teoría completa de los grados del conocimiento y de sus ciencias.
 
 ## 1. El deseo natural y la admiración
 

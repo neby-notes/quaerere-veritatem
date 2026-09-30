@@ -25,7 +25,7 @@ Entre **crear** (*creare*: producir de la nada, *ex nihilo*), **hacer** (*facere
 
 La doctrina de la creación de la nada tiene fundamento bíblico y desarrollo patrístico. En **Génesis 1,1** se lee: «En el principio creó Dios el cielo y la tierra»; el verbo hebreo **בָּרָא** (*bara*) se reserva en la Biblia a Dios como sujeto, pues los hombres *asah* (hacen) y *yatsar* (forman), pero no *bara*. **2 Macabeos 7,28** precisa que Dios hizo las cosas «de lo que no existía» (ἐξ οὐκ ὄντων). La doctrina se desarrolla contra el gnosticismo en **San Ireneo** y **Tertuliano** y queda fijada en el Credo niceno.
 
-Santo Tomás de Aquino la sistematiza en la *Summa theologiae* I, q. 45. Afirma que **crear es hacer algo de la nada** (*creare est aliquid ex nihilo facere*, I q.45 a.1), que **la creación no es un cambio** (*mutatio*) — porque todo cambio supone un sujeto que cambia, mientras que la creación no presupone nada y es más bien emanación total del ser desde el primer principio — y que **crear pertenece solo a Dios** (I q.45 a.5), pues el hombre no puede producir el *ser* de las cosas y solo opera sobre lo que ya es.
+Santo Tomás de Aquino la sistematiza en *Summa theologiae* I, q. 45. Afirma que **crear es hacer algo de la nada** (*creare est aliquid ex nihilo facere*, I q.45 a.1), que **la creación no es un cambio** (*mutatio*) — porque todo cambio supone un sujeto que cambia, mientras que la creación no presupone nada y es más bien emanación total del ser desde el primer principio — y que **crear pertenece solo a Dios** (I q.45 a.5), pues el hombre no puede producir el *ser* de las cosas y solo opera sobre lo que ya es.
 
 ## 3. La distinción decisiva: *esse* y *forma*
 
@@ -39,7 +39,7 @@ El principio «**ars imitatur naturam**» procede de Aristóteles (*Física* II.
 
 Es preciso señalar qué significa aquí «imitar»: el arte **no copia la apariencia** de la naturaleza, sino que **reproduce su operación** — tender a un fin por la forma —. El médico no copia la apariencia de la salud; reproduce la operación por la que el cuerpo recupera el equilibrio.
 
-Santo Tomás da la razón del principio en su comentario a la *Física* (*In II Physicorum*, lect. 4, n. 6):
+Santo Tomás da la razón del principio en su comentario a *Física* (*In II Physicorum*, lect. 4, n. 6):
 
 > «*Eius autem quod ars imitatur naturam, ratio est, quia principium operationis artificialis cognitio est; omnis autem nostra cognitio est a rebus*.»
 

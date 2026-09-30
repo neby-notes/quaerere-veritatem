@@ -18,7 +18,7 @@ tags:
 
 ## 1. The formula is not in the Rule
 
-The phrase "ora et labora" **does not appear in any chapter of the *Regula Benedicti***, neither in chapter 48 (on manual work) nor in the other seventy-two. As the Benedictines **Terrence Kardong** and **Marie-Benoît Meeuws** (1992) have shown: the formula is of relatively recent origin and does not figure in Benedictine history before the 19th century.
+The phrase "ora et labora" **does not appear in any chapter of *Regula Benedicti***, neither in chapter 48 (on manual work) nor in the other seventy-two. As the Benedictines **Terrence Kardong** and **Marie-Benoît Meeuws** (1992) have shown: the formula is of relatively recent origin and does not figure in Benedictine history before the 19th century.
 
 Its probable source is Abbot **Maurus Wolter**, of the abbey of Beuron, in *Praecipua Ordinis Monastici Elementa* ("The Principal Elements of the Monastic Order", 1880), where he writes: «*Hinc vetus clarissimaque illa monachorum tessera: Ora et labora!*» — "hence that old and most famous watchword of the monks: *pray and work!*". The motto spread in the context of the 19th-century Benedictine revival.
 
@@ -47,5 +47,5 @@ It can be safely asserted that "ora et labora" is not Benedictine, that it comes
 
 ### Secondary sources
 
-- Kardong, T., commentary on the *Regula Benedicti*.
+- Kardong, T., commentary on *Regula Benedicti*.
 - Meeuws, M.-B., on the origin of the phrase "ora et labora" (1992).

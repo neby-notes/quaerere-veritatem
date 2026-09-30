@@ -24,7 +24,7 @@ Plato condemned mimesis in *Republic* X (597a–e) with the example of the **thr
 
 ## 2. Aristotle: mimesis as knowledge
 
-Aristotle revalues it in the *Poetics*. He holds it to be **natural**: "man is the most mimetic animal and learns his first lessons through mimesis" (1448b4–19). There is pleasure in the image even of the repugnant, because of **recognition** ("this is that"): the pleasure of learning and inferring. And he states that **poetry is more philosophical than history**, because "poetry speaks of the universal and history of the particular" (1451a36–b11) and speaks of what "might happen" (τὸ εἰκός, the probable or necessary), not of what happened.
+Aristotle revalues it in *Poetics*. He holds it to be **natural**: "man is the most mimetic animal and learns his first lessons through mimesis" (1448b4–19). There is pleasure in the image even of the repugnant, because of **recognition** ("this is that"): the pleasure of learning and inferring. And he states that **poetry is more philosophical than history**, because "poetry speaks of the universal and history of the particular" (1451a36–b11) and speaks of what "might happen" (τὸ εἰκός, the probable or necessary), not of what happened.
 
 The difference with Plato is decisive: mimesis **is not copying**, but **representation of the universal in the particular**. It is a mode of knowing, not of deception. Tragedy, with its **kátharsis** (κάθαρσις, "purification", *Poetics* 1449b), fulfills a function that is at once cognitive and emotional.
 

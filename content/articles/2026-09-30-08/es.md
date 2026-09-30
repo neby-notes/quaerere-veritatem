@@ -20,11 +20,11 @@ La palabra «representación» se aplica al arte como si tuviera un solo sentido
 
 ## 1. Platón: la mímesis como copia deficiente
 
-Platón condenó la mímesis en la *República* X (597a–e) con el ejemplo de los **tres lechos**: la **Forma** del lecho — obra de Dios, la realidad plena —; el **lecho material** — obra del carpintero, copia de la Forma —; y el **lecho pintado** — obra del pintor, copia de la copia, situado a «tres grados de la verdad». El pintor imita la **apariencia** (φάντασμα) y no el ser, y «no sabe nada» de aquello que imita. La mímesis es, para Platón, epistemológicamente deficiente y moralmente peligrosa, pues alimenta la parte irracional del alma.
+Platón condenó la mímesis en *República* X (597a–e) con el ejemplo de los **tres lechos**: la **Forma** del lecho — obra de Dios, la realidad plena —; el **lecho material** — obra del carpintero, copia de la Forma —; y el **lecho pintado** — obra del pintor, copia de la copia, situado a «tres grados de la verdad». El pintor imita la **apariencia** (φάντασμα) y no el ser, y «no sabe nada» de aquello que imita. La mímesis es, para Platón, epistemológicamente deficiente y moralmente peligrosa, pues alimenta la parte irracional del alma.
 
 ## 2. Aristóteles: la mímesis como conocimiento
 
-Aristóteles la revaloriza en la *Poética*. La sostiene como **natural**: «el hombre es el animal más mimético y aprende sus primeras lecciones por mímesis» (1448b4–19). Hay placer en la imagen incluso de lo repugnante, por el **reconocimiento** («esto es aquello»): el placer de aprender e inferir. Y afirma que **la poesía es más filosófica que la historia**, porque «la poesía dice lo universal y la historia lo particular» (1451a36–b11) y dice lo que «podría suceder» (τὸ εἰκός, lo probable o necesario), no lo que sucedió.
+Aristóteles la revaloriza en *Poética*. La sostiene como **natural**: «el hombre es el animal más mimético y aprende sus primeras lecciones por mímesis» (1448b4–19). Hay placer en la imagen incluso de lo repugnante, por el **reconocimiento** («esto es aquello»): el placer de aprender e inferir. Y afirma que **la poesía es más filosófica que la historia**, porque «la poesía dice lo universal y la historia lo particular» (1451a36–b11) y dice lo que «podría suceder» (τὸ εἰκός, lo probable o necesario), no lo que sucedió.
 
 La diferencia con Platón es decisiva: la mímesis **no es copia**, sino **representación del universal en lo particular**. Es un modo de conocer, no de engaño. La tragedia, con su **kátharsis** (κάθαρσις, «purificación», *Poética* 1449b), cumple una función a la vez cognitiva y emocional.
 

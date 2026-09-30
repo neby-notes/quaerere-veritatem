@@ -14,7 +14,7 @@ tags:
 
 ## Introducción
 
-En San Agustín la búsqueda de la verdad deja de ser una actividad puramente intelectual y se convierte en una inquietud de todo el ser. La fórmula que abre las *Confesiones* condensa esa transformación y ha marcado a la tradición posterior.
+Según San Agustín, la búsqueda de la verdad deja de ser una actividad puramente intelectual y se convierte en una inquietud de todo el ser. La fórmula que abre *Confesiones* condensa esa transformación y ha marcado a la tradición posterior.
 
 ## 1. El corazón inquieto
 
@@ -26,9 +26,9 @@ Tres rasgos de esta fórmula importan. En primer lugar, la búsqueda es aquí un
 
 ## 2. La verdad inmutable y la Verdad subsistente
 
-En el *De libero arbitrio* («Del libre albedrío») II San Agustín argumenta que hay verdades que ni cambian ni dependen de la mente: las verdades matemáticas y las normas del bien. De la existencia de esas verdades inmutables infiere una **verdad eterna** que las funda; y esa verdad eterna, para San Agustín, es Dios.
+En *De libero arbitrio* («Del libre albedrío») II San Agustín argumenta que hay verdades que ni cambian ni dependen de la mente: las verdades matemáticas y las normas del bien. De la existencia de esas verdades inmutables infiere una **verdad eterna** que las funda; y esa verdad eterna, para San Agustín, es Dios.
 
-En los *Soliloquios* (II,5,8) define la verdad en el registro ontológico: «verum est id quod est» — «es verdadero lo que es». Y en el *De vera religione* («Sobre la verdadera religión») la identifica con Dios.
+En *Soliloquios* (II,5,8) define la verdad en el registro ontológico: «verum est id quod est» — «es verdadero lo que es». Y en *De vera religione* («Sobre la verdadera religión») la identifica con Dios.
 
 Este paso es el que pesará sobre toda la escolástica: la **verdad ontológica inmutable exige una Verdad subsistente**. La búsqueda de la verdad no termina entonces en un conjunto de proposiciones, sino en una realidad personal.
 
@@ -36,7 +36,7 @@ Este paso es el que pesará sobre toda la escolástica: la **verdad ontológica 
 
 La relación entre fe y búsqueda se condensa en el principio «**credo ut intelligam**» — creer para entender. La fe no sustituye a la búsqueda, sino que la orienta: el entender presupone una confianza primera que abre el camino, y el entender profundiza, a su vez, lo creído.
 
-En el *De Trinitate* («De la Trinidad») la búsqueda se vuelve interior: el alma se recoge en sí misma (*interior intimo meo*) y encuentra en su propia estructura trinitaria — memoria, entendimiento, voluntad — una vía hacia la Verdad.
+En *De Trinitate* («De la Trinidad») la búsqueda se vuelve interior: el alma se recoge en sí misma (*interior intimo meo*) y encuentra en su propia estructura trinitaria — memoria, entendimiento, voluntad — una vía hacia la Verdad.
 
 ## 4. Qué aporta San Agustín a la noción de búsqueda
 

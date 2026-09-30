@@ -22,7 +22,7 @@ That idea sustains the architecture of the site and is argued in [Reality, disci
 
 The site does not reduce "truth" to a single sense. Truth occurs in distinct registers — propositional, personal and artistic — that are studied separately and that illuminate one another.
 
-For the propositional register see [What is truth?](/en/2026-09-30-01/); for the personal, [Augustine: the restless heart and truth](/en/2026-09-30-05/); for the artistic, [Mimesis: art and reality](/en/2026-09-30-08/).
+For the propositional register see [What is truth?](/en/2026-09-30-01/); for the personal, [Saint Augustine: the restless heart and truth](/en/2026-09-30-05/); for the artistic, [Mimesis: art and reality](/en/2026-09-30-08/).
 
 ## Work, publication, and community
 
