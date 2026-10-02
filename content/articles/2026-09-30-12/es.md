@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Micro-historia del lema «ora et labora». El artículo muestra que la fórmula no procede de la Regla de San Benito sino del siglo XIX, y expone la tríada real de la Regla — oración, lectura y trabajo — que el lema popular omite."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - contemplacion

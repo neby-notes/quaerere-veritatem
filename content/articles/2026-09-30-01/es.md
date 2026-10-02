@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio de las principales concepciones de la verdad, desde la formulación clásica de la correspondencia hasta las teorías modernas, con las distinciones necesarias para no confundir la existencia de la verdad, su cognoscibilidad y su independencia respecto del sujeto. El artículo no defiende una única teoría, sino que delimita qué puede afirmarse con seguridad y qué permanece abierto."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - verdad

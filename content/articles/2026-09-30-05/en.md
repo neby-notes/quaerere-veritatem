@@ -4,7 +4,7 @@ author: "NEBY"
 description: "A study of the Augustinian conception of the search for truth: the restless heart that only rests in God, the immutable truth that demands a subsistent Truth, and the relation between faith and understanding. It is the main source of the existential register of the search for truth."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - agustin

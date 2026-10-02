@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Análisis de por qué, si la realidad es una, el conocimiento humano se divide en disciplinas. La respuesta distingue tres sentidos de «unidad» que no deben confundirse y muestra que la división disciplinar es una condición del acceso finito a lo real, no una fractura de lo real mismo."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - conocimiento

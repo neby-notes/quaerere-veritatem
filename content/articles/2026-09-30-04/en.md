@@ -4,7 +4,7 @@ author: "NEBY"
 description: "An analysis of why, if reality is one, human knowledge is divided into disciplines. The answer distinguishes three senses of 'unity' that must not be confused and shows that the disciplinary division is a condition of finite access to the real, not a fracture of the real itself."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - conocimiento

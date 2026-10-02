@@ -4,7 +4,7 @@ author: "NEBY"
 description: "An exposition of the Socratic-Platonic conception of the search for truth: the examination of one's own life as the starting point and desire (eros) for the true as the engine of a conversion that transforms the knower. This figure of the search is contrasted with the Aristotelian one, centered on the term of contemplation."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - platon

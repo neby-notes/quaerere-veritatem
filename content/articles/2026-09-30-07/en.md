@@ -4,7 +4,7 @@ author: "NEBY"
 description: "An analysis of the difference between creating, making, fabricating, producing, transforming, inventing and discovering, and of the doctrine of creation ex nihilo. The article distinguishes being (which only God creates) from form (which man produces) and situates the principle 'art imitates nature' as the bridge between reality, knowledge and art."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - creacion

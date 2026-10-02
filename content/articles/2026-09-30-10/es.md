@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio de Leonardo da Vinci como caso de polimatía, centrado en la relación entre su investigación científica y su práctica pictórica. El artículo verifica en qué medida el conocimiento de anatomía, óptica y otras disciplinas informó su pintura y qué límites históricos tiene su figura."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - polimatia

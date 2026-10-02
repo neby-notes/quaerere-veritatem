@@ -4,7 +4,7 @@ author: "NEBY"
 description: "A study of the main conceptions of truth, from the classical formulation of correspondence to modern theories, with the distinctions required to avoid confusing the existence of truth, its knowability, and its independence from the subject. The article does not defend a single theory, but delimits what can be safely asserted and what remains open."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - verdad

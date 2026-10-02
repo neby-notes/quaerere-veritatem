@@ -4,7 +4,7 @@ author: "NEBY"
 description: "A study of Leonardo da Vinci as a case of polymathy, centered on the relation between his scientific research and his pictorial practice. The article verifies to what extent his knowledge of anatomy, optics and other disciplines informed his painting and what historical limits his figure has."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - polimatia

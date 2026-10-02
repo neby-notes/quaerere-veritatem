@@ -4,7 +4,7 @@ author: "NEBY"
 description: "An essay that develops and puts to the test a thesis about the artist's relation to reality: that the artist does not create from nothing, but receives, contemplates, and re-produces form. The article examines the objections, confronts the thesis with abstract art, and proposes a reformulation that recognizes the plurality of modes of relation between art and reality, including the abstraction of ideas and feelings."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - arte

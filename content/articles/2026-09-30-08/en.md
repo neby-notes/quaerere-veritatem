@@ -4,7 +4,7 @@ author: "NEBY"
 description: "A study of the concept of mimesis and of what it means for art to 'represent' reality. The Platonic condemnation of mimesis as copy is contrasted with the Aristotelian revaluation as knowledge of the universal, and eight senses of 'representing' that must not be confused are distinguished."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - mimesis

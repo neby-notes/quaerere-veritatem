@@ -4,7 +4,7 @@ author: "NEBY"
 description: "A micro-history of the motto 'ora et labora'. The article shows that the formula does not come from the Rule of Saint Benedict but from the 19th century, and sets out the real triad of the Rule — prayer, reading and work — that the popular motto omits."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - contemplacion

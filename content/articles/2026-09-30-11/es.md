@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio del ideal intelectual de la Orden de Predicadores a partir de dos fórmulas — contemplari et contemplata aliis tradere e in dulcedine societatis quaerere veritatem —, con sus fuentes y sus precisiones de atribución. El artículo distingue el clima comunitario del estudio y la estructura de contemplar y transmitir."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - contemplacion

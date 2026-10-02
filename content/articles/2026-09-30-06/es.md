@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio exegético de Juan 8,31–32 («conoceréis la verdad y la verdad os hará libres»). El artículo presenta el texto, su contexto y el sentido de sus términos, examina las interpretaciones históricas y precisa que el pasaje habla de conocer y permanecer, no de buscar."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - biblia

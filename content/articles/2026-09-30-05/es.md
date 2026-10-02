@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio de la concepción agustiniana de la búsqueda de la verdad: el corazón inquieto que solo reposa en Dios, la verdad inmutable que exige una Verdad subsistente y la relación entre fe e intelección. Es la fuente principal del registro existencial de la búsqueda de la verdad."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - agustin

@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Análisis de la diferencia entre crear, hacer, fabricar, producir, transformar, inventar y descubrir, y de la doctrina de la creación ex nihilo. El artículo distingue el ser (que solo Dios crea) de la forma (que el hombre produce) y sitúa el principio «el arte imita la naturaleza» como el puente entre realidad, conocimiento y arte."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - creacion

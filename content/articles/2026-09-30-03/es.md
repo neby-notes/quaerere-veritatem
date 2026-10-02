@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Exposición de la concepción socrático-platónica de la búsqueda de la verdad: el examen de la propia vida como punto de partida y el deseo (eros) de lo verdadero como motor de una conversión que transforma al que conoce. Se contrasta esta figura de la búsqueda con la aristotélica, centrada en el término de la contemplación."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - platon

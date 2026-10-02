@@ -4,7 +4,7 @@ author: "NEBY"
 description: "An exegetical study of John 8:31–32 ('you will know the truth, and the truth will make you free'). The article presents the text, its context and the meaning of its terms, examines the historical interpretations, and makes precise that the passage speaks of knowing and abiding, not of seeking."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - biblia

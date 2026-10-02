@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio del concepto de Gesamtkunstwerk: su origen, el sentido que le dio Wagner, su dimensión social y política y la crítica de Benjamin. El artículo precisa la atribución del término y no lo reduce a una simple «mezcla de artes»."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - arte

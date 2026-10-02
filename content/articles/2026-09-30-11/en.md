@@ -4,7 +4,7 @@ author: "NEBY"
 description: "A study of the intellectual ideal of the Order of Preachers from two formulas — contemplari et contemplata aliis tradere and in dulcedine societatis quaerere veritatem —, with their sources and attributional precisions. The article distinguishes the communal climate of study and the structure of contemplating and transmitting."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - contemplacion

@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Estudio del concepto de mímesis y de lo que significa que el arte «represente» la realidad. Se contraponen la condena platónica de la mímesis como copia y la revalorización aristotélica como conocimiento del universal, y se distinguen ocho sentidos de «representar» que no deben confundirse."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - mimesis
