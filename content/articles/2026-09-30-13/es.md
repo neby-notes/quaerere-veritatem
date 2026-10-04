@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Ensayo que desarrolla y somete a prueba una tesis sobre la relación del artista con la realidad: que el artista no crea de la nada, sino que recibe, contempla y re-produce forma. El artículo examina las objeciones, la confronta con el arte abstracto y propone una reformulación que reconoce la pluralidad de modos de relación entre arte y realidad, incluida la abstracción de ideas y sentimientos."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: false
 tags:
   - arte

@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Exposición de la concepción aristotélica del conocimiento a partir del deseo natural de saber: los grados del conocer, la división de las ciencias y la identificación de la contemplación con la felicidad. El artículo señala además una tensión interna entre el deseo universal de saber y el carácter restringido de su cumplimiento pleno."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - conocimiento

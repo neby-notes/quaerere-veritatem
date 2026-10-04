@@ -4,7 +4,7 @@ author: "NEBY"
 description: "An exposition of the Aristotelian conception of knowledge from the natural desire to know: the degrees of knowing, the division of the sciences, and the identification of contemplation with happiness. The article also points out an internal tension between the universal desire to know and the restricted character of its full fulfillment."
 created: 2026-09-30
 edited: 2026-09-30
-draft: false
+draft: true
 featured: true
 tags:
   - conocimiento
