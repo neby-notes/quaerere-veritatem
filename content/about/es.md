@@ -4,6 +4,9 @@ title: "Sobre este sitio"
 
 **Quaerere Veritatem** significa, en latín, «buscar la verdad»: una actividad y su objeto, no una doctrina. Este sitio es un *digital garden* («jardín digital»): un conjunto de artículos independientes que estudian, cada uno, un concepto, un autor, una tradición o una cuestión, y que se enlazan entre sí por afinidad, no por disciplinas. Es el registro público de una búsqueda en primera persona, escrito despacio y sin más pretensión que compartir lo contemplado. Lo escribo en castellano y en inglés, a partes iguales.
 
+![Saint Jerome in His Study — Antonello da Messina](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg)
+Saint Jerome in His Study — Antonello da Messina, c. 1475
+
 ## La búsqueda
 
 Buscar la verdad se entiende aquí como una **orientación**, no como curiosidad indefinida ni como acumulación de datos: un deseo que tiende a un término — la contemplación — y que transforma a quien lo persigue.
@@ -32,10 +35,10 @@ El trabajo intelectual se entiende aquí con la vieja fórmula de la tradición 
 
 Se investiga para comprender, y se publica para entregar a otros lo comprendido. Lo que sale a la luz no es la opinión apresurada, sino lo que ha sido pensado, dudado y releído. Y la transmisión es también una tarea comunitaria: la verdad no se busca para uno mismo, sino para ser dada.
 
-No pretendo, en todo ello, ser portador de la verdad, aunque trate de buscarla: parto de la humildad de mi ignorancia y del deseo incansable de aprender que encuentro en mi fe y en mi razón. Lo que encontrarás aquí no son sistemas cerrados, sino ligeras direcciones hacia lo que creo que está bien. Tampoco son definitivos: ningún artículo estará jamás acabado. Seguiré trabajando sobre ellos — cambiándolos, matizándolos, rehaciéndolos —, porque el conocimiento y la comprensión no admiten punto final; siempre se está a tiempo de aprender algo que mejore lo que se creía comprender.
+![Saint Luke Drawing the Virgin — Rogier van der Weyden](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/hero_Saint_Luke_Drawing_the_Virgin_MFA_Boston.jpg)
+Saint Luke Drawing the Virgin — Rogier van der Weyden, c. 1435–1440
 
-![Saint Jerome in His Study — Antonello da Messina](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/hero_Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg)
-Saint Jerome in His Study — Antonello da Messina, c. 1475
+No pretendo, en todo ello, ser portador de la verdad, aunque trate de buscarla: parto de la humildad de mi ignorancia y del deseo incansable de aprender que encuentro en mi fe y en mi razón. Lo que encontrarás aquí no son sistemas cerrados, sino ligeras direcciones hacia lo que creo que está bien. Tampoco son definitivos: ningún artículo estará jamás acabado. Seguiré trabajando sobre ellos — cambiándolos, matizándolos, rehaciéndolos —, porque el conocimiento y la comprensión no admiten punto final; siempre se está a tiempo de aprender algo que mejore lo que se creía comprender.
 
 ## Al lector
 
