@@ -63,7 +63,7 @@ quaerere-veritatem/
 4. **Article identity**: Folders named `YYYY-MM-DD-NN`. Immutable. Never derived from title.
 5. **No slug field**: URLs use `articleId` only. No `slugify.ts`.
 6. **Tag registry**: Single source of truth at `content/config/tags.json`. Unknown tags fail the build.
-7. **Drafts**: `draft: true` excludes content from all public output (pages, lists, search, sitemap).
+7. **Drafts**: `draft: true` excludes content from all public output (pages, lists, search, sitemap). No route is generated for a draft — its URL returns 404, never a redirect. The article loader watches `content/articles/` during `astro dev`, so toggling `draft` (or editing content) takes effect live without restarting the server.
 8. **Vanilla JS**: No React, Vue, Svelte, or Alpine. Client interactivity uses vanilla TypeScript.
 
 ---

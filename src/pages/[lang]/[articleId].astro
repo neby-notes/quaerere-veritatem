@@ -25,8 +25,10 @@ if (!isValidLocale(lang)) {
 }
 
 const article = await getPublicArticle(articleId, lang);
+// Drafts and unknown ids are not prerendered, so this fallback is only a
+// safeguard (e.g. on-demand rendering): a non-public article must be a 404.
 if (!article) {
-  return Astro.redirect(`/${lang}/`);
+  return new Response('Not Found', { status: 404 });
 }
 
 const registry = await loadTagRegistry();

@@ -1,7 +1,7 @@
 import type { Loader } from 'astro/loaders';
 import { z } from 'astro/zod';
 import { readFile, readdir } from 'node:fs/promises';
-import { join, basename, extname } from 'node:path';
+import { join, basename, extname, relative } from 'node:path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'node:url';
 import MarkdownIt from 'markdown-it';
@@ -71,164 +71,188 @@ export function articleLoader(): Loader {
   return {
     name: 'article-loader',
     schema: articleSchema,
-    load: async ({ store, parseData, config }) => {
-      const errors: ValidationError[] = [];
-      const seenArticleIds = new Set<string>();
+    load: async ({ store, parseData, config, watcher, logger }) => {
       const basePath = join(fileURLToPath(config.root), 'content', 'articles');
-      const registry = await loadTagRegistry(config.root);
-      const validTagIds = new Set(registry.tags.map((t) => t.id));
 
-      store.clear();
+      const loadAll = async () => {
+        const errors: ValidationError[] = [];
+        const seenArticleIds = new Set<string>();
+        const registry = await loadTagRegistry(config.root);
+        const validTagIds = new Set(registry.tags.map((t) => t.id));
 
-      let articleDirs: string[];
-      try {
-        articleDirs = await readdir(basePath);
-      } catch {
-        // No articles directory yet
-        return;
-      }
+        store.clear();
 
-      for (const articleId of articleDirs) {
-        const articlePath = join(basePath, articleId);
-
-        // Validate articleId format
-        if (!ARTICLE_ID_REGEX.test(articleId)) {
-          errors.push({
-            articleId,
-            message: `Invalid articleId "${articleId}". Must match format YYYY-MM-DD-NN (e.g., 2026-09-28-01)`,
-          });
-          continue;
-        }
-
-        // Validate date is real
-        const datePart = articleId.slice(0, 10);
-        if (!isValidDate(datePart)) {
-          errors.push({
-            articleId,
-            message: `Invalid date "${datePart}" in articleId "${articleId}". Not a valid calendar date.`,
-          });
-          continue;
-        }
-
-        // Check duplicates
-        if (seenArticleIds.has(articleId)) {
-          errors.push({
-            articleId,
-            message: `Duplicate articleId "${articleId}" detected.`,
-          });
-          continue;
-        }
-        seenArticleIds.add(articleId);
-
-        // Process markdown files
-        let files: string[];
+        let articleDirs: string[];
         try {
-          files = await readdir(articlePath);
+          articleDirs = await readdir(basePath);
         } catch {
-          continue;
+          // No articles directory yet
+          return;
         }
 
-        for (const file of files) {
-          if (extname(file) !== '.md') continue;
+        for (const articleId of articleDirs) {
+          const articlePath = join(basePath, articleId);
 
-          const lang = basename(file, '.md');
-          if (lang !== 'es' && lang !== 'en') {
+          // Validate articleId format
+          if (!ARTICLE_ID_REGEX.test(articleId)) {
             errors.push({
-              file: join(articlePath, file),
-              message: `Invalid language file "${file}". Must be "es.md" or "en.md"`,
+              articleId,
+              message: `Invalid articleId "${articleId}". Must match format YYYY-MM-DD-NN (e.g., 2026-09-28-01)`,
             });
             continue;
           }
 
-          const filePath = join(articlePath, file);
-          const content = await readFile(filePath, 'utf-8');
-          const parsed = matter(content);
-
-          // Validate frontmatter with Zod
-          let data: z.infer<typeof articleSchema>;
-          try {
-            data = articleSchema.parse(parsed.data);
-          } catch (e) {
-            if (e instanceof z.ZodError) {
-              for (const issue of e.issues) {
-                errors.push({
-                  file: filePath,
-                  lang,
-                  message: `Frontmatter validation error: ${issue.path.join('.')} — ${issue.message}`,
-                });
-              }
-            }
+          // Validate date is real
+          const datePart = articleId.slice(0, 10);
+          if (!isValidDate(datePart)) {
+            errors.push({
+              articleId,
+              message: `Invalid date "${datePart}" in articleId "${articleId}". Not a valid calendar date.`,
+            });
             continue;
           }
 
-          // Validate tags against registry
-          for (const tag of data.tags) {
-            if (!validTagIds.has(tag)) {
+          // Check duplicates
+          if (seenArticleIds.has(articleId)) {
+            errors.push({
+              articleId,
+              message: `Duplicate articleId "${articleId}" detected.`,
+            });
+            continue;
+          }
+          seenArticleIds.add(articleId);
+
+          // Process markdown files
+          let files: string[];
+          try {
+            files = await readdir(articlePath);
+          } catch {
+            continue;
+          }
+
+          for (const file of files) {
+            if (extname(file) !== '.md') continue;
+
+            const lang = basename(file, '.md');
+            if (lang !== 'es' && lang !== 'en') {
               errors.push({
-                tag,
-                file: filePath,
-                lang,
-                message: `Unknown tag "${tag}"`,
+                file: join(articlePath, file),
+                message: `Invalid language file "${file}". Must be "es.md" or "en.md"`,
               });
+              continue;
+            }
+
+            const filePath = join(articlePath, file);
+            const content = await readFile(filePath, 'utf-8');
+            const parsed = matter(content);
+
+            // Validate frontmatter with Zod
+            let data: z.infer<typeof articleSchema>;
+            try {
+              data = articleSchema.parse(parsed.data);
+            } catch (e) {
+              if (e instanceof z.ZodError) {
+                for (const issue of e.issues) {
+                  errors.push({
+                    file: filePath,
+                    lang,
+                    message: `Frontmatter validation error: ${issue.path.join('.')} — ${issue.message}`,
+                  });
+                }
+              }
+              continue;
+            }
+
+            // Validate tags against registry
+            for (const tag of data.tags) {
+              if (!validTagIds.has(tag)) {
+                errors.push({
+                  tag,
+                  file: filePath,
+                  lang,
+                  message: `Unknown tag "${tag}"`,
+                });
+              }
+            }
+
+            // If there are tag errors for this file, skip adding it
+            const fileHasTagErrors = errors.some(
+              (e) => e.file === filePath && e.tag
+            );
+            if (fileHasTagErrors) continue;
+
+            // Parse and store entry
+            const parsedData = await parseData({
+              id: `${articleId}-${lang}`,
+              data: {
+                ...data,
+                articleId,
+                lang,
+                body: parsed.content,
+              },
+            });
+
+            store.set({
+              id: `${articleId}-${lang}`,
+              data: parsedData,
+              rendered: { html: md.render(parsed.content) },
+            });
+          }
+        }
+
+        // Throw aggregated error if any
+        if (errors.length > 0) {
+          const tagErrors = errors.filter((e) => e.tag);
+          const otherErrors = errors.filter((e) => !e.tag);
+
+          let message = 'Build Error: Content validation failed.\n\n';
+
+          if (tagErrors.length > 0) {
+            message += 'Invalid article tags detected:\n\n';
+            message += '  Tag         | File                                           | Language\n';
+            message += '  ------------|------------------------------------------------|----------\n';
+            for (const err of tagErrors) {
+              const tag = err.tag?.padEnd(11) ?? '            ';
+              const file = err.file?.padEnd(46) ?? '';
+              const lang = err.lang?.padEnd(8) ?? '';
+              message += `  ${tag} | ${file} | ${lang}\n`;
+            }
+            message += '\nTo fix this:\n';
+            message += '  1. Add the missing tags to content/config/tags.json with translations, OR\n';
+            message += '  2. Correct the tag(s) in the article frontmatter.\n\n';
+          }
+
+          if (otherErrors.length > 0) {
+            message += 'Other validation errors:\n\n';
+            for (const err of otherErrors) {
+              message += `  [${err.articleId ?? err.file}] ${err.message}\n`;
             }
           }
 
-          // If there are tag errors for this file, skip adding it
-          const fileHasTagErrors = errors.some(
-            (e) => e.file === filePath && e.tag
-          );
-          if (fileHasTagErrors) continue;
-
-          // Parse and store entry
-          const parsedData = await parseData({
-            id: `${articleId}-${lang}`,
-            data: {
-              ...data,
-              articleId,
-              lang,
-              body: parsed.content,
-            },
-          });
-
-          store.set({
-            id: `${articleId}-${lang}`,
-            data: parsedData,
-            rendered: { html: md.render(parsed.content) },
-          });
+          throw new Error(message);
         }
-      }
+      };
 
-      // Throw aggregated error if any
-      if (errors.length > 0) {
-        const tagErrors = errors.filter((e) => e.tag);
-        const otherErrors = errors.filter((e) => !e.tag);
+      await loadAll();
 
-        let message = 'Build Error: Content validation failed.\n\n';
+      // In dev, watch the articles directory so content changes (e.g. toggling
+      // `draft`) re-sync the store without restarting the dev server.
+      if (!watcher) return;
 
-        if (tagErrors.length > 0) {
-          message += 'Invalid article tags detected:\n\n';
-          message += '  Tag         | File                                           | Language\n';
-          message += '  ------------|------------------------------------------------|----------\n';
-          for (const err of tagErrors) {
-            const tag = err.tag?.padEnd(11) ?? '            ';
-            const file = err.file?.padEnd(46) ?? '';
-            const lang = err.lang?.padEnd(8) ?? '';
-            message += `  ${tag} | ${file} | ${lang}\n`;
-          }
-          message += '\nTo fix this:\n';
-          message += '  1. Add the missing tags to content/config/tags.json with translations, OR\n';
-          message += '  2. Correct the tag(s) in the article frontmatter.\n\n';
+      watcher.add(basePath);
+      const reload = async (changedPath: string) => {
+        if (extname(changedPath) !== '.md') return;
+        if (relative(basePath, changedPath).startsWith('..')) return;
+        try {
+          await loadAll();
+          logger.info('Reloaded articles');
+        } catch (e) {
+          logger.error(`Failed to reload articles: ${e instanceof Error ? e.message : String(e)}`);
         }
-
-        if (otherErrors.length > 0) {
-          message += 'Other validation errors:\n\n';
-          for (const err of otherErrors) {
-            message += `  [${err.articleId ?? err.file}] ${err.message}\n`;
-          }
-        }
-
-        throw new Error(message);
-      }
+      };
+      watcher.on('change', reload);
+      watcher.on('add', reload);
+      watcher.on('unlink', reload);
     },
   };
 }
