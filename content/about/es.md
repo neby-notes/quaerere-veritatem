@@ -30,4 +30,5 @@ No pretendo, en todo ello, ser portador de la verdad, aunque trate de buscarla: 
 
 ## Al lector
 
-Sea cual sea el camino que te ha traído hasta aquí, ojalá encuentres en estas páginas una pregunta que te acompañe, una lectura que te haga bien o, al menos, un rato de sosiego. Que tu propia búsqueda te lleve lejos y te traiga de vuelta con las manos llenas.
+Sea cual sea el camino que te ha traído hasta aquí, ojalá encuentres en estas páginas una pregunta que te acompañe, una lectura que te haga bien o, al menos, un rato de sosiego.
+Que tu propia búsqueda te lleve lejos y te traiga de vuelta con las manos llenas.

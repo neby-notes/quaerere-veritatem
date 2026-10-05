@@ -30,4 +30,6 @@ In all of this I do not claim to be a bearer of the truth, though I do try to se
 
 ## To the reader
 
-Whatever road has brought you here, may you find in these pages a question to keep you company, a reading that does you good or, at the very least, a moment of calm. May your own search take you far and bring you back with your hands full.
+Whatever road has brought you here, may you find in these pages a question to keep you company, a reading that does you good or, at the very least, a moment of calm. 
+
+May your own search take you far and bring you back with your hands full.

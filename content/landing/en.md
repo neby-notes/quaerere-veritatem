@@ -14,4 +14,4 @@ I write in order to contemplate and to transmit the fruit of contemplation. What
 
 I do not claim to be a bearer of the truth, though I do try to seek it. I start from the humility of my ignorance and from the tireless desire to learn that I find in my faith and in my reason, in order to try to transmit slight directions toward what I believe is right.
 
-[The garden →](/en/garden/)    ·    [About this project →](/en/about/)
+[About this project →](/en/about/)

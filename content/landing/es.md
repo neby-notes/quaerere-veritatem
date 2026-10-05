@@ -1,5 +1,6 @@
 ---
 title: "Quaerere Veritatem"
+heroImage: "blob:https://dash.cloudflare.com/a8cd7049-2f76-4eb9-ae7b-5c76d2ee97fc"
 ---
 
 > «Todos los hombres desean por naturaleza saber» — Aristóteles, *Metafísica*, 980a21.
@@ -16,5 +17,5 @@ No pretendo ser portador de la verdad, aunque trate de buscarla. Parto de la hum
 
 
 
-[El jardín →](/es/garden/)    ·    [Sobre este proyecto →](/es/about/)
+[Sobre este proyecto →](/es/about/)
 
