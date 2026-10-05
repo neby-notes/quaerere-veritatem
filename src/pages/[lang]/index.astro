@@ -32,7 +32,7 @@ const schemaOrg = {
 };
 ---
 
-<BaseLayout lang={lang} title={landing?.title} contentType="landing">
+<BaseLayout lang={lang} title={lang === 'es' ? 'Inicio' : 'Home'} contentType="landing">
   <script type="application/ld+json" set:html={JSON.stringify(schemaOrg)} />
 
   <div class="pt-4">

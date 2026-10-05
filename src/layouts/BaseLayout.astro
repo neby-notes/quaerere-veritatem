@@ -17,7 +17,7 @@ interface Props {
 
 const { title, description, lang, articleId, canonicalPath = '', contentType = 'default', image } = Astro.props;
 const site = 'https://quaerere-veritatem.pages.dev';
-const pageTitle = title ? `${title} — Quaerere Veritatem` : 'Quaerere Veritatem';
+const pageTitle = title ? `${title} - Q.V.` : 'Quaerere Veritatem';
 const canonical = `${site}/${lang}/${canonicalPath}/`.replace(/(https?:)\/+/g, '$1//').replace(/([^:])\/+/g, '$1/');
 const ogType = contentType === 'article' ? 'article' : 'website';
 const ogLocale = lang === 'es' ? 'es_ES' : 'en_US';
