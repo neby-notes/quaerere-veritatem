@@ -1,14 +1,13 @@
 ---
 title: "Quaerere Veritatem"
-heroImage: ""
 ---
 
 > «Todos los hombres desean por naturaleza saber» — Aristóteles, *Metafísica*, 980a21.
 
-![Saint Agustine — Philippe de Champaigne](blob:https://dash.cloudflare.com/a8cd7049-2f76-4eb9-ae7b-5c76d2ee97fc)
-Saint Agustine — Philippe de Champaigne
-
 **Quaerere Veritatem** — «buscar la verdad» — es un jardín digital: un conjunto de artículos independientes que nacen de una misma inquietud y se enlazan por afinidad, no por disciplinas. Cada pieza estudia un concepto, un autor, una tradición o una pregunta; ninguna exige haber leído otra.
+
+![Saint Agustine — Philippe de Champaigne](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/heroLanding_Saint_Augustine_by_Philippe_de_Champaigne.jpg)
+Saint Agustine — Philippe de Champaigne
 
 La premisa es sencilla: la realidad es una, y las disciplinas no son fronteras en ella, sino instrumentos de un intelecto finito para comprender una realidad infinitamente compleja. No son más que perspectivas distintas para la observación de un mismo objeto, y el verdadero saber no se encuentra en la nitidez y el detalle observados desde una sola perspectiva, sino en la capacidad de comprender el objeto desde todos sus ángulos.
 
