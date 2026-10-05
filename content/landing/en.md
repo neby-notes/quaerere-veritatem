@@ -4,6 +4,9 @@ title: "Quaerere Veritatem"
 
 > "All men by nature desire to know" — Aristotle, *Metaphysics*, 980a21.
 
+![Saint Agustine — Philippe de Champaigne](blob:https://dash.cloudflare.com/a8cd7049-2f76-4eb9-ae7b-5c76d2ee97fc)
+Saint Agustine — Philippe de Champaigne
+
 **Quaerere Veritatem** — "to seek the truth" — is a digital garden: a set of independent essays born from a single restlessness, linked to one another by affinity rather than by discipline. Each piece studies a concept, an author, a tradition or a question; none requires having read any other.
 
 The premise is simple: reality is one, and disciplines are not borders within it, but instruments of a finite intellect for comprehending an infinitely complex reality. They are nothing more than different perspectives for the observation of one and the same object, and true knowledge is not found in the sharpness and detail observed from a single perspective, but in the capacity to comprehend the object from all its angles.

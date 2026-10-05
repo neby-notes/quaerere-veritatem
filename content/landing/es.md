@@ -1,9 +1,12 @@
 ---
 title: "Quaerere Veritatem"
-heroImage: "blob:https://dash.cloudflare.com/a8cd7049-2f76-4eb9-ae7b-5c76d2ee97fc"
+heroImage: ""
 ---
 
 > «Todos los hombres desean por naturaleza saber» — Aristóteles, *Metafísica*, 980a21.
+
+![Saint Agustine — Philippe de Champaigne](blob:https://dash.cloudflare.com/a8cd7049-2f76-4eb9-ae7b-5c76d2ee97fc)
+Saint Agustine — Philippe de Champaigne
 
 **Quaerere Veritatem** — «buscar la verdad» — es un jardín digital: un conjunto de artículos independientes que nacen de una misma inquietud y se enlazan por afinidad, no por disciplinas. Cada pieza estudia un concepto, un autor, una tradición o una pregunta; ninguna exige haber leído otra.
 
