@@ -33,6 +33,7 @@ quaerere-veritatem/
 │   ├── articles/          ← Articles (YYYY-MM-DD-NN/)
 │   ├── landing/           ← Homepage content (es.md, en.md)
 │   ├── about/             ← About content (es.md, en.md)
+│   ├── temporary/         ← Withdrawn articles (inert: not read by any loader)
 │   └── config/
 │       └── tags.json      ← Canonical tag registry
 ├── templates/
@@ -136,6 +137,7 @@ Links: `accent` color, underline 1px with 0.16em offset. Blockquotes: Libre Bask
 - **Foreign-language terms**: any word, phrase or work title in a language other than the article's must carry a translation into the article's language on first mention in the body (e.g., *Oper und Drama* («Ópera y drama» / "Opera and Drama")). References at the end are exempt. No redundancy required: once translated, the term can be used freely thereafter.
 - **Citing works and authors**: a work's title is a proper name and takes no determiner, in either language — «En *Confesiones*», "in *Confessions*", «en *Summa theologiae* I, q. 16», "in *Republic* X". The determiner appears only when it is part of the title itself, and then it belongs inside the italics, capitalized (*El nacimiento de la tragedia*, *La Última Cena*, *The Last Supper*, *The Two Cultures*). Conventional names that include the article as a common noun keep it (la Biblia, la Regla de San Benito / the Rule of Saint Benedict), and italicized concept-terms are unaffected (el *Gesamtkunstwerk*, the *readymade*). An author's doctrine is attributed with «según»/«para» + author ("According to/For + author"), never with «en + author».
 - **Templates**: `templates/article/YYYY-MM-DD-NN/` with `draft: true`. Not processed by the loader.
+- **Temporary**: `content/temporary/` holds withdrawn articles. No loader reads it, so nothing there ever reaches the site, regardless of `draft` status.
 - **Markdown rendering**: Articles, landing and about all use the same `markdown-it` + `markdown-it-anchor` pipeline (via `articleLoader.ts` and `markdownLoader.ts`). H2–H4 headings receive automatic anchors; do not add manual anchor HTML in Markdown.
 - **Related articles**: Article pages display up to 5 related articles ranked by shared tags.
 - **Table of contents**: Articles with 3+ H2–H4 headings get a client-side TOC inserted above the body.
