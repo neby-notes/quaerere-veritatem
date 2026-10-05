@@ -6,8 +6,8 @@ title: "Quaerere Veritatem"
 
 **Quaerere Veritatem** — «buscar la verdad» — es un jardín digital: un conjunto de artículos independientes que nacen de una misma inquietud y se enlazan por afinidad, no por disciplinas. Cada pieza estudia un concepto, un autor, una tradición o una pregunta; ninguna exige haber leído otra.
 
-![Saint Agustine — Philippe de Champaigne](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/heroLanding_Saint_Augustine_by_Philippe_de_Champaigne.jpg)
-Saint Augustine — Philippe de Champaigne, c. 1645
+![San Agustín — Philippe de Champaigne](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/heroLanding_Saint_Augustine_by_Philippe_de_Champaigne.jpg)
+*San Agustín* — Philippe de Champaigne, c. 1645
 
 La premisa es sencilla: la realidad es una, y las disciplinas no son fronteras en ella, sino instrumentos de un intelecto finito para comprender una realidad infinitamente compleja. No son más que perspectivas distintas para la observación de un mismo objeto, y el verdadero saber no se encuentra en la nitidez y el detalle observados desde una sola perspectiva, sino en la capacidad de comprender el objeto desde todos sus ángulos.
 
