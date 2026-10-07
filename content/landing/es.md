@@ -17,7 +17,4 @@ Escribo para contemplar y para transmitir el fruto de la contemplación. Lo cont
 
 No pretendo ser portador de la verdad, aunque trate de buscarla. Parto de la humildad de mi ignorancia y del deseo incansable de aprender que encuentro en mi fe y en mi razón, para tratar de transmitir ligeras direcciones hacia lo que creo que está bien.
 
-
-
 [Sobre este proyecto →](/es/about/)
-
