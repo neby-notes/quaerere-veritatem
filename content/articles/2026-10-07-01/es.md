@@ -17,66 +17,108 @@ tags:
 > «¿Tu verdad? No, la Verdad  
 > y ven conmigo a buscarla.  
 > La tuya, guárdatela.»
-> 
+>
 > — Antonio Machado, *Nuevas canciones, «Proverbios y cantares»*, LXXXV.
 
-Tres versos, y en ellos cabe este artículo entero. Hay, nos dice el poeta, *tu* verdad y *la* Verdad. La primera se guarda; la segunda no admite bolsillo, porque no se posee del todo: se busca. Y se busca en compañía —*ven conmigo*—. La verdad propia y encerrada es un tesoro que empobrece a quien lo atesora; la Verdad común es un horizonte que enriquece a quien camina hacia él.
+En estos tres versos de Machado cabe este artículo entero. El poeta distingue en ellos dos verdades: *tu* verdad y *la* Verdad. La primera se guarda; la segunda no admite bolsillo ni almacén, pues jamás se posee del todo: se busca. El poeta señala, además, otra de las condiciones fundamentales de esa búsqueda: se emprende en compañía —*ven conmigo*—. La verdad propia y encerrada es un tesoro que empobrece a quien lo atesora; la Verdad común es un horizonte que enriquece a quien camina hacia él.
 
-Que ese caminar nos constituye lo dijo la filosofía en su primera página: «Todos los hombres desean por naturaleza saber», escribe Aristóteles al comenzar *Metafísica* (I, 1, 980a21). Y la tradición cristiana lo ha recogido con una fórmula que tomo como definición de partida: el hombre puede definirse como «aquél que busca la verdad» (*Fides et ratio*, §28). Buscar la verdad no es, pues, un oficio de especialistas ni un lujo de épocas sosegadas: es el modo de ser propio de quien es humano. Si es así, conviene plantear dos preguntas, y en este orden preciso: qué es aquello que se busca, y qué implica buscarlo.
+Ese caminar hacia la verdad nos constituye y da sentido a nuestra naturaleza. Aristóteles abre así Metafísica —obra en la que desarrolla la *filosofía primera*, la ciencia cuyo objeto es el ser en cuanto a ser— con esta célebre afirmación:
 
-El orden no es capricho. No se busca en serio lo que no se ha definido; quien parte sin saber qué busca no camina: divaga. La primera parte de este artículo define la verdad en su plenitud; la segunda recorre la búsqueda misma —su deseo y sus figuras, su historia y sus enemigos, y sus dos grandes cauces humanos, la ciencia y el arte—; la tercera se asoma al término del camino y a la ética de quien lo emprende. Y una regla me acompañará de principio a fin, y la enuncio ya: «verdad» se dice de varias maneras, y la honestidad intelectual exige declarar siempre en cuál de ellas se habla.
+> «Todos los hombres desean por naturaleza saber»
+>
+> — Aristóteles, *Metafísica*, I , 1, 980a21.
+
+Juan Pablo II formula una idea afín en *Fides et ratio*: «Se puede definir, pues, al hombre como aquél que busca la verdad» (§28).
+
+Buscar la verdad no es un oficio reservado a especialistas ni tampoco un lujo de épocas sosegadas: es el modo de ser propio de quien es humano. Si esto es así, conviene plantear dos preguntas: qué es aquello que se busca y qué implica buscarlo.
+
+La necesidad de responder a estas preguntas y el orden en el que se plantean no obedecen al capricho, sino a una exigencia propia de la búsqueda rigurosa. Esta exige aclarar, al menos provisionalmente, qué entendemos por aquello que buscamos, pues no se busca con rigor lo que no se ha definido. Quien parte sin saber qué busca no camina con rumbo: divaga.
+
+La primera parte de este artículo examina la verdad y trata de definirla en su plenitud; la segunda recorre la búsqueda misma —su deseo y sus figuras, su historia y sus enemigos, así como sus dos grandes cauces humanos, la ciencia y el arte—; la tercera se asoma al término del camino y a la ética de quien lo emprende.
+
+«Verdad» se dice de varias maneras, y la honestidad intelectual exige precisar siempre en cuál de esos sentidos se emplea el término. Esta regla atravesará el artículo de principio a fin, y procuraré aplicarla con especial cuidado.
 
 ## I. Qué es la verdad
 
 ### Decir de lo que es que es
 
-Toda la tradición occidental arranca de un pasaje de Aristóteles que conviene citar en su literalidad, porque cada palabra pesa:
+La que probablemente ha sido la formulación clasica más influyente de la verdad, en la tradición, aparece en Metafísica de Aristóteles. Debido al peso de cada palabra de esta afirmación, considero importante citarla textualmente, pues cualquier paráfrasis aligeraría la carga lógica que encierra:
 
 > «Decir de lo que es que no es, o de lo que no es que es, es falso; y decir de lo que es que es, y de lo que no es que no es, es verdadero.»
-> — *Metafísica*, IV, 7, 1011b26–27
+>
+> — Aristóteles, *Metafísica*, IV, 7, 1011b26–27
 
-Dos rasgos de esta fórmula sostienen todo lo que sigue. El primero: la verdad y la falsedad residen en el *decir* —en el enunciado—, no en las cosas mismas. Las cosas son; las frases son verdaderas o falsas. El segundo: la medida de ese decir es el *ser*. Una afirmación es verdadera porque la cosa es como la afirmación dice, y nunca al revés. Hay verdad porque hay ser: ante él se inclina toda palabra verdadera, y de él recibe su título toda comprensión honesta.
+Los dos rasgos esenciales de esta fórmula sostienen el argumento que sigue en este apartado:
 
-La Edad Media destiló esta intuición en la fórmula de la *adecuación*: la verdad como conformidad del entendimiento con la cosa, el clásico *adaequatio rei et intellectus* («adecuación de la cosa y del entendimiento») que Santo Tomás de Aquino recibió de manos de Isaac Israeli, filósofo judío del siglo X, y prefirió matizar luego con la idea de *conformitas* (*Summa theologiae*, I, q. 16, a. 1–2). San Anselmo de Canterbury la había vertido a su modo con una frase que no envejece: la verdad es «la rectitud perceptible solo por la mente» (*De veritate*, 12).
+- El primero: la verdad y la falsedad residen, en primer término, en el *decir* —en el enunciado—, no en las cosas consideradas en sí mismas. Las cosas son; los enunciados acerca de ellas son verdaderos o falsos.
+- El segundo: la medida de ese decir es el *ser*. Una afirmación es verdadera porque la realidad es como la afirmación dice, y no al revés. Hay verdad porque hay ser: ante el *ser* se inclina toda palabra verdadera, y toda comprensión honesta recibe del *ser* su medida.
 
-Conviene no olvidar que esta definición nació ya como respuesta. El sofista Protágoras había sostenido que «el hombre es la medida de todas las cosas» (Platón, *Teeteto*, 152a): si cada hombre es su propia medida, no hay verdad común que buscar, sino tantas verdades privadas como medidores. Definir la verdad como adecuación al ser es, desde el primer día, una toma de posición: la verdad no se fabrica en el taller del sujeto; se encuentra, como se encuentra una senda que ya estaba ahí antes de que la pisáramos.
+La tradición medieval, especialmente la escolástica, desarrolló esta intuición aristotélica mediante la fórmula de la *adecuación*: la verdad entendida como conformidad del entendimiento con la cosa, condensada en la expresión clásica *adaequatio rei et intellectus* («adecuación de la cosa y del entendimiento»). Santo Tomás de Aquino recoge esta fórmula en la Summa theologiae (I, q. 16, aa. 1–2), donde desarrolla la noción de verdad como conformidad (conformitas) entre el entendimiento y la cosa. San Anselmo de Canterbury ofrece, desde otro planteamiento, una definición destacablemente memorable:
+
+> La verdad es «la rectitud perceptible solo por la mente»
+>
+> San Anselmo de Canterbury, *De veritate*, XI.
+
+Esta concepción de la verdad puede leerse como una toma de posición frente a la interpretación relativista de la célebre tesis atribuida al sofista Protágoras: «El hombre es la medida de todas las cosas» (Platón, *Teeteto*, 152a). Desde una lectura relativista, si cada individuo es su propia medida, no habría una verdad común que buscar, sino tantas verdades privadas como sujetos que juzgan. Definir la verdad como adecuación al ser es, por tanto, una toma de posición: la verdad no se fabrica en el taller del sujeto; se encuentra, como se encuentra una senda que ya estaba ahí antes de ser recorrida.
 
 ### Tres niveles y seis tesis
 
-«Verdad», sin embargo, no se dice de una sola manera, y la regla de este artículo empieza por distinguir tres alturas de una misma casa. Hay una verdad **ontológica**: una cosa es «verdadera» cuando es fiel a lo que es —un vino verdadero, un amigo verdadero—, conforme al entendimiento que la concibió. Hay una verdad **lógica**: un enunciado es verdadero cuando se adecúa a lo real. Y hay una verdad **epistemológica**: un conocimiento es verdadero cuando el juicio de la mente es recto. La escolástica añadió que el *verum* es uno de los trascendentales del ser: todo lo que es, en cuanto cognoscible, es verdadero. La verdad no es solo un asunto de gramática o de laboratorio: tiene su raíz en el ser mismo. Confundir estas alturas es la fuente de medio debate contemporáneo sobre el asunto; demasiadas disputas nacen de discutir en el rellano sin anunciar a qué planta se sube.
+«Verdad» no se dice de una sola manera, como ya se apuntó en la intrudicción del articulo. De ahí la necesidad intelectual de distinguir sus diferentes sentidos. Podemos imaginarlos como tres alturas de una misma casa, aunque nos sean tres verdades independientes:
 
-Reunido ya el instrumental, hay que separar seis tesis que con frecuencia se mezclan sin que ninguna implique a otra:
+- La verdad **lógica** —la del enunciado—: un enunciado es verdadero cuando se corresponde con la realidad.
+- La verdad **ontológica** —la de la cosa—: una cosa puede llamarse «verdadera» cuando es autentica o se ajusta a lo que se entiende que debe ser —un vino verdadero, un amigo verdadero—. En la tradición escolástica, esta verdad se entiende como la relación con el entendimiento al que la cosa se conforma.
+- La verdad **epistemológica** —la del conocimiento—: un juicio de la mente es verdadero cuando acierta acerca de la realidad. La diferencia respecto de la verdad lógica está en el enfoque: aquí atendemos al juicio mediante el cual conocemos; allí, a lo que afirma el enunciado.
+
+La escolástica añadió que el *verum* es uno de los trascendentales del ser: todo lo que es, en cuanto cognoscible —en cuanto puede ser conocido—, es verdadero.
+
+La verdad no es solo una cuestion del lenguaje o del laboratorio: tiene su raíz en el ser mismo. Confundir estos planos alimenta muchos debates contemporáneos: demasiadas disputas nacen de discutir en el rellano sin anunciar a qué planta se sube.
+
+Con estas distinciones sobre la mesa. conviene separar seis tesis que a menudo se mezclan. No son enquivalentes entre si, y algunas se oponen directamente:
 
 1. «La verdad existe» — tesis ontológica.
-2. «Podemos conocer la verdad» — confianza epistémica.
+2. «Podemos conocer la verdad, al menos en parte» — confianza epistémica.
 3. «Podemos conocer *toda* la verdad» — maximalismo.
-4. «Nuestra formulación de la verdad puede ser imperfecta» — falibilismo.
+4. «Nuestro conocimiento de la verdad puede ser falible: podemos equivocarnos incluso cuando creemos conocerla» — falibilismo.
 5. «Algo es verdadero *porque* lo creemos» — subjetivismo.
 6. «Algo es verdadero *independientemente* de que lo creamos» — realismo.
 
-La posición que sostengo —la de la tradición clásica que va de Aristóteles a Santo Tomás— afirma las tesis 1, 2, 4 y 6, y niega las 3 y 5. Puede llamársela realismo maduro. Su nervio es una observación que conviene meditar despacio: el falibilismo no conduce al relativismo; lo excluye. Solo cabe errar respecto de algo que no depende de quien yerra. Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo, ni cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos entrega despacio y en parte. Por eso la primera regla de la razón, según la formuló Charles Peirce, merece inscribirse, como él quería, en los muros de la ciudad de la filosofía: «no bloquear el camino de la investigación».
+La posición que sostengo —inspirada en la tradición clásica que va de Aristóteles a Santo Tomás— afirma las tesis 1, 2, 4 y 6, y rechaza las tesis 3 y 5. Puede llamarse *realismo fabilista*. Su nervio es una observación que conviene meditar despacio: el falibilismo no obliga al relativismo. Admitir que podemos equivocarnos no exige negar una verdad independiente de nosotros. El error solo toene sentido si existe algo con lo que nuestras reencias pueden no coincidir.
 
-La honestidad obliga a registrar que la definición clásica no ha transitado en paz. La filosofía moderna le ha hecho preguntas legítimas: en qué consiste exactamente «adecuarse», qué es un «hecho» si solo se lo describe con palabras, cómo comparar el juicio con la cosa si solo disponemos de juicios. Y ha recibido negaciones radicales: Nietzsche anotó en sus cuadernos que «no hay hechos, solo interpretaciones». Estas objeciones no refutan la correspondencia entre el decir y el ser, pero la obligan a precisarse. Y precisarla es ya, también, una forma de buscarla: la verdad es un término que se conquista definiéndolo cada vez mejor.
+Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo; no cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos revela despacio, por partes, sin que nuestro conocimiento llegue nunca a agotarla. Por eso la máxima de Charles S. Peirce —«no bloquear el camino de la investigación»— merece inscribirse, como él mismo propuso, en los muros de la ciudad de la filosofía.
+
+La honestidad obliga a reconocer que esta concepción clasica no ha transitado en paz. La filosofía moderna le ha planteado preguntas legítimas: en qué consiste exactamente «adecuarse», qué es un «hecho» si solo accedemos a él mediante descripciones, cómo comparar el juicio con la cosa si solo disponemos de juicios. Nietzsche anotó en sus cuadernos que «no hay hechos, solo interpretaciones».
+
+Estas objeciones no bastan, por sí solas, para refutar la correspondencia entre el decir y el ser, pero la obligan a precisarla. Y precisarla es ya, también, una forma de buscarla: afinamos nuestra comprensión de la verdad al definir cada vez mejor qué queremos decir con ella.
 
 ### La cumbre de la pregunta
 
-La definición alcanza su plenitud cuando se interroga por su fundamento. San Agustín advirtió que hay verdades que ni cambian ni dependen de la mente humana —las certezas del número, las exigencias del bien— y de ahí concluyó que debe existir una Verdad inmutable que las funde: esa Verdad subsistente es Dios (*El libre albedrío*, II). Es un argumento, no un axioma, y hay que sopesarlo como tal; pero nadie ha descrito mejor que él la experiencia interior que lo mueve:
+La definición alcanza su plenitud cuando se pregunta por su fundamento. San Agustín advirtió que hay verdades que ni cambian ni dependen de la mente humana —las certezas del número, las exigencias del bien— y de ahí concluyó que debe existir una Verdad inmutable que las funde: esa Verdad subsistente es Dios (*El libre albedrío*, II). Es un argumento, no un axioma, y hay que sopesarlo como tal; pero nadie ha descrito mejor que él la experiencia interior que lo mueve:
 
 > «Nos hiciste para ti, y nuestro corazón está inquieto hasta que descanse en ti.»
+>
 > — San Agustín, *Confesiones*, I, 1, 1
 
-El deseo de verdad es aquí una inquietud escrita en la fábrica del corazón —no un accidente de temperamento curioso—, una inquietud con término: el reposo. «Es verdadero lo que es», había definido en los *Soliloquios* (II, 5, 8); y no hay que salir muy lejos a buscarla: «vuelve a ti mismo: en el hombre interior habita la verdad» (*La verdadera religión*, 39, 72). La fe no jubila en él a la búsqueda: la orienta. *Credo ut intelligam* —«creo para entender»— no significa renunciar a la mirada, sino aprender dónde ponerla.
+El deseo de verdad es aquí una inquietud escrita en el alma —no un accidente causado por el temperamento curioso—, una inquietud con término: el reposo. En los *Soliloquios*, San Agustín ensaya una definición: «lo verdadero es lo que es» (II, 5, 8); y no hay que salir muy lejos a buscarla: «vuelve a ti mismo: en el hombre interior habita la verdad» (*La verdadera religión*, 39, 72). La fe no pone fin a la busqueda: la orienta. *Credo ut intelligam* —«creo para entender»— no significa renunciar a la mirada, sino aprender dónde ponerla.
 
-Santo Tomás de Aquino dio a esta doctrina su forma sistemática. La verdad es, en su formulación más honda, aquello a lo que tiende el intelecto, como el bien es aquello a lo que tiende el apetito (*Summa theologiae*, I, q. 16, a. 1). Y hay una Verdad que no solo se *tiene*: se *es*. En Dios ser e inteligir coinciden, de modo que Dios no tiene la verdad: es «la suprema y primera verdad» (*Summa theologiae*, I, q. 16, a. 5). De ahí cuelga una doble adecuación: nuestro entendimiento se conforma a las cosas, y las cosas se conforman al Entendimiento que las pensó. Dos orillas de la verdad y un solo manantial del que ambas reciben el agua.
+Santo Tomás de Aquino dio a esta doctrina su forma sistemática. La verdad es, en su formulación más honda, aquello a lo que tiende el intelecto, como el bien es aquello a lo que tiende el apetito (*Summa theologiae*, I, q. 16, a. 1). Hay una Verdad que no solo se *tiene*: se *es*. En Dios, ser e inteligir coinciden, de modo que Dios no tiene la verdad: es «la primera y la suma Verdad» (*Summa theologiae*, I, q. 16, a. 5). De ahí se desprende una doble adecuación: nuestro entendimiento se conforma a las cosas, y las cosas se conforman al Entendimiento que las pensó. Dos orillas de la verdad y un solo manantial del que ambas reciben el agua.
 
-Lo que la metafísica enuncia en conceptos, el Evangelio lo dice en persona: «Yo soy el camino, la verdad y la vida» (Jn 14, 6). Y una promesa de Jesús une los dos extremos del camino que estas páginas dibujan:
+Lo que la filosofía busca formular en conceptos, el Evangelio lo proclama en persona: «Yo soy el camino, la verdad y la vida» (Jn 14, 6). Y una promesa de que Jesús une los dos extremos del camino que tratamos de cartografiar:
 
 > «Si vosotros permanecéis en mi palabra, verdaderamente sois mis discípulos, y conoceréis la verdad, y la verdad os hará libres.»
-> — Jn 8, 31–32
+>
+> — Evangelio según San Juan, 8, 31–32
 
-Buscar y permanecer no son dos actitudes rivales, sino los dos tiempos de una sola relación con la única Verdad: se busca para llegar, y se permanece para que la verdad haga en nosotros su obra liberadora. San Anselmo lo condensó en el umbral de la escolástica con el lema que ha regido desde entonces la actitud del creyente que piensa: *fides quaerens intellectum* («la fe que busca entender», *Proslogion*, proemio). Y conviene decir con claridad lo que esto es y lo que no es: una culminación de fe, no el corolario de un silogismo. La razón no la demuestra; la fe la propone como el término donde el deseo de verdad encuentra su nombre propio. El magisterio, por su parte, lo ha formulado con toda la precisión de que es capaz: el hombre «está impulsado por su misma naturaleza y obligado además moralmente a buscar la verdad» (*Dignitatis humanae*, §2), en una búsqueda que tiende a una verdad ulterior que explique el sentido de la vida y que «no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, §33).
+Buscar y permanecer no son dos actitudes rivales, sino los dos tiempos de una sola relación con la única Verdad: se busca para llegar, y se permanece para que la verdad haga en nosotros su obra liberadora. San Anselmo lo condensó en el umbral de la escolástica con el lema que expresa la actitud del creyente que piensa: *fides quaerens intellectum* («la fe que busca entender», *Proslogion*, proemio). Conviene decir con claridad lo que esto es y lo que no es: una culminación de fe, no el corolario de un silogismo, es decir, no es una conclusión que se deduzca necesariamente de las premisas de un razonamiento. La razón no demuestra por si sola que esa Verdad se haya revelado en Cristo; la fe la reconoce como el término donde el deseo de verdad encuentra su nombre propio.
 
-Definida así la verdad —su fórmula primera, sus niveles, su estatuto realista y su cumbre personal—, ya es lícito preguntar qué camina cuando el hombre la busca.
+El magisterio, por su parte, lo ha formulado con particular precisión, El Concilio Vaticano II enseña:
+
+> «Todos los hombres, conforme a su dignidad, por ser personas, es decir, dotados de razón y de voluntad libre, y enriquecidos por tanto con una responsabilidad personal, están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión».
+>
+> — Concilio Vaticano II, Dignitatis humanae, § 2.
+
+Juan Pablo II añade que la búsqueda humana tiende a una verdad ulterior que explique el sentido de la vida y que «no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, §33).
+
+Definida así la verdad —su fórmula primera, sus niveles, su estatuto realista y su cumbre personal—, ya es lícito preguntar qué se pone en camino cuando el hombre busca la verdad.
 
 ## II. La búsqueda
 

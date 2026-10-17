@@ -2,7 +2,9 @@
 title: "Quaerere Veritatem"
 ---
 
-> «Todos los hombres desean por naturaleza saber» — Aristóteles, *Metafísica*, 980a21.
+> «Todos los hombres desean por naturaleza saber»
+>
+> — Aristóteles, *Metafísica*, I , 1, 980a21.
 
 **Quaerere Veritatem** — «buscar la verdad» — es un jardín digital: un conjunto de artículos independientes que nacen de una misma inquietud y se enlazan por afinidad, no por disciplinas. Cada pieza estudia un concepto, un autor, una tradición o una pregunta; ninguna exige haber leído otra.
 

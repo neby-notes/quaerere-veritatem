@@ -2,7 +2,9 @@
 title: "Quaerere Veritatem"
 ---
 
-> "All men by nature desire to know" — Aristotle, *Metaphysics*, 980a21.
+> "All men by nature desire to know"
+> 
+> — Aristotle, *Metaphysics*, I, 1, 980a21.
 
 **Quaerere Veritatem** — "to seek the truth" — is a digital garden: a set of independent essays born from a single restlessness, linked to one another by affinity rather than by discipline. Each piece studies a concept, an author, a tradition or a question; none requires having read any other.
 
