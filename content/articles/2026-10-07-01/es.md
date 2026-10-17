@@ -82,7 +82,7 @@ Con estas distinciones sobre la mesa. conviene separar seis tesis que a menudo s
 5. «Algo es verdadero *porque* lo creemos» — subjetivismo.
 6. «Algo es verdadero *independientemente* de que lo creamos» — realismo.
 
-La posición que sostengo —inspirada en la tradición clásica que va de Aristóteles a Santo Tomás— afirma las tesis 1, 2, 4 y 6, y rechaza las tesis 3 y 5. Puede llamarse *realismo fabilista*. Su nervio es una observación que conviene meditar despacio: el falibilismo no obliga al relativismo. Admitir que podemos equivocarnos no exige negar una verdad independiente de nosotros. El error solo toene sentido si existe algo con lo que nuestras reencias pueden no coincidir.
+La posición que sostengo —inspirada en la tradición clásica que va de Aristóteles a Santo Tomás— afirma las tesis 1, 2, 4 y 6, y rechaza las tesis 3 y 5. Puede llamarse *realismo faliblista*. Su nervio es una observación que conviene meditar despacio: el falibilismo no obliga al relativismo. Admitir que podemos equivocarnos no exige negar una verdad independiente de nosotros. El error solo tiene sentido si existe algo con lo que nuestras creencias pueden no coincidir.
 
 Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo; no cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos revela despacio, por partes, sin que nuestro conocimiento llegue nunca a agotarla. Por eso la máxima de Charles S. Peirce —«no bloquear el camino de la investigación»— merece inscribirse, como él mismo propuso, en los muros de la ciudad de la filosofía.
 
