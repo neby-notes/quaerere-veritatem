@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Qué es la verdad y qué implica buscarla: su definición y sus niveles, el deseo que nos constituye, el precio y los obstáculos del camino, la ciencia y el arte como dos cauces de una misma sed, y la ética de quien la emprende."
 created: 2026-10-07
 edited: 2026-10-07
-draft: true
+draft: false
 featured: false
 tags:
   - verdad
@@ -14,8 +14,10 @@ tags:
   - arte
 ---
 
-> «¿Tu verdad? No, la Verdad, / y ven conmigo a buscarla. / La tuya, guárdatela.»
-> — Antonio Machado, *Proverbios y cantares* LXXXV
+> «¿Tu verdad? No, la Verdad
+> y ven conmigo a buscarla.
+> La tuya, guárdatela.»
+> — Antonio Machado, *Nuevas canciones, «Proverbios y cantares»*, LXXXV.
 
 Tres versos, y en ellos cabe este artículo entero. Hay, nos dice el poeta, *tu* verdad y *la* Verdad. La primera se guarda; la segunda no admite bolsillo, porque no se posee del todo: se busca. Y se busca en compañía —*ven conmigo*—. La verdad propia y encerrada es un tesoro que empobrece a quien lo atesora; la Verdad común es un horizonte que enriquece a quien camina hacia él.
 
@@ -244,7 +246,7 @@ El punto de partida era una copla de tres versos; el de llegada, una promesa con
 - Kunda, Z., «The Case for Motivated Reasoning», *Psychological Bulletin* 108(3) (1990), 480–498.
 - Loewenstein, G., «The Psychology of Curiosity: A Review and Reinterpretation», *Psychological Bulletin* 116(1) (1994), 75–98.
 - La Biblia: Jn 8, 31–32; 14, 6.
-- Machado, A., *Campos de Castilla* (1912; ed. ampliada 1917), «Proverbios y cantares» LXXXV.
+- Machado, A., Nuevas canciones (1924), «Proverbios y cantares», LXXXV.
 - Newton, I., según D. Brewster, *Memoirs of the Life, Writings, and Discoveries of Sir Isaac Newton* (Edimburgo: Thomas Constable, 1855), vol. II, cap. 27.
 - Nguyen, C. T., «Echo Chambers and Epistemic Bubbles», *Episteme* 17(2) (2020), 141–161.
 - Nicolás de Cusa, *De docta ignorantia* (1440), I; trad. J. Hopkins, *Nicholas of Cusa on Learned Ignorance* (Minneapolis: Banning Press, 1985).
