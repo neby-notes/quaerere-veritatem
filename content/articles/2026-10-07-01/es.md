@@ -14,9 +14,10 @@ tags:
   - arte
 ---
 
-> «¿Tu verdad? No, la Verdad
-> y ven conmigo a buscarla.
+> «¿Tu verdad? No, la Verdad  
+> y ven conmigo a buscarla.  
 > La tuya, guárdatela.»
+> 
 > — Antonio Machado, *Nuevas canciones, «Proverbios y cantares»*, LXXXV.
 
 Tres versos, y en ellos cabe este artículo entero. Hay, nos dice el poeta, *tu* verdad y *la* Verdad. La primera se guarda; la segunda no admite bolsillo, porque no se posee del todo: se busca. Y se busca en compañía —*ven conmigo*—. La verdad propia y encerrada es un tesoro que empobrece a quien lo atesora; la Verdad común es un horizonte que enriquece a quien camina hacia él.
