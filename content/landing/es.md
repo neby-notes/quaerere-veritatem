@@ -15,7 +15,9 @@ La premisa es sencilla: la realidad es una, y las disciplinas no son fronteras e
 
 Escribo para contemplar y para transmitir el fruto de la contemplación. Lo contemplado es, ni más ni menos, que el regalo de la vida y la realidad en la que la misma vida transcurre. Las perspectivas de contemplación son indefinidas e infinitas: no parto con un objetivo, ni un destino, ni más limitaciones que la finitud de mi comprensión y el limitado tiempo que me ofrece el transcurso imparable de mi vida. Por eso el jardín crece despacio, artículo a artículo, y ofrece senderos en lugar de un mapa completo que mi finito intelecto no es capaz de cartografiar.
 
-> «Así como es mayor iluminar que solo lucir, así es mayor transmitir a otros lo contemplado que solo contemplar» — Santo Tomás de Aquino, *Summa theologiae*, II-II, q. 188, a. 6.
+> «Así como es mayor iluminar que solo lucir, así es mayor transmitir a otros lo contemplado que solo contemplar»
+>
+> — Santo Tomás de Aquino, *Summa theologiae*, II-II, q. 188, a. 6.
 
 No pretendo ser portador de la verdad, aunque trate de buscarla. Parto de la humildad de mi ignorancia y del deseo incansable de aprender que encuentro en mi fe y en mi razón, para tratar de transmitir ligeras direcciones hacia lo que creo que está bien.
 

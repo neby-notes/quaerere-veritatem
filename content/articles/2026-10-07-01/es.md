@@ -3,7 +3,7 @@ title: "Buscar la verdad"
 author: "NEBY"
 description: "Qué es la verdad y qué implica buscarla: su definición y sus niveles, el deseo que nos constituye, el precio y los obstáculos del camino, la ciencia y el arte como dos cauces de una misma sed, y la ética de quien la emprende."
 created: 2026-10-07
-edited: 2026-10-07
+edited: 2026-10-17
 draft: false
 featured: false
 tags:

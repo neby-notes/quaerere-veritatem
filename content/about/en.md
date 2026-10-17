@@ -31,7 +31,9 @@ What does exist here are tags, and they are not disciplines through the back doo
 
 Intellectual work is understood here through the old formula of the Dominican tradition:
 
-> *Contemplata aliis tradere* — "to hand on to others what has been contemplated". Saint Thomas Aquinas, *Summa theologiae*, II-II, q. 188, a. 6.
+> *Contemplata aliis tradere* — "to hand on to others what has been contemplated".
+>
+> — Saint Thomas Aquinas, *Summa theologiae*, II-II, q. 188, a. 6.
 
 One investigates in order to understand, and one publishes in order to hand on to others what has been understood. What comes to light is not hasty opinion, but what has been thought, doubted and reread. And transmission is also a communal task: the truth is not sought for oneself, but to be given.
 
