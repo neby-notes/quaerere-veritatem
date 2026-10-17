@@ -4,7 +4,7 @@ author: "NEBY"
 description: "Qué es la verdad y qué implica buscarla: su definición y sus niveles, el deseo que nos constituye, el precio y los obstáculos del camino, la ciencia y el arte como dos cauces de una misma sed, y la ética de quien la emprende."
 created: 2026-10-07
 edited: 2026-10-17
-draft: false
+draft: true
 featured: false
 tags:
   - verdad
@@ -124,39 +124,96 @@ Definida así la verdad —su fórmula primera, sus niveles, su estatuto realist
 
 ### El deseo y sus dos figuras
 
-«Todos los hombres desean por naturaleza saber.» La prueba que Aristóteles aduce es delicada y reveladora: amamos los sentidos por sí mismos, y sobre todo la vista, la más informativa y la menos interesada de ellos. El ojo que mira el cielo sin pedirle nada a cambio ya está participando, a su modo, de la filosofía. Y el origen de esta es la admiración: «los hombres comenzaron y comienzan a filosofar a causa de la admiración» (*Metafísica*, I, 2, 982b) — para huir de la ignorancia, no para ganarse el pan. La verdad es, además, el fin propio del intelecto: «la obra de ambas partes intelectuales es la verdad» (*Ética a Nicómaco*, VI, 2, 1139a). Buscar la verdad no es un medio de camino hacia otra cosa: es la perfección misma de la facultad que nos hace humanos.
+Ya en la introducción cité la premisa de Aristóteles: «Todos los hombres desean por naturaleza saber» (*Metafísica*, I, 1, 980a21). El indicio que Aristóteles aduce para sostenerla es delicado y revelador: amamos los sentidos por sí mismos y, entre ellos, preferimos sobre todo la vista, pues es la que más nos permite conocer y distinguir las cosas. El ojo que mira el cielo sin pedirle nada a cambio ya está participando, a su modo, en la filosofía.
 
-La filosofía primera dibujó, sin embargo, dos figuras distintas de esta búsqueda, y conviene distinguirlas porque todo lo que sigue oscila entre ambas.
+El origen de esta es la admiración: «los hombres comenzaron y comienzan a filosofar a causa de la admiración» (*Metafísica*, I, 2, 982b). Filosofamos para huir de la ignorancia, no para ganarnos el pan. La verdad es, además, el fin propio del intelecto: «la obra de ambas partes intelectuales es la verdad» (*Ética a Nicómaco*, VI, 2, 1139a). Buscar la verdad no es solo un medio para alcanzar otra cosa: es también la perfección propia de la facultad que nos hace humanos.
 
-La primera es la figura socrático-platónica del *camino*. Sócrates no parte de un saber, sino de la conciencia de no saber: «lo que no sé, tampoco creo saberlo» (Platón, *Apología*, 21d; la famosa «solo sé que no sé nada» es paráfrasis posterior, no texto). Su instrumento es el examen —el *élenchos* («escrutinio») que interroga al otro y se interroga a sí mismo—, y su divisa ha quedado como la carta fundacional de toda vida intelectual:
+La filosofía antigua nos legó, sin embargo, dos figuras de esta búsqueda que conviene distinguir. No son necesariamente incompatibles, pero ponen el acento en momentos distintos: una, en el camino que transforma a quien busca; otra, en la culminación hacia la que se dirige su deseo de saber.
 
-> «La vida sin examen no es vivible para el hombre.»
-> — Platón, *Apología*, 38a5–6
+#### Sócrates, Platón y la caverna
 
-Para Sócrates, buscar la verdad es una forma de cuidar el alma: una actividad ética, no neutra. Platón la convirtió en doctrina del deseo: el *eros* asciende de lo sensible a lo inteligible; el prisionero de la caverna no aprende datos cuando es liberado, sino que es girado hacia la luz —la *periagogē*, la conversión o vuelco del alma entera (*República*, VII, 518c–d)—, y lo que hace cognoscible la verdad no es un instrumento del saber, sino el Bien, que está «más allá de la esencia» (*República*, VI, 509b). En esta figura, conocer no es acumular: es transformarse.
+La primera es la figura socrático-platónica del *camino*. Sócrates no parte de un saber poseído, sino de la conciencia de los límites de su conocimiento: «lo que no sé, tampoco creo saberlo» (Platón, *Apología*, 21d). La célebre frase «solo sé que no sé nada» no es una cita literal del diálogo, sino una paráfrasis posterior que resume esa actitud. Su instrumento es el examen —el *élenchos* («examen» o «refutación mediante preguntas»)—, que pone a prueba las respuestas del interlocutor y las propias. Su divisa ha quedado como una de las declaraciones fundacionales de toda vida intelectual:
 
-La segunda es la figura aristotélica del *término*. El deseo de saber sube por una escalera —sensación, memoria, experiencia, arte, ciencia, sabiduría— en la que la experiencia sabe el *que* y la ciencia sabe el *porqué* (*Metafísica*, I, 1). Y su cima es la contemplación, la vida según el entendimiento, que Aristóteles describe con una frase en la que asoma una reverencia: «no en cuanto hombre vivirá así, sino en cuanto hay en él algo divino» (*Ética a Nicómaco*, X, 7, 1177b). El deseo es universal; su cumplimiento pleno, no. La búsqueda no es aquí inquietud indefinida: es un movimiento que culmina.
+> «La vida sin examen no es vivible para el hombre».
+>
+> — Platón, *Apología*, 38a5–6.
 
-La tradición cristiana encontró la manera de sostener las dos figuras sin fundirlas. San Gregorio de Nisa, leyendo en *Vida de Moisés* el «extenderse hacia adelante» de la carta a los Filipenses —la *epektasis* («extensión continua»)—, describe al contemplado que ya contempla y no se sacia: elevado por las teofanías más altas, Moisés «sigue teniendo sed de aquello de lo que se llenó hasta la saciedad». Porque el término es infinito, la búsqueda posee sin agotar: se encuentra, y se sigue buscando. Es la forma cristiana de resolver la tensión entre el camino y la meta: una búsqueda que descansa caminando.
+Para Sócrates, buscar la verdad es una forma de cuidar el alma: una actividad ética, no neutra.
+
+Platón profundizó en esta intuición y convirtió el deseo en una fuerza que puede educarse. El *eros* («amor o deseo») impulsa el alma desde la atracción por las cosas bellas que percibimos hasta el reconocimiento de la Belleza misma, en un ascenso de lo sensible a lo inteligible (*Banquete*, 210a–211b). No se trata de despreciar lo sensible, sino de aprender a reconocer en las bellezas particulares algo que las trasciende.
+
+Esta transformación se representa también en la célebre alegoría de la caverna (*República*, VII, 514a–517a). Platón nos invita a imaginar un grupo de prisioneros que han vivido encadenados desde la infancia, obligados a mirar una pared. A sus espaldas arde un fuego; entre el fuego y los prisioneros, otras personas transportan objetos cuyas sombras se proyectan sobre la pared. Como nunca han conocido otra cosa, los prisioneros toman esas sombras por la realidad misma.
+
+La alegoría cobra sentido cuando uno de ellos es liberado y obligado a girarse. Al contemplar los objetos que hasta entonces solo conocía por sus sombras, siente dolor y desconcierto: descubre que aquello que consideraba real era solo una apariencia de algo más. Cuando lo sacan de la caverna, la luz del exterior lo deslumbra. Necesita un proceso de adaptación: primero distingue las sombras y los reflejos; después, los objetos mismos; más adelante, los astros en el cielo nocturno y, finalmente, el sol.
+
+En la alegoría, el sol no es solo un elemento del paisaje: representa el Bien, el principio que hace posible conocer la verdad y comprender la realidad (*República*, VI, 508e–509b; VII, 517b). El prisionero, que antes confundía las apariencias con lo real, reconoce ahora aquello que las hace inteligibles.
+
+Pero la historia no termina ahí. Al regresar a la caverna, el prisionero trata de compartir lo que ha visto con sus antiguos compañeros. Sus ojos, acostumbrados ya a la luz, vuelven a tener dificultades en la oscuridad; los demás se burlan de él y consideran que salir de la caverna lo ha perjudicado. Platón lleva la escena al extremo: si pudieran, los prisioneros podrían incluso matar a quien intentara liberarlos. El regreso muestra así la dificultad de comunicar una verdad que obliga a cuestionar aquello que siempre se había tomado por cierto.
+
+Platón llama a esa reorientación del alma *periagōgē* («giro» o «conversión»). La educación no consiste en introducir conocimientos en una mente vacía, como si se pudiera instalar la visión en unos ojos ciegos, sino en orientar el alma entera hacia la verdad (*República*, VII, 518c–d). Para Platón, conocer no es simplemente acumular conocimientos: es transformarse.
+
+#### Aristóteles, la escalera y el término
+
+La segunda es la figura aristotélica de la culminación: el término hacia el que se dirige la búsqueda. El deseo de saber puede representarse como una escalera de seis peldaños:
+
+1. **Sensación:** percibimos las cosas particulares a través de los sentidos.
+2. **Memoria:** conservamos lo percibido y podemos recuperarlo después.
+3. **Experiencia:** la acumulación de recuerdos de casos semejantes nos permite reconocer regularidades y saber qué suele suceder.
+4. **Arte o técnica** (*téchnē*, «saber hacer»): aprendemos a reconocer reglas generales y a aplicarlas a casos particulares.
+5. **Ciencia** (*epistēmē*, «conocimiento científico o demostrativo»): avanzamos hacia la explicación de las cosas mediante sus causas.
+6. **Sabiduría** (*sophía*, «sabiduría»): buscamos los primeros principios y las causas más altas.
+
+Este esquema de seis peldaños resume el recorrido que Aristóteles describe en el primer libro de la *Metafísica* (I, 1–2, 980a–982b). Cada peldaño permite ir más allá de lo inmediatamente percibido. La experiencia sabe que algo sucede; el conocimiento de las causas permite comprender por qué sucede. La sabiduría lleva esta aspiración hasta los principios más altos.
+
+La cima de esta búsqueda es la contemplación: la vida dedicada al entendimiento y a su ejercicio. Aristóteles lo describe así:
+
+> «No en cuanto hombre vivirá así, sino en cuanto hay en él algo divino».
+>
+> — Aristóteles, *Ética a Nicómaco*, X, 7, 1177b.
+
+El deseo de saber es universal, pero no lo es su culminación en la sabiduría, pues esta exige un camino largo y arduo. En la filosofía aristotélica, la búsqueda no es una inquietud indefinida: se dirige hacia una plenitud.
+
+#### San Gregorio de Nisa y la extensión continua
+
+La tradición cristiana encontró la manera de sostener las dos figuras anteriores —la socrático-platónica y la aristotélica— sin fundirlas. San Gregorio de Nisa, en *Vida de Moisés*, presenta la ascensión de Moisés como imagen del camino del alma hacia Dios. Esta idea se relaciona con la exhortación de san Pablo a «extenderse hacia adelante», hacia lo que todavía queda por alcanzar (Flp 3, 13). La tradición teológica suele denominar *epektasis* («extensión continua» o «avance incesante») a esta dinámica de progreso intelectual y espiritual.
+
+San Gregorio describe a quien contempla a Dios y, aun así, no se sacia: la contemplación no extingue el deseo de conocerlo. Incluso después de alcanzar las teofanías —las manifestaciones de Dios— más altas, Moisés «sigue teniendo sed de aquello de lo que se llenó hasta la saciedad» (*Vida de Moisés*, II, 239).
+
+La paradoja se entiende a la luz de la infinitud de Dios: la búsqueda puede encontrarlo sin agotar nunca aquello que encuentra. Así se mantiene la tensión entre el camino y la meta: se encuentra y se sigue buscando. Es la forma cristiana de concebir una búsqueda que descansa caminando.
 
 ### El precio y la compañía
 
-La búsqueda de la verdad tiene historia, y esa historia enseña dos cosas incómodas: que buscar cuesta, y que nadie busca solo.
+La búsqueda de la verdad tiene historia, y esa historia enseña dos cosas que a menudo resultan incómodas, como incómoda resulta al principio la luz para el prisionero que sale de la caverna: que buscar cuesta y que nadie busca solo.
 
-Cuesta, primero, porque la verdad incomoda. Sócrates fue condenado a muerte en el año 399 a. C. por examinar a su ciudad: la filosofía nace, en parte, de un proceso judicial contra un hombre que preguntaba. La condena parisina de 1277 contra doscientas diecinueve proposiciones filosóficas, la hoguera de Giordano Bruno en 1600, el proceso de Galileo en 1633: la historia del pensamiento está jalonada de episodios en los que el poder intentó silenciar la pregunta, como si la espada y el argumento fueran la misma especie de razón. Los griegos bautizaron el gesto contrario con una palabra hermosa y peligrosa: la *parrhesía* («el decirlo todo»), la palabra veraz pronunciada por quien se juega algo en pronunciarla. Y Miguel de Unamuno la ejerció ante la pura fuerza, en el Paraninfo de Salamanca, el 12 de octubre de 1936 —según lo transmiten los testimonios de quienes estaban presentes—:
+Cuesta, primero, porque la verdad incomoda. Sócrates fue condenado a muerte en el año 399 a. C., acusado de impiedad y de corromper a los jóvenes. La filosofía occidental conserva así, entre sus episodios fundacionales, la memoria de un proceso judicial contra un hombre que preguntaba. Más de un milenio después, en París, el obispo Étienne Tempier condenó en 1277 doscientas diecinueve proposiciones filosóficas y teológicas; Giordano Bruno fue ejecutado en la hoguera en 1600, tras ser condenado por herejía; y Galileo fue juzgado por la Inquisición en 1633, en un conflicto en torno a la defensa del heliocentrismo.
 
-> «Venceréis porque tenéis sobrada fuerza bruta, pero no convenceréis, porque convencer significa persuadir. Y para persuadir necesitáis algo que os falta: razón y derecho en la lucha.»
-> — Miguel de Unamuno (12 de octubre de 1936)
+No son episodios equivalentes ni responden a una única causa, pero todos recuerdan que la búsqueda intelectual puede entrar en conflicto con las autoridades de su tiempo. La historia del pensamiento está repleta de momentos en los que el poder intentó silenciar determinadas preguntas, como si la espada y el argumento fueran la misma especie de razón.
 
-La fuerza puede vencer; solo la verdad persuade. Buscarla es también, a veces, defenderla.
+Los griegos dieron al gesto contrario un nombre hermoso y peligroso: la *parrhesía* («hablar con franqueza», decir sin temor lo que uno considera verdadero). Es la palabra veraz pronunciada por quien se juega algo al pronunciarla. Miguel de Unamuno encarna esta actitud en la memoria histórica española a través de la célebre intervención que se le atribuye en el Paraninfo de la Universidad de Salamanca, el 12 de octubre de 1936. La formulación más difundida es una reconstrucción posterior cuya literalidad está discutida; conviene, por tanto, presentarla como la versión tradicionalmente atribuida a Unamuno, no como una transcripción literal:
 
-Y nadie busca solo, segundo, porque la búsqueda se organiza. La historia de sus instituciones es una de las páginas más nobles de la humanidad. Hacia el año 562, Casiodoro funda en el Vivarium talleres de copia donde los textos antiguos se transmiten a la posteridad; los monasterios se convierten en custodios de la palabra escrita, porque el objetivo de los monjes era, en la fórmula que Benedicto XVI recordó ante el mundo de la cultura, *quaerere Deum* («buscar a Dios»): «mirar más allá de las cosas penúltimas y lanzarse a la búsqueda de las últimas, las verdaderas» — la actitud, añadía, verdaderamente filosófica (discurso en el Collège des Bernardins, París, 2008). En el siglo XII, la escuela de Chartres enseña la humildad de la búsqueda acumulativa con una imagen que ya no ha dejado de alumbrarnos:
+> «Venceréis porque tenéis sobrada fuerza bruta, pero no convenceréis, porque convencer significa persuadir. Y para persuadir necesitáis algo que os falta: razón y derecho en la lucha».
+>
+> — Reconstrucción atribuida a Miguel de Unamuno, 12 de octubre de 1936.
 
-> «Somos como enanos sentados sobre los hombros de gigantes: si vemos más y más lejos que ellos, no es por la agudeza de nuestra vista…, sino porque nos alzan y elevan sobre su estatura gigantesca.»
-> — Bernardo de Chartres, según Juan de Salisbury, *Metalogicon*, III, 4
+La fuerza puede vencer; convencer exige razones. Buscar la verdad es también, a veces, defenderla.
 
-Los traductores de Toledo vierten a Aristóteles desde el árabe; la Casa de la Sabiduría de Bagdad había hecho lo propio con el saber griego siglos antes; y las universidades medievales institucionalizan la búsqueda en forma de *quaestio disputata* («cuestión disputada»): sopesar las razones del sí y del no antes de concluir — la primera tecnología institucional contra el sesgo de confirmación, siglos antes de que la psicología lo bautizara con ese nombre. Y sobre todas ellas flota la advertencia de Nicolás de Cusa, que cerró el primer libro de *De docta ignorantia* con una frase que une la ignorancia y el saber: «la verdad precisa brilla incomprensiblemente en las tinieblas de nuestra ignorancia». Saber lo que ignoramos no es el fracaso de la búsqueda: es su madurez.
+Segundo, nadie busca solo. La búsqueda se sostiene en comunidades e instituciones que permiten conservar lo aprendido, someterlo a examen y transmitirlo a quienes vendrán después. La historia de estas instituciones es una de las páginas más nobles de la humanidad.
 
+Hacia el año 555, Casiodoro fundó Vivarium, una comunidad monástica en el sur de Italia donde promovió la copia, el estudio y la transmisión de manuscritos. Los monasterios se convirtieron, de distintas maneras y a lo largo de los siglos, en lugares de custodia de la palabra escrita. Benedicto XVI resumió la orientación espiritual de aquella tradición monástica mediante una expresión latina: *quaerere Deum* («buscar a Dios»). En su discurso ante el mundo de la cultura (Collège des Bernardins, París, 2008), describió esta búsqueda como el esfuerzo por «mirar más allá de las cosas penúltimas y lanzarse a la búsqueda de las últimas, las verdaderas». Esa actitud, añadía, era verdaderamente filosófica.
+
+En el siglo XII, la escuela de Chartres expresó la humildad de la búsqueda acumulativa mediante una imagen que no ha dejado de alumbrarnos. Juan de Salisbury la atribuyó a Bernardo de Chartres:
+
+> «Somos como enanos sentados sobre los hombros de gigantes: si vemos más y más lejos que ellos, no es por la agudeza de nuestra vista ni por nuestra estatura, sino porque nos alzan y elevan sobre su estatura gigantesca».
+>
+> — Juan de Salisbury, *Metalogicon*, III, 4, al transmitir una comparación de Bernardo de Chartres.
+
+El conocimiento no nace de cero con cada generación. En Bagdad, siglos antes, el movimiento de traducción grecoárabe había trasladado al árabe numerosos textos griegos; más tarde, los traductores de Toledo vertieron al latín obras de Aristóteles y de pensadores árabes, poniendo de nuevo en circulación una parte de aquel legado. Las universidades medievales dieron a esta búsqueda una forma institucional propia mediante la *quaestio disputata* («cuestión disputada»): un ejercicio reglado en el que se exponían y sopesaban los argumentos a favor y en contra de una cuestión antes de formular una conclusión. Esta práctica obligaba al estudioso a enfrentarse con razones contrarias a las suyas, una forma de contrarrestar la tendencia a confirmar las propias opiniones siglos antes de que la psicología estudiara el sesgo de confirmación.
+
+Sobre todas estas tradiciones de estudio y discusión se alza la advertencia de Nicolás de Cusa. Al cerrar el primer libro de *De docta ignorantia* («La docta ignorancia»), dejó una frase que une la ignorancia y el saber: «La precisión de la verdad brilla de manera incomprensible en las tinieblas de nuestra ignorancia».
+
+Saber lo que ignoramos no es el fracaso de la búsqueda: es su madurez.
+
+<!-- VAMOS POR AQUI-->
 ### Los obstáculos, por dentro y por fuera
 
 Si la búsqueda es natural, ¿por qué fracasa tan a menudo? La respuesta se reparte entre el interior del buscador y el paisaje en que busca.
