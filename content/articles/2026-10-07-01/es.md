@@ -4,8 +4,8 @@ author: "NEBY"
 description: "Qué es la verdad y qué implica buscarla: su definición y sus niveles, el deseo que nos constituye, el precio y los obstáculos del camino, la ciencia y el arte como dos cauces de una misma sed, y la ética de quien la emprende."
 created: 2026-10-07
 edited: 2026-10-17
-draft: true
-featured: false
+draft: false
+featured: true
 tags:
   - verdad
   - filosofia
@@ -213,7 +213,6 @@ Sobre todas estas tradiciones de estudio y discusión se alza la advertencia de 
 
 Saber lo que ignoramos no es el fracaso de la búsqueda: es su madurez.
 
-<!-- VAMOS POR AQUI-->
 ### Los obstáculos, por dentro y por fuera
 
 Si la búsqueda es natural, ¿por qué fracasa tan a menudo? La respuesta se reparte entre el interior del buscador y el paisaje en que busca.
