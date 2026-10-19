@@ -33,7 +33,7 @@ El trabajo intelectual se entiende aquí con la vieja fórmula de la tradición 
 
 > *Contemplata aliis tradere* — «transmitir a otros lo contemplado».
 >
-> — Santo Tomás de Aquino, *Summa theologiae*, II-II, q. 188, a. 6.
+> — Santo Tomás de Aquino, *Summa theologiae*, II-II, 188.
 
 Se investiga para comprender, y se publica para entregar a otros lo comprendido. Lo que sale a la luz no es la opinión apresurada, sino lo que ha sido pensado, dudado y releído. Y la transmisión es también una tarea comunitaria: la verdad no se busca para uno mismo, sino para ser dada.
 

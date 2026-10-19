@@ -1,9 +1,9 @@
 ---
 title: "Buscar la verdad"
 author: "NEBY"
-description: "Qué es la verdad y qué implica buscarla: su definición y sus niveles, el deseo que nos constituye, el precio y los obstáculos del camino, la ciencia y el arte como dos cauces de una misma sed, y la ética de quien la emprende."
+description: "Qué es la verdad, por qué la buscamos y qué exige esa búsqueda: sus niveles, sus obstáculos, la ciencia y el arte como sus dos cauces, y su horizonte ético y teológico."
 created: 2026-10-07
-edited: 2026-10-18
+edited: 2026-10-19
 draft: false
 featured: true
 tags:
@@ -12,6 +12,8 @@ tags:
   - teologia
   - ciencia
   - arte
+  - epistemologia
+  - etica
 ---
 
 > ¿Tu verdad? No, la Verdad,  
@@ -21,6 +23,9 @@ tags:
 > — Antonio Machado, *Nuevas canciones*, LXXXV.
 
 En estos tres versos de Machado cabe este artículo entero. El poeta distingue en ellos dos verdades: *tu* verdad y *la* Verdad. La primera se guarda; la segunda no admite bolsillo ni almacén, pues jamás se posee del todo: se busca. El poeta señala, además, otra de las condiciones fundamentales de esa búsqueda: se emprende en compañía —*ven conmigo*—. La verdad propia y encerrada es un tesoro que empobrece a quien lo atesora; la Verdad común es un horizonte que enriquece a quien camina hacia él.
+
+![La escuela de Atenas — Rafael](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican_crp.jpg)
+*La escuela de Atenas* — Rafael, 1509–1511
 
 Ese caminar hacia la verdad nos constituye y da sentido a nuestra naturaleza. Aristóteles abre así *Metafísica* —obra en la que desarrolla la *filosofía primera*, la ciencia cuyo objeto es el ser en cuanto a ser— con esta célebre afirmación:
 
@@ -98,6 +103,9 @@ La honestidad obliga a reconocer que esta concepción clásica no ha transitado 
 
 Estas objeciones no bastan, por sí solas, para refutar la correspondencia entre el decir y el ser, pero la obligan a precisarla. Y precisarla es ya, también, una forma de buscarla: afinamos nuestra comprensión de la verdad al definir cada vez mejor qué queremos decir con ella.
 
+![Los embajadores — Hans Holbein el Joven](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/London_National_Gallery_Holbein_Ambassadors_01.jpg)
+*Los embajadores* — Hans Holbein el Joven, 1533
+
 ### La cumbre de la pregunta
 
 La definición alcanza su plenitud cuando se pregunta por su fundamento. San Agustín advirtió que hay verdades que ni cambian ni dependen de la mente humana —las certezas del número, las exigencias del bien— y de ahí concluyó que debe existir una Verdad inmutable que las funde: esa Verdad subsistente es Dios (*El libre albedrío*, II). Es un argumento, no un axioma, y hay que sopesarlo como tal; pero nadie ha descrito mejor que él la experiencia interior que lo mueve:
@@ -157,6 +165,9 @@ La alegoría cobra sentido cuando uno de ellos es liberado y obligado a girarse.
 En la alegoría, el sol no es solo un elemento del paisaje: representa el Bien, el principio que hace posible conocer la verdad y comprender la realidad (*República*, VI–VII). El prisionero, que antes confundía las apariencias con lo real, reconoce ahora aquello que las hace inteligibles.
 
 Pero la historia no termina ahí. Al regresar a la caverna, el prisionero trata de compartir lo que ha visto con sus antiguos compañeros. Sus ojos, acostumbrados ya a la luz, vuelven a tener dificultades en la oscuridad; los demás se burlan de él y consideran que salir de la caverna lo ha perjudicado. Platón lleva la escena al extremo: si pudieran, los prisioneros podrían incluso matar a quien intentara liberarlos. El regreso muestra así la dificultad de comunicar una verdad que obliga a cuestionar aquello que siempre se había tomado por cierto.
+
+![Antrum Platonicum — Jan Saenredam](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/plato_s_cave_1983.61.1.jpg)
+*Antrum Platonicum* — Jan Saenredam, 1604
 
 Platón llama a esa reorientación del alma *periagōgē* («giro» o «conversión»). La educación no consiste en introducir conocimientos en una mente vacía, como si se pudiera instalar la visión en unos ojos ciegos, sino en orientar el alma entera hacia la verdad (*República*, VII). Para Platón, conocer no es simplemente acumular conocimientos: es transformarse.
 
@@ -222,6 +233,9 @@ En el siglo XII, la escuela de Chartres expresó la humildad de la búsqueda acu
 
 El conocimiento no nace de cero con cada generación. En Bagdad, siglos antes, el movimiento de traducción grecoárabe había trasladado al árabe numerosos textos griegos; más tarde, los traductores de Toledo vertieron al latín obras de Aristóteles y de pensadores árabes, poniendo de nuevo en circulación una parte de aquel legado. Las universidades medievales dieron a esta búsqueda una forma institucional propia mediante la *quaestio disputata* («cuestión disputada»): un ejercicio reglado en el que se exponían y sopesaban los argumentos a favor y en contra de una cuestión antes de formular una conclusión. Esta práctica obligaba al estudioso a enfrentarse con razones contrarias a las suyas, una forma de contrarrestar la tendencia a confirmar las propias opiniones siglos antes de que la psicología estudiara el sesgo de confirmación.
 
+![San Jerónimo en su estudio — Antonello da Messina](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg)
+*San Jerónimo en su estudio* — Antonello da Messina, c. 1475
+
 Sobre todas estas tradiciones de estudio y discusión se alza la advertencia de Nicolás de Cusa. Al cerrar el primer libro de *De docta ignorantia* («La docta ignorancia»), dejó una frase que une la ignorancia y el saber: «La precisión de la verdad brilla de manera incomprensible en las tinieblas de nuestra ignorancia».
 
 Saber lo que ignoramos no es el fracaso de la búsqueda: es su madurez.
@@ -241,6 +255,9 @@ Este extravío adopta varias formas:
 También es importante comprender cómo se despierta la curiosidad. Según George Loewenstein (*The Psychology of Curiosity*, 1994), esta nace cuando percibimos una brecha perceptible pero manejable entre lo que sabemos y lo que querríamos saber. La curiosidad permanece dormida ante una grieta tan estrecha que pase inadvertida, pero tampoco se enciende ante un abismo tan ancho que parezca imposible de salvar.
 
 Buscar la verdad exige, por tanto, aprender primero a reconocer la propia ignorancia. *Fides et ratio* añade el matiz más incómodo y más humano: «el límite originario de la razón y la inconstancia del corazón oscurecen a menudo y desvían la búsqueda personal»; el hombre también la evita a veces «en cuanto comienza a divisarla, porque teme sus exigencias» (*Fides et ratio*,28). La verdad exige; y lo que exige, intimida.
+
+![El sueño de la razón produce monstruos — Francisco de Goya](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43)%2C_from_Los_Caprichos_-_Google_Art_Project.jpg)
+*El sueño de la razón produce monstruos* — Francisco de Goya, 1797–1799
 
 Por fuera, el buscador se mueve en un mundo que no siempre quiere la verdad, como ya hemos visto en el apartado anterior. Michel Foucault lo resumió en una entrevista en 1976 con una frase que ha envejecido mal —para la especie, no para la frase—: «cada sociedad tiene su régimen de verdad» (*Truth and Power*, en *Power/Knowledge*). No significa simplemente que cada sociedad invente su propia verdad, sino que existen instituciones, discursos y procedimientos que condicionan qué se acepta como verdadero, quién está autorizado a afirmarlo y cómo se sanciona a quien lo hace. La cuestión no es solo qué es verdad, sino también qué lugar ocupa en una sociedad quien trata de decirla.
 
@@ -286,6 +303,9 @@ Dos testigos más completan el retrato. El primero habla junto al estanque de Au
 
 La ciencia es, en el fondo y sobre todo, una vacuna contra la certeza sin prueba.
 
+![Un filósofo dando una lección sobre el planetario — Joseph Wright of Derby](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Wright_of_Derby%2C_The_Orrery.jpg)
+*Un filósofo dando una lección sobre el planetario* — Joseph Wright of Derby, 1766
+
 El segundo testigo es la propia comunidad científica, que hace público su examen a través de las revistas especializadas. Este testimonio se manifiesta en la llamada crisis de replicación: la constatación de que una parte de los resultados publicados no logra reproducirse de manera consistente. John Ioannidis analizó las condiciones bajo las cuales numerosos hallazgos publicados pueden ser falsos (*Why Most Published Research Findings Are False*, 2005); diez años después, el Open Science Collaboration sometió a prueba cien estudios de psicología y encontró que las replicaciones obtenían, en conjunto, efectos más débiles y menos resultados estadísticamente significativos (*Estimating the Reproducibility of Psychological Science*, 2015).
 
 Esta crisis no refuta la ciencia; muestra a la comunidad científica sometiendo sus propios resultados a examen y haciendo visibles los errores que deben corregirse. Su credibilidad no reside en ser infalible, sino en saber enmendarse: infalible solo es quien no se deja medir por nada, quien no se somete a examen.
@@ -308,10 +328,6 @@ Platón fue severo con el arte imitativo: afirmó que la imitación queda «a tr
 >
 > — Aristóteles, *Poética*, 9.
 
-
-
-
-
 El arte no siempre trata de copiar la realidad o los hechos: revela lo que los hechos esconden. En el siglo XX, Heidegger formuló la tesis con toda su radicalidad: «la esencia del arte sería, pues, esto: el ponerse-en-obra de la verdad de lo ente» (*El origen de la obra de arte*). Con ello, Heidegger quería mostrar que el arte no se limita a ilustrar verdades ya sabidas: las abre, las desoculta.
 
 Los artistas lo han dicho a su manera, y sus testimonios componen una pequeña antología del oficio. Paul Cézanne, al final de su vida, escribió al pintor Émile Bernard: «Os debo la verdad en pintura, y os la diré» (carta de 1905) —la pintura como deuda contraída. Pablo Picasso lo expresó con una paradoja exacta, que conviene citar sin reducirla a un eslogan:
@@ -322,14 +338,14 @@ Los artistas lo han dicho a su manera, y sus testimonios componen una pequeña a
 
 Picasso describe el arte como un artificio para ver, no como una apología del engaño.
 
+![Mont Sainte-Victoire y el viaducto del valle del río Arc — Paul Cézanne](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Paul_C%C3%A9zanne_-_Mont_Sainte-Victoire_and_the_Viaduct_of_the_Arc_River_Valley_(Metropolitan_Museum_of_Art)_crp.jpg)
+*Mont Sainte-Victoire y el viaducto del valle del río Arc* — Paul Cézanne, 1882–1885
+
 Paul Klee, en una frase que vale por un tratado, escribió: «El arte no reproduce lo visible: hace visible» (*Creative Credo*). Y Georges Braque distinguió las dos funciones que este artículo mantiene juntas:
 
 > El arte está hecho para inquietar; la ciencia, para sosegar.
 >
 > — Georges Braque, *Le Jour et la nuit*.
-
-
-
 
 Los poetas afinaron la misma cuerda. Rainer Maria Rilke aconsejó al joven que le escribía cómo esperar la verdad: «Ten paciencia con todo lo no resuelto en tu corazón e intenta amar las preguntas mismas… Vive ahora las preguntas» (*Cartas a un joven poeta*, IV). Juan Ramón Jiménez resumió la vocación entera del poeta en una plegaria dirigida a su *Intelijencia*:
 
@@ -392,10 +408,6 @@ Una sola verdad, buscada con todos los métodos legítimos.
 
 La búsqueda de la verdad no es un fin aislado: está entretejida con el bien y con la vida, y esa trama es más antigua que la filosofía misma. Platón lo enseñó: lo que hace cognoscible la verdad es el Bien, que está «más allá de la esencia» (*República*, VI). Conocer lo verdadero y volverse bueno son dos nombres de una misma conversión. Aristóteles lo completó: la contemplación de la verdad es la felicidad suprema, la forma más alta de que es capaz una vida humana (*Ética a Nicómaco*, X, 7–8). Y el cristianismo añadió el tercer hilo, el de la libertad, con la promesa que recorre este artículo de un extremo a otro: «conoceréis la verdad, y la verdad os hará libres» (Jn 8, 32). La libertad auténtica —como precisa Juan Pablo II en la encíclica *Veritatis splendor* (84)— no consiste en hacer lo que apetece, sino en adherirse a la verdad que el entendimiento reconoce. La verdad no esclaviza al que la encuentra: lo libera, entre otras cosas, del tirano interior, de la necesidad de tener siempre razón.
 
-
-
-
-
 El término de la búsqueda es doble. Por un lado, el Absoluto: la búsqueda humana que «tiende hacia una verdad ulterior que pueda explicar el sentido de la vida; por eso es una búsqueda que no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, 33). Por otro, tiene un término personal: la Verdad hecha carne, de modo que buscar la verdad y buscar a Dios son, en el fondo, una sola búsqueda. Edith Stein, conocida como Santa Teresa Benedicta de la Cruz y formada como filósofa en la escuela fenomenológica antes de entrar en el Carmelo, expresó esta convicción en una carta que la resume a la perfección:
 
 > Dios es la verdad. Todo el que busca la verdad busca a Dios, sea o no consciente de ello.
@@ -405,6 +417,9 @@ El término de la búsqueda es doble. Por un lado, el Absoluto: la búsqueda hum
 Su primera biógrafa, Teresia Renata de Spiritu Sancto, resumió esa búsqueda con una frase que puso en sus labios: «Mi anhelo de verdad era una sola oración» (*Edith Stein. Eine große Frau unseres Jahrhunderts*).
 
 Que la búsqueda tenga ese término no la privatiza. Es, ante todo, deber y derecho de toda persona humana. Como ya hemos señalado, el Concilio Vaticano II afirma que todos los hombres «están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión»; además, añade que, una vez conocida, «hay que aceptarla firmemente con asentimiento personal» (*Dignitatis humanae*, 2–3). La búsqueda de la verdad es la vocación más universal que existe: nace con la razón, se ejerce en todos los saberes y oficios, y alcanza en Cristo —para quien cree— su rostro definitivo.
+
+![El triunfo de santo Tomás de Aquino — Benozzo Gozzoli](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Le_Triomphe_de_saint_Thomas_d'Aquin_-_Benozzo_Gozzoli_-_Mus%C3%A9e_du_Louvre_Peintures_INV_104_%3B_MR_255_-_avec_cadre.jpg)
+*El triunfo de santo Tomás de Aquino* — Benozzo Gozzoli, 1471
 
 ### La ética del caminante
 
@@ -440,7 +455,13 @@ El punto de partida era una copla de tres versos de Machado; el de llegada, una 
 
 - **Permanecer en ella:** hasta que haga su obra, que es la libertad.
 
+![Cena in Emmaus — Caravaggio](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/1602-3_Caravaggio%2CSupper_at_Emmaus_National_Gallery%2C_London.jpg)
+*Cena in Emmaus* — Caravaggio, 1601
+
 Escribo, como digo en la portada de este jardín, para contemplar y para transmitir lo contemplado: también estas páginas son un modo de buscar. Y quizá la última lección —en realidad, la única— sea esta: la verdad no es un botín que se captura al final de una partida, sino la luz bajo la cual se juega entera. Quien la busca descubre, tarde o temprano, que el horizonte camina también; que la Verdad no espera quieta en la meta, sino que sale al encuentro y que, seguramente, lleva haciéndolo desde el principio.
+
+---
+---
 
 ## Referencias
 
