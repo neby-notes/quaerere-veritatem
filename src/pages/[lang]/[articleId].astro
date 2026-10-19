@@ -79,8 +79,14 @@ const schemaOrg = {
       <div class="nav-interface text-sm text-muted flex items-center gap-2 flex-wrap font-medium">
         <span>{lang === 'es' ? 'Por' : 'By'} {article.author}</span>
         <span class="opacity-50">•</span>
+        <span>{lang === 'es' ? 'Creado: ' : 'Created:'}</span>
         <time datetime={article.created.toISOString()}>
           {new Date(article.created).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        <span class="opacity-50">•</span>
+        <span>{lang === 'es' ? 'Editado:' : 'Edited:'}</span>
+        <time datetime={article.edited.toISOString()}>
+          {new Date(article.edited).toLocaleDateString(lang, { year: 'numeric', month: 'long', day: 'numeric' })}
         </time>
       </div>
       {translatedTags.length > 0 && (
