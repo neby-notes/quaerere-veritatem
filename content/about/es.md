@@ -15,7 +15,7 @@ Ese deseo tiene dos polos que se sostienen mutuamente, ambos formulados ya en lo
 
 No es solo un asunto del intelecto. San Agustín lo expresa al abrir *Confesiones*: «nos hiciste para ti, y nuestro corazón está inquieto hasta que descanse en ti» (I, 1, 1). Esa inquietud no descansa del todo hasta hallar aquello para lo que está hecha. Por eso la verdad se trata aquí en varios registros a la vez: el proposicional, que pregunta qué hace verdadera una afirmación; el personal, que la vive como orientación del deseo; y el artístico, que la busca en las obras que imitan y transfiguran la realidad.
 
-![El astrónomo — Johannes Vermeer](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/hero_Johannes_Vermeer_-_The_Astronomer_-_1668.jpg)
+![El astrónomo — Johannes Vermeer](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg)
 *El astrónomo* — Johannes Vermeer, c. 1668
 
 ## Por qué no hay disciplinas
@@ -37,7 +37,7 @@ El trabajo intelectual se entiende aquí con la vieja fórmula de la tradición 
 
 Se investiga para comprender, y se publica para entregar a otros lo comprendido. Lo que sale a la luz no es la opinión apresurada, sino lo que ha sido pensado, dudado y releído. Y la transmisión es también una tarea comunitaria: la verdad no se busca para uno mismo, sino para ser dada.
 
-![San Lucas dibujando a la Virgen — Rogier van der Weyden](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/hero_Saint_Luke_Drawing_the_Virgin_MFA_Boston.jpg)
+![San Lucas dibujando a la Virgen — Rogier van der Weyden](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Saint_Luke_Drawing_the_Virgin_MFA_Boston.jpg)
 *San Lucas dibujando a la Virgen* — Rogier van der Weyden, c. 1435–1440
 
 No pretendo, en todo ello, ser portador de la verdad, aunque trate de buscarla: parto de la humildad de mi ignorancia y del deseo incansable de aprender que encuentro en mi fe y en mi razón. Lo que encontrarás aquí no son sistemas cerrados, sino ligeras direcciones hacia lo que creo que está bien. Tampoco son definitivos: ningún artículo estará jamás acabado. Seguiré trabajando sobre ellos — cambiándolos, matizándolos, rehaciéndolos —, porque el conocimiento y la comprensión no admiten punto final; siempre se está a tiempo de aprender algo que mejore lo que se creía comprender.

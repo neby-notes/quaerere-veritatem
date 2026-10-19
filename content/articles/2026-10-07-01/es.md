@@ -33,7 +33,7 @@ Ese caminar hacia la verdad nos constituye y da sentido a nuestra naturaleza. Ar
 >
 > — Aristóteles, *Metafísica*, I, 1.
 
-Juan Pablo II formula una idea afín en *Fides et ratio* (1998): «Se puede definir, pues, al hombre como aquél que busca la verdad» (28).
+San Juan Pablo II formula una idea afín en *Fides et ratio* (1998): «Se puede definir, pues, al hombre como aquél que busca la verdad» (28).
 
 Buscar la verdad no es un oficio reservado a especialistas ni tampoco un lujo de épocas sosegadas: es el modo de ser propio de quien es humano. Si esto es así, conviene plantear dos preguntas: **qué es aquello que se busca y qué implica buscarlo**.
 
@@ -59,7 +59,7 @@ Los dos rasgos esenciales de esta fórmula sostienen el argumento que sigue en e
 
 - El segundo: la medida de ese decir es el *ser*. Una afirmación es verdadera porque la realidad es como la afirmación dice, y no al revés. Hay verdad porque hay ser: ante el *ser* se inclina toda palabra verdadera, y toda comprensión honesta recibe del *ser* su medida.
 
-La tradición medieval, especialmente la escolástica, desarrolló esta intuición aristotélica mediante la fórmula de la *adecuación*: la verdad entendida como conformidad del entendimiento con la cosa, condensada en la expresión clásica *adaequatio rei et intellectus* («adecuación de la cosa y del entendimiento»). Santo Tomás de Aquino recoge esta fórmula en la *Summa theologiae* (I, 16), donde desarrolla la noción de verdad como conformidad (*conformitas*) entre el entendimiento y la cosa. San Anselmo de Canterbury ofrece, desde otro planteamiento, una definición destacablemente memorable:
+La tradición medieval, especialmente la escolástica, desarrolló esta intuición aristotélica mediante la fórmula de la *adecuación*: la verdad entendida como conformidad del entendimiento con la cosa, condensada en la expresión clásica *adaequatio rei et intellectus* («adecuación de la cosa y del entendimiento»). Santo Tomás de Aquino recoge esta fórmula en la *Summa theologiae* (I, 16, 1), donde desarrolla la noción de verdad como conformidad (*conformitas*) entre el entendimiento y la cosa. San Anselmo de Canterbury ofrece, desde otro planteamiento, una definición destacablemente memorable:
 
 > La verdad es la rectitud perceptible solo por la mente.
 >
@@ -76,6 +76,8 @@ Esta concepción de la verdad puede leerse como una toma de posición frente a l
 - La verdad **ontológica** —la de la cosa—: una cosa puede llamarse «verdadera» cuando es auténtica o se ajusta a lo que se entiende que debe ser —un vino verdadero, un amigo verdadero—. En la tradición escolástica, esta verdad se entiende como la relación con el entendimiento al que la cosa se conforma.
 
 - La verdad **epistemológica** —la del conocimiento—: un juicio de la mente es verdadero cuando acierta acerca de la realidad. La diferencia respecto de la verdad lógica está en el enfoque: aquí atendemos al juicio mediante el cual conocemos; allí, a lo que afirma el enunciado.
+
+La nomenclatura varía según la tradición filosófica; empleo aquí estos tres niveles como una distinción de trabajo.
 
 La escolástica añadió que el *verum* es uno de los trascendentales del ser: todo lo que es, en cuanto cognoscible —en cuanto puede ser conocido—, es verdadero.
 
@@ -97,11 +99,11 @@ Con estas distinciones sobre la mesa, conviene separar seis tesis que a menudo s
 
 La posición que sostengo —inspirada en la tradición clásica que va de Aristóteles a Santo Tomás— afirma las tesis 1, 2, 4 y 6, y rechaza las tesis 3 y 5. Puede llamarse **realismo falibilista**. Su nervio es una observación que conviene meditar despacio: **el falibilismo no obliga al relativismo**. Admitir que podemos equivocarnos no exige negar una verdad independiente de nosotros. El error solo tiene sentido si existe algo con lo que nuestras creencias pueden no coincidir.
 
-Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo; no cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos revela despacio, por partes, sin que nuestro conocimiento llegue nunca a agotarla. Por eso la máxima de Charles S. Peirce —«no bloquear el camino de la investigación» (*The Scientific Attitude and Fallibilism*)— merece inscribirse, como él mismo propuso, en los muros de la ciudad de la filosofía.
+Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo; no cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos revela despacio, por partes, sin que nuestro conocimiento llegue nunca a agotarla. Por eso la máxima de Charles S. Peirce —«No bloqueen el camino de la investigación» (The First Rule of Logic, 1898)— merece inscribirse, como él mismo propuso, en los muros de la ciudad de la filosofía.
 
 La honestidad obliga a reconocer que esta concepción clásica no ha transitado en paz. La filosofía moderna le ha planteado preguntas legítimas: en qué consiste exactamente «adecuarse», qué es un «hecho» si solo accedemos a él mediante descripciones, cómo comparar el juicio con la cosa si solo disponemos de juicios. Nietzsche anotó en sus cuadernos que «no hay hechos, solo interpretaciones» (*Fragmentos póstumos*).
 
-Estas objeciones no bastan, por sí solas, para refutar la correspondencia entre el decir y el ser, pero la obligan a precisarla. Y precisarla es ya, también, una forma de buscar la verdad: afinamos nuestra comprensión de la verdad al definir cada vez mejor qué queremos decir con ella.
+Estas objeciones no bastan, por sí solas, para refutar la correspondencia entre el decir y el ser, pero la obligan a precisarla. Precisarla es ya, también, una forma de buscar la verdad: afinamos nuestra comprensión de la verdad al definir cada vez mejor qué queremos decir con ella.
 
 ![Los embajadores — Hans Holbein el Joven](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/London_National_Gallery_Holbein_Ambassadors_01.jpg)
 *Los embajadores* — Hans Holbein el Joven, 1533
@@ -116,9 +118,9 @@ La definición alcanza su plenitud cuando se pregunta por su fundamento. San Agu
 
 El deseo de verdad es aquí una inquietud escrita en el alma —no un accidente causado por el temperamento curioso—, una inquietud con término: el reposo. En los *Soliloquios*, San Agustín ensaya una definición: «lo verdadero es lo que es» (II, 5); y no hay que salir muy lejos a buscarla: «vuelve a ti mismo: en el hombre interior habita la verdad» (*La verdadera religión*, 39). **La fe no pone fin a la búsqueda: la orienta.** *Credo ut intelligam* —«creo para entender»— no significa renunciar a la mirada, sino aprender dónde ponerla.
 
-Santo Tomás de Aquino dio a esta doctrina su forma sistemática. La verdad es, en su formulación más honda, aquello a lo que tiende el intelecto, como el bien es aquello a lo que tiende el apetito del alma (*Summa theologiae*, I, 16). Hay una Verdad que no solo se *tiene*: se *es*. En Dios, ser e inteligir coinciden, de modo que Dios no tiene la verdad: es «la primera y la suma Verdad» (*Summa theologiae*, I, 16). De ahí se desprende una doble adecuación: **nuestro entendimiento se conforma a las cosas, y las cosas se conforman al Entendimiento que las pensó**. Dos orillas de la verdad y un solo manantial del que ambas reciben el agua.
+Santo Tomás de Aquino dio a esta doctrina su forma sistemática. La verdad es, en su formulación más honda, aquello a lo que tiende el intelecto, como el bien es aquello a lo que tiende el apetito del alma (*Summa theologiae*, I, 16, 1). Hay una Verdad que no solo se *tiene*: se *es*. En Dios, ser e inteligir coinciden, de modo que Dios no tiene la verdad: es «la primera y la suma Verdad» (*Summa theologiae*, I, 16, 5). De ahí se desprende una doble adecuación: **nuestro entendimiento se conforma a las cosas, y las cosas se conforman al Entendimiento que las pensó**. Dos orillas de la verdad y un solo manantial del que ambas reciben el agua.
 
-Lo que la filosofía busca formular en conceptos, el Evangelio lo proclama en persona: «Yo soy el camino, la verdad y la vida» (Jn 14, 6). Y una promesa de que Jesús une los dos extremos del camino que tratamos de cartografiar:
+Lo que la filosofía busca formular en conceptos, el Evangelio lo proclama en persona: «Yo soy el camino, la verdad y la vida» (Jn 14, 6). El Evangelio, además, recoge una promesa de Jesús que une los dos extremos del camino que tratamos de cartografiar:
 
 > Si vosotros permanecéis en mi palabra, verdaderamente sois mis discípulos, y conoceréis la verdad, y la verdad os hará libres.
 >
@@ -132,7 +134,7 @@ El magisterio, por su parte, lo ha formulado con particular precisión. El Conci
 >
 > — Concilio Vaticano II, *Dignitatis humanae* (1965), 2.
 
-Juan Pablo II añade que la búsqueda humana tiende a una verdad ulterior que explique el sentido de la vida y que «no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, 33).
+San Juan Pablo II añade que la búsqueda humana tiende a una verdad ulterior que explique el sentido de la vida y que «no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, 33).
 
 Definida así la verdad —su fórmula primera, sus niveles, su estatuto realista y su cumbre personal—, ya es lícito preguntar qué se pone en camino cuando el hombre busca la verdad.
 
@@ -261,17 +263,17 @@ Buscar la verdad exige, por tanto, aprender primero a **reconocer la propia igno
 
 Por fuera, el buscador se mueve en un mundo que no siempre quiere la verdad, como ya hemos visto en el apartado anterior. Michel Foucault lo resumió en una entrevista en 1976 con una frase que ha envejecido mal —para la especie, no para la frase—: «cada sociedad tiene su régimen de verdad» (*Truth and Power*, en *Power/Knowledge*). No significa simplemente que cada sociedad invente su propia verdad, sino que existen instituciones, discursos y procedimientos que condicionan qué se acepta como verdadero, quién está autorizado a afirmarlo y cómo se sanciona a quien lo hace. La cuestión no es solo qué es verdad, sino también qué lugar ocupa en una sociedad quien trata de decirla.
 
-Hannah Arendt advirtió que «las posibilidades de que la verdad factual sobreviva al asalto del poder son muy escasas» (*Truth and Politics*, 1967). El peligro de la mentira organizada no consiste únicamente en que una falsedad concreta llegue a aceptarse como verdadera, sino en algo mucho más profundo: **la destrucción del suelo común de los hechos** sobre el que nos orientamos en el mundo. Es la pérdida de la brújula que nos permite distinguir lo sucedido de lo inventado. Y, cuando ese suelo común se destruye, también se dificulta la posibilidad de discutir racionalmente sobre la responsabilidad, la justicia y el bien y el mal.
+Hannah Arendt advirtió que «las posibilidades de que la verdad factual sobreviva al asalto del poder son muy escasas» (*Truth and Politics*, 1967). El peligro de la mentira organizada no consiste únicamente en que una falsedad concreta llegue a aceptarse como verdadera, sino en algo mucho más profundo: **la destrucción del suelo común de los hechos** sobre el que nos orientamos en el mundo. Es la pérdida de la brújula que nos permite distinguir lo sucedido de lo inventado. Cuando ese suelo común se destruye, también se dificulta la posibilidad de discutir racionalmente sobre la responsabilidad, la justicia y el bien y el mal.
 
 Harry Frankfurt añade un matiz que ilumina muy bien nuestro presente: su análisis permite entender la charlatanería como una amenaza para la verdad incluso más corrosiva que la propia mentira (*On Bullshit*, 2005; ensayo original de 1986). El mentiroso sigue condicionado por la verdad: necesita tenerla en cuenta para ocultarla. Al charlatán, en cambio, le resulta sencillamente indiferente que lo que dice sea verdadero o falso. No pretende necesariamente describir la realidad ni ocultarla; habla sin someterse a sus exigencias.
 
-La posverdad —*post-truth*, palabra del año 2016 para Oxford Dictionaries— no es una doctrina: es un clima, inquietantemente parecido al actual. Designa una situación en la que los hechos objetivos pesan menos en la formación de la opinión pública que las apelaciones a las emociones y a las creencias personales. En ese clima prosperan las cámaras de eco: entornos que no se limitan a dejar fuera las voces contrarias, sino que desacreditan activamente esas voces y las fuentes de las que proceden.
+La posverdad —*post-truth*, palabra del año 2016 para Oxford Dictionaries— no es una doctrina: es un clima, inquietantemente parecido al actual. Designa una situación en la que los hechos objetivos pesan menos en la formación de la opinión pública que las apelaciones a las emociones y a las creencias personales (Lee McIntyre, *Post-Truth*, 2018). En ese clima prosperan las cámaras de eco: entornos que no se limitan a dejar fuera las voces contrarias, sino que desacreditan activamente esas voces y las fuentes de las que proceden.
 
 C. Thi Nguyen (*Echo Chambers and Epistemic Bubbles*, 2020) advierte que no basta con presentar más hechos a quienes viven dentro de estas cámaras. Cuando alguien ha aprendido a desconfiar sistemáticamente de las fuentes externas, también desconfiará de la información que procede de ellas. **El problema no es solo de información, sino de confianza.** Quien intenta reparar esa desconfianza puede ser rechazado precisamente por los mecanismos que necesita desactivar.
 
 La ignorancia, además, se fabrica en serie. Se llama **agnotología** al estudio de la producción cultural de ignorancia o duda, especialmente cuando es deliberada (Robert N. Proctor, *Agnotology*). Se han documentado industrias enteras dedicadas a sembrar dudas allí donde existía evidencia sólida. La industria tabacalera constituye uno de sus ejemplos históricos más conocidos (Naomi Oreskes y Erik M. Conway, *Merchants of Doubt*).
 
-Buscar la verdad en serio es, también, saber frente a qué se busca. Y si buscarla exige, a veces, defenderla, cabe una última observación: **en ocasiones, defender lo encontrado resulta más arduo que encontrarlo**.
+Buscar la verdad en serio es, también, saber frente a qué se busca. También, si buscarla exige a veces defenderla, cabe una última observación: **en ocasiones, defender lo encontrado resulta más arduo que encontrarlo**.
 
 ### La ciencia: la búsqueda que verifica
 
@@ -293,7 +295,7 @@ Los científicos han testimoniado esta ética con palabras que han alcanzado ya 
 
 La exigencia que se desprende de estas palabras es la columna secreta que sostiene toda esta construcción: publicar también lo que podría invalidar la propia teoría, no solo lo que la confirma. Charles Darwin practicó esta misma disciplina mediante una «regla de oro» que dejó anotada en su autobiografía, publicada por su hijo Francis Darwin: registrar sin falta y de inmediato todo hecho, observación o idea que contradijera sus resultados generales. Como explicó, esos datos «se escapan de la memoria mucho más fácilmente que los favorables» (*The Life and Letters of Charles Darwin*, I). Darwin advertía así de una tendencia que hoy asociamos al sesgo de confirmación.
 
-Santiago Ramón y Cajal dejó una máxima para quienes se inician en la investigación: «Toda obra grande es el fruto de la paciencia y la perseverancia» (*Reglas y consejos sobre investigación científica*). Michael Polanyi dejó constancia de lo que todo artesano del laboratorio sabe: «sabemos más de lo que podemos decir» (*The Tacit Dimension*, 1966). El conocimiento tiene un fondo tácito —silencioso— que ningún protocolo agota.
+Santiago Ramón y Cajal dejó una máxima para quienes se inician en la investigación: «Toda obra grande es el fruto de la paciencia y de la perseverancia» (*Reglas y consejos sobre investigación científica*). Michael Polanyi dejó constancia de lo que todo artesano del laboratorio sabe: «sabemos más de lo que podemos decir» (*The Tacit Dimension*, 1966). El conocimiento tiene un fondo tácito —silencioso— que ningún protocolo agota.
 
 Dos testigos más completan el retrato. El primero habla junto al estanque de Auschwitz, donde se arrojaron las cenizas de las víctimas del campo. Jacob Bronowski, en *The Ascent of Man* (1973), lo expresó con una advertencia sobre el peligro de pretender un conocimiento absoluto:
 
@@ -310,7 +312,7 @@ El segundo testigo es la propia comunidad científica, que hace público su exam
 
 Esta crisis no refuta la ciencia; muestra a la comunidad científica sometiendo sus propios resultados a examen y haciendo visibles los errores que deben corregirse. **Su credibilidad no reside en ser infalible, sino en saber enmendarse**: infalible solo es quien no se deja medir por nada, quien no se somete a examen.
 
-Y uno de los hombres que más contribuyó a cambiar nuestro mapa del cosmos dejó escrito dónde nace todo esto:
+Uno de los hombres que más contribuyó a cambiar nuestro mapa del cosmos dejó escrito de dónde nace todo esto:
 
 > Lo más bello que podemos experimentar es lo misterioso. Es la fuente de todo arte y ciencia verdaderos.
 >
@@ -320,7 +322,7 @@ Esta bella y memorable frase hace de bisagra y nos permite pasar a la segunda gr
 
 ### El arte: la búsqueda que desvela
 
-Hay una capa de la verdad que la verificación científica no agota. En esa capa se encuentra el taller del arte. Conforme a la regla de este artículo, conviene partir de una definición: la verdad del arte no opera principalmente en el nivel lógico —el del enunciado comprobado—, sino en el ontológico. No es solo adecuación verificada, sino **desvelamiento de verdades superiores: lo esencial dejándose ver**.
+Hay una capa de la verdad que la verificación científica no agota. En esa capa se encuentra el taller del arte. Conforme a la regla de este artículo, conviene partir de una definición: la verdad del arte no opera principalmente en el nivel lógico —el del enunciado comprobado—, sino en un sentido más similar al ontológico. No es solo adecuación verificada, sino **desvelamiento de verdades más profundas: lo esencial dejándose ver**.
 
 Platón fue severo con el arte imitativo: afirmó que la imitación queda «a tres grados de la verdad» (*República*, X). Toda exaltación del arte necesita un acusador serio, y el primero fue el mejor. Sin embargo, su discípulo Aristóteles vio lo que la crítica platónica dejaba fuera:
 
@@ -341,7 +343,7 @@ Picasso describe el arte como un artificio para ver, no como una apología del e
 ![Mont Sainte-Victoire y el viaducto del valle del río Arc — Paul Cézanne](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Paul_C%C3%A9zanne_-_Mont_Sainte-Victoire_and_the_Viaduct_of_the_Arc_River_Valley_(Metropolitan_Museum_of_Art)_crp.jpg)
 *Mont Sainte-Victoire y el viaducto del valle del río Arc* — Paul Cézanne, 1882–1885
 
-Paul Klee, en una frase que vale por un tratado, escribió: «El arte no reproduce lo visible: **hace visible**» (*Creative Credo*, 1920). Y Georges Braque distinguió las dos funciones que este artículo mantiene juntas:
+Paul Klee, en una frase que vale por un tratado, escribió: «El arte no reproduce lo visible: **hace visible**» (*Creative Credo*, 1920). Por su parte, Georges Braque distinguió las dos funciones que este artículo mantiene juntas:
 
 > El arte está hecho para inquietar; la ciencia, para sosegar.
 >
@@ -356,7 +358,7 @@ Los poetas afinaron la misma cuerda. Rainer Maria Rilke aconsejó al joven que l
 
 La palabra que coincide con la cosa: una forma de adecuación poética.
 
-Hasta el provocador Oscar Wilde merece ser escuchado con su ironía intacta. En su diálogo *The Decay of Lying* (*La decadencia de la mentira*, 1889), puso en boca de su personaje Vivian esta máxima: «Mentir —contar cosas bellas que no son verdad— es la finalidad propia del arte» (*The Decay of Lying*, recogido en *Intentions*). Su provocación recuerda que la verdad del arte no es la del notario, sin que eso la haga menos verdadera.
+El provocador Oscar Wilde, con su ironía intacta, aporta gran valor a esta conversación. En su diálogo *The Decay of Lying* (*La decadencia de la mentira*, 1889), puso en boca de su personaje Vivian esta máxima: «Mentir —contar cosas bellas que no son verdad— es la finalidad propia del arte» (*The Decay of Lying*, recogido en *Intentions*). Su provocación recuerda que la verdad del arte no es la del notario, sin que eso la haga menos verdadera.
 
 Aleksandr Solzhenitsyn, que medía las palabras por el peso que le habían costado, cerró el texto de su conferencia Nobel —que no llegó a pronunciar públicamente— citando un proverbio ruso:
 
@@ -366,11 +368,11 @@ Aleksandr Solzhenitsyn, que medía las palabras por el peso que le habían costa
 
 La tradición cristiana ha pensado a fondo esta dimensión de la verdad que no se agota en la verificación. San Juan Pablo II escribió a los artistas que «toda forma auténtica de arte es, a su modo, una vía de acceso a la realidad más profunda del hombre y del mundo» (*Carta a los artistas*, 1999, 6), y que la sociedad «tiene necesidad de artistas, del mismo modo que tiene necesidad de científicos» (4), reconociendo la igual dignidad de ambas búsquedas.
 
-El papa Pablo VI dirigió a los artistas, al clausurarse el Concilio Vaticano II, un mensaje que vale como definición:
+El Papa San Pablo VI dirigió a los artistas, al clausurarse el Concilio Vaticano II, un mensaje que vale como definición de belleza:
 
 > Este mundo en que vivimos tiene necesidad de la belleza para no caer en la desesperanza. La belleza, como la verdad, es quien pone alegría en el corazón de los hombres…
 >
-> — Pablo VI, *Mensaje a los artistas* (1965).
+> — San Pablo VI, *Mensaje a los artistas* (1965).
 
 La controversia iconoclasta —la disputa en torno a la legitimidad de las imágenes sagradas— guarda una lección teológica: para la tradición cristiana que defendió las imágenes, su legitimidad se funda en que la Verdad se hizo visible. El Verbo hecho carne legitima el rostro pintado; la representación puede mediar el misterio. Conviene aclarar, sin embargo, que las imágenes tratan de mediar el misterio, no de resolverlo ni de agotarlo (II Concilio de Nicea, 787; *Catecismo de la Iglesia Católica*, 1992, 1159–1162, 2131–2132).
 
@@ -392,7 +394,7 @@ La historia moderna los separó, con pérdida para ambos. C. P. Snow diagnostic�
 >
 > — T. S. Eliot, coros de *La roca* (1934).
 
-Buscar la verdad es ascender por esa escalera —de la información al conocimiento, del conocimiento a la sabiduría y de la sabiduría a la vida— sin confundir los peldaños.
+Buscar la verdad es ascender de esa manera —de la información al conocimiento, del conocimiento a la sabiduría y de la sabiduría a la vida— sin confundir los pasos del ascenso.
 
 La ansiada unidad del conocimiento no exige fundir los métodos en uno solo —eso empobrecería una realidad que se deja abordar por muchos lados—; exige algo más riguroso: que cada disciplina use el método que su objeto pide y que las conexiones entre ellas sean reales, no retóricas. O en la fórmula de la transdisciplinariedad: «no hay transdisciplinariedad sin disciplinariedad» (Basarab Nicolescu, *Methodology of Transdisciplinarity*, 2010).
 
@@ -406,17 +408,19 @@ Una sola verdad, buscada con todos los métodos legítimos.
 
 ### El término del camino
 
-La búsqueda de la verdad no es un fin aislado: está entretejida con el bien y con la vida, y esa trama es más antigua que la filosofía misma. Platón lo enseñó: lo que hace cognoscible la verdad es el Bien, que está «más allá de la esencia» (*República*, VI). Conocer lo verdadero y volverse bueno son dos nombres de una misma conversión. Aristóteles lo completó: la contemplación de la verdad es la felicidad suprema, la forma más alta de que es capaz una vida humana (*Ética a Nicómaco*, X, 7–8). Y el cristianismo añadió el tercer hilo, el de la libertad, con la promesa que recorre este artículo de un extremo a otro: «conoceréis la verdad, y la verdad os hará libres» (Jn 8, 32). La libertad auténtica —como precisa Juan Pablo II en la encíclica *Veritatis splendor* (1993, 84)— no consiste en hacer lo que apetece, sino en adherirse a la verdad que el entendimiento reconoce. **La verdad no esclaviza al que la encuentra: lo libera**, entre otras cosas, del tirano interior, de la necesidad de tener siempre razón.
+La búsqueda de la verdad no es un fin aislado: está entretejida con el bien y con la vida, y esa trama es más antigua que la filosofía misma. Platón lo enseñó: lo que hace cognoscible la verdad es el Bien, que está «más allá de la esencia» (*República*, VI). Conocer lo verdadero y volverse bueno son dos nombres de una misma conversión. Aristóteles lo completó: la contemplación de la verdad es la felicidad suprema, la forma más alta de que es capaz una vida humana (*Ética a Nicómaco*, X, 7–8). El cristianismo añadió el tercer hilo, el de la libertad, con la promesa que recorre este artículo de un extremo a otro: «conoceréis la verdad, y la verdad os hará libres» (Jn 8, 32). La libertad auténtica —como precisa San Juan Pablo II en la encíclica *Veritatis splendor* (1993, 84)— no consiste en hacer lo que apetece, sino en adherirse a la verdad que el entendimiento reconoce. **La verdad no esclaviza al que la encuentra: lo libera**, entre otras cosas, del tirano interior, de la necesidad de tener siempre razón.
 
-**El término de la búsqueda es doble.** Por un lado, el Absoluto: la búsqueda humana que «tiende hacia una verdad ulterior que pueda explicar el sentido de la vida; por eso es una búsqueda que no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, 33). Por otro, tiene un término personal: la Verdad hecha carne, de modo que buscar la verdad y buscar a Dios son, en el fondo, una sola búsqueda. Edith Stein, conocida como Santa Teresa Benedicta de la Cruz y formada como filósofa en la escuela fenomenológica antes de entrar en el Carmelo, expresó esta convicción en una carta que la resume a la perfección:
+**El término de la búsqueda es doble.** Por un lado, el Absoluto: la búsqueda humana que «tiende hacia una verdad ulterior que pueda explicar el sentido de la vida; por eso es una búsqueda que no puede encontrar solución si no es en el absoluto» (*Fides et ratio*, 33). Por otro, tiene un término personal: la Verdad hecha carne, de modo que buscar la verdad y buscar a Dios son, en el fondo, una sola búsqueda. Edith Stein, conocida como Santa Teresa Benedicta de la Cruz y formada como filósofa en la escuela fenomenológica antes de entrar en el Carmelo, expresó esta convicción en una carta que lo resume a la perfección:
 
 > Dios es la verdad. Todo el que busca la verdad busca a Dios, sea o no consciente de ello.
 >
 > — Edith Stein, carta a Adelgundis Jaegerschmid (1938).
 
-Su primera biógrafa, Teresia Renata de Spiritu Sancto, resumió esa búsqueda con una frase que puso en sus labios: «Mi anhelo de verdad era una sola oración» (*Edith Stein. Eine große Frau unseres Jahrhunderts*).
+La tradición biográfica, desde Teresia Renata de Spiritu Sancto, le ha atribuido una frase que resume esa búsqueda: «Mi anhelo de verdad era una sola oración».
 
-Que la búsqueda tenga ese término no la privatiza. Es, ante todo, deber y derecho de toda persona humana. Como ya hemos señalado, el Concilio Vaticano II afirma que todos los hombres «están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión»; además, añade que, una vez conocida, «hay que aceptarla firmemente con asentimiento personal» (*Dignitatis humanae*, 2–3). La búsqueda de la verdad es la vocación más universal que existe: nace con la razón, se ejerce en todos los saberes y oficios, y alcanza en Cristo —para quien cree— su rostro definitivo.
+Que la búsqueda tenga ese término no la privatiza. Es, ante todo, deber y derecho de toda persona humana. Como ya hemos señalado, el Concilio Vaticano II afirma que todos los hombres «están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión»; además, añade que, una vez conocida, «hay que aceptarla firmemente con asentimiento personal» (*Dignitatis humanae*, 2–3).
+
+La búsqueda de la verdad es la vocación más universal que existe: nace con la razón, se ejerce en todos los saberes y oficios; para quien cree, encuentra en Cristo su rostro definitivo; para quien no cree, tiene igualmente su término último en esa misma Verdad subsistente e inmutable —Dios—, aunque no la reconozca como tal.
 
 ![El triunfo de Santo Tomás de Aquino — Benozzo Gozzoli](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Le_Triomphe_de_saint_Thomas_d'Aquin_-_Benozzo_Gozzoli_-_Mus%C3%A9e_du_Louvre_Peintures_INV_104_%3B_MR_255_-_avec_cadre.jpg)
 *El triunfo de Santo Tomás de Aquino* — Benozzo Gozzoli, 1471
@@ -441,11 +445,11 @@ La sexta, para mí una de las más importantes, es la **transmisión**. La verda
 
 > Así como es mayor iluminar que solo lucir, así es mayor transmitir a otros lo contemplado que solo contemplar.
 >
-> — Santo Tomás de Aquino, *Summa theologiae*, II-II, 188.
+> — Santo Tomás de Aquino, *Summa theologiae*, II-II, 188, 6.
 
-Santo Tomás añade la cláusula que completa y corona la ética entera del buscador: «toda verdad, dígala quien la diga, procede del Espíritu Santo» (*Summa theologiae*, I-II, 109). No significa que toda verdad sea fruto de una revelación particular, sino que, para Santo Tomás, la capacidad natural de conocer y expresar la verdad procede, en último término, de Dios. Quien cree esto puede buscar la verdad en todas partes: en el laboratorio y en el taller, en el poema y en el claustro, en el amigo y en el adversario, con la paciencia de quien sabe de dónde procede toda agua clara.
+Santo Tomás añade la cláusula que completa y corona la ética entera del buscador: «toda verdad, dígala quien la diga, procede del Espíritu Santo» (Summa theologiae, I-II, 109, 1). No significa que toda verdad sea fruto de una revelación particular, sino que, para Santo Tomás, la capacidad natural de conocer y expresar la verdad procede, en último término, de Dios —la Verdad subsistente e inmutable, «la primera y la suma Verdad»—. Quien cree esto puede buscar la verdad en todas partes: en el laboratorio y en el taller, en el poema y en el claustro, en el amigo y en el adversario, con la paciencia de quien sabe de dónde procede toda agua clara.
 
-Buscar la verdad con estas seis virtudes es ya, en cierto modo, habitarla.
+Buscar la verdad con estas seis virtudes es ya, en cierto modo y bajo mi punto de vista, habitarla.
 
 El punto de partida era una copla de tres versos de Machado; el de llegada, una promesa con tres tiempos: permanecer, conocer y ser libre. Entre ambos extremos, este artículo ha querido trazar el camino entero:
 
@@ -458,7 +462,7 @@ El punto de partida era una copla de tres versos de Machado; el de llegada, una 
 ![Cena in Emmaus — Caravaggio](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/1602-3_Caravaggio%2CSupper_at_Emmaus_National_Gallery%2C_London.jpg)
 *Cena in Emmaus* — Caravaggio, 1601
 
-Escribo, como digo en la portada de este jardín, para contemplar y para transmitir lo contemplado: también estas páginas son un modo de buscar. Y quizá la última lección —en realidad, la única— sea esta: **la verdad no es un botín que se captura al final de una partida, sino la luz bajo la cual se juega entera**. Quien la busca descubre, tarde o temprano, que el horizonte camina también; que la Verdad no espera quieta en la meta, sino que sale al encuentro y que, seguramente, lleva haciéndolo desde el principio.
+Escribo, como digo en la portada de este jardín, para contemplar y para transmitir lo contemplado: también estas páginas son un modo de buscar. Quizá la última lección —en realidad la única— sea esta: **la verdad no es un botín que se captura al final de una partida, sino la luz bajo la cual se juega entera**. Quien la busca descubre, tarde o temprano, que el horizonte camina también; que la Verdad no espera quieta en la meta, sino que sale al encuentro y que, seguramente, lleva haciéndolo desde el principio.
 
 ---
 ---
@@ -503,7 +507,7 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - Naomi Oreskes y Erik M. Conway: *Merchants of Doubt* (2010).
 - Oxford Dictionaries: anuncio de *post-truth* como palabra del año (2016).
 - Pablo VI: *Mensaje a los artistas* (1965).
-- Charles S. Peirce: *The Scientific Attitude and Fallibilism*.
+- Charles S. Peirce: The First Rule of Logic (1898), en The Essential Peirce, vol. II.
 - Pablo Picasso: *Picasso Speaks: A Statement by the Artist* (1923).
 - Platón: *Apología*, *Teeteto*, *Banquete* y *República*.
 - Michael Polanyi: *The Tacit Dimension* (1966).
@@ -520,9 +524,6 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - Miguel de Unamuno: intervención en el Paraninfo de Salamanca (1936).
 - Simone Weil: carta a Joë Bousquet (1942).
 - Oscar Wilde: *The Decay of Lying* (1889) y *Intentions* (1891).
-
-### Lectura complementaria
-
 - Casiodoro: *Institutiones*.
 - Thomas S. Kuhn: *La estructura de las revoluciones científicas* (1962).
 - Edward O. Wilson: *Consilience: The Unity of Knowledge* (1998).

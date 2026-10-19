@@ -15,7 +15,7 @@ That desire has two poles that sustain one another, both formulated already at t
 
 It is not merely a matter of the intellect. Saint Augustine puts it at the opening of *Confessions*: "You made us for yourself, and our heart is restless until it rests in you" (I, 1, 1). That restlessness does not fully come to rest until it finds what it was made for. That is why truth is treated here in several registers at once: the propositional, which asks what makes a statement true; the personal, which lives it as an orientation of desire; and the artistic, which seeks it in works that imitate and transfigure reality.
 
-![The Astronomer — Johannes Vermeer](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/hero_Johannes_Vermeer_-_The_Astronomer_-_1668.jpg)
+![The Astronomer — Johannes Vermeer](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Johannes_Vermeer_-_The_Astronomer_-_1668.jpg)
 *The Astronomer* — Johannes Vermeer, c. 1668
 
 ## Why there are no disciplines
@@ -37,7 +37,7 @@ Intellectual work is understood here through the old formula of the Dominican tr
 
 One investigates in order to understand, and one publishes in order to hand on to others what has been understood. What comes to light is not hasty opinion, but what has been thought, doubted and reread. And transmission is also a communal task: the truth is not sought for oneself, but to be given.
 
-![Saint Luke Drawing the Virgin — Rogier van der Weyden](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/hero_Saint_Luke_Drawing_the_Virgin_MFA_Boston.jpg)
+![Saint Luke Drawing the Virgin — Rogier van der Weyden](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Saint_Luke_Drawing_the_Virgin_MFA_Boston.jpg)
 *Saint Luke Drawing the Virgin* — Rogier van der Weyden, c. 1435–1440
 
 In all of this I do not claim to be a bearer of the truth, though I do try to seek it: I start from the humility of my ignorance and from the tireless desire to learn that I find in my faith and in my reason. What you will find here are not closed systems, but slight directions toward what I believe is right. Nor are they definitive: no essay will ever be finished. I will keep working on them — changing them, refining them, remaking them —, because knowledge and comprehension admit no final point; there is always time to learn something that improves what one thought one understood.
