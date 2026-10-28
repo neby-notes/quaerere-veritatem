@@ -114,7 +114,7 @@ Estas objeciones no bastan, por sí solas, para refutar la correspondencia entre
 
 ### La cumbre de la pregunta
 
-La definición alcanza su plenitud cuando se pregunta por su fundamento. San Agustín advirtió que hay verdades que ni cambian ni dependen de la mente humana — como las certezas del número o las exigencias del bien— y de ahí concluyó que debe existir una Verdad inmutable que las funde: esa Verdad subsistente es Dios (*El libre albedrío*, II). Es un argumento, no un axioma, y hay que sopesarlo como tal; pero nadie ha descrito mejor que él la experiencia interior que lo mueve:
+La definición alcanza su plenitud cuando se pregunta por su fundamento. San Agustín advirtió que hay verdades que ni cambian ni dependen de la mente humana —como las certezas del número o las exigencias del bien— y de ahí concluyó que debe existir una Verdad inmutable que las funde: esa Verdad subsistente es Dios (*El libre albedrío*, II). Es un argumento, no un axioma, y hay que sopesarlo como tal; pero nadie ha descrito mejor que él la experiencia interior que lo mueve:
 
 > Nos hiciste para ti, y nuestro corazón está inquieto hasta que descanse en ti.
 >
@@ -267,7 +267,7 @@ Buscar la verdad exige, por tanto, aprender primero a **reconocer la propia igno
 ![El sueño de la razón produce monstruos — Francisco de Goya](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43)%2C_from_Los_Caprichos_-_Google_Art_Project.jpg)
 *El sueño de la razón produce monstruos* — Francisco de Goya, 1797–1799
 
-Por fuera, el buscador se mueve en un mundo que no siempre quiere la verdad, como ya hemos visto en el apartado anterior. Michel Foucault lo resumió en una entrevista en 1976 con una frase que  ha envejecido mal —para la especie, no para la frase, pues por desgracia, sigue siendo actual—: «cada sociedad tiene su régimen de verdad» (*Truth and Power*, en *Power/Knowledge*). No significa simplemente que cada sociedad invente su propia verdad, sino que existen instituciones, discursos y procedimientos que condicionan qué se acepta como verdadero, quién está autorizado a afirmarlo y cómo se sanciona a quien lo hace. La cuestión no es solo qué es verdad, sino también qué lugar ocupa en una sociedad quien trata de decirla.
+Por fuera, el buscador se mueve en un mundo que no siempre quiere la verdad, como ya hemos visto en el apartado anterior. Michel Foucault lo resumió en una entrevista en 1976 con una frase que ha envejecido mal —para la especie, no para la frase, pues, por desgracia, sigue siendo actual—: «cada sociedad tiene su régimen de verdad» (*Truth and Power*, en *Power/Knowledge*). No significa simplemente que cada sociedad invente su propia verdad, sino que existen instituciones, discursos y procedimientos que condicionan qué se acepta como verdadero, quién está autorizado a afirmarlo y cómo se sanciona a quien lo hace. La cuestión no es solo qué es verdad, sino también qué lugar ocupa en una sociedad quien trata de decirla.
 
 Hannah Arendt advirtió que «las posibilidades de que la verdad factual sobreviva al asalto del poder son muy escasas» (*Truth and Politics*, 1967). El peligro de la mentira organizada no consiste únicamente en que una falsedad concreta llegue a aceptarse como verdadera, sino en algo mucho más profundo: **la destrucción del suelo común de los hechos** sobre el que nos orientamos en el mundo. Es la pérdida de la brújula que nos permite distinguir lo sucedido de lo inventado. Cuando ese suelo común se destruye, también se dificulta la posibilidad de discutir racionalmente sobre la responsabilidad, la justicia y el bien y el mal.
 
@@ -283,7 +283,7 @@ Buscar la verdad en serio es, también, saber frente a qué se busca. También, 
 
 ### La ciencia: la búsqueda que contrasta
 
-Frente a los obstáculos de los apartados anteriores, la humanidad ha levantado dos grandes construcciones. La primera es la ciencia: **la pretensión de verdad sometida a examen**, **la verdad lógica llevada al método**, el arte de someter el enunciado a la realidad misma.
+Frente a los obstáculos de los apartados anteriores, la humanidad ha levantado dos grandes construcciones. La primera es la ciencia: **la pretensión de verdad sujeta a examen**, el arte de someter el enunciado a la realidad misma.
 
 Karl Popper describió su punto de partida con una frase que desconcierta solo hasta que se entiende:
 
@@ -293,7 +293,7 @@ Karl Popper describió su punto de partida con una frase que desconcierta solo h
 
 **La ciencia no nace de la certeza, sino de la conjetura audaz puesta a prueba; y su nobleza no consiste en no equivocarse, sino en corregirse.** Ella es —sigue Popper— «una de las muy pocas actividades humanas, quizá la única, en la que los errores se critican sistemáticamente y, con bastante frecuencia, se corrigen con el tiempo» (*Conjeturas y refutaciones*). A la verdad se tiende eliminando el error: una aproximación por descarte. La ciencia no alcanza una coronación definitiva, pues la realidad es inagotablemente compleja y nuestro conocimiento nunca llega a poseerla por completo. Siempre cabe reducir el margen de error y aproximarse más a la verdad.
 
-La pregunta por cómo se confirma el conocimiento también tiene una larga historia fuera de Europa. En la India clásica, la escuela Nyāya sostuvo que la validez de una cognición no es evidente por sí misma y que, cuando surge la duda, debe confirmarse mediante otra cognición o mediante la ausencia de un defecto. La epistemología budista de Dignāga y Dharmakīrti discutió esa exigencia y vinculó la validez con la eficacia causal y práctica de la cognición. El desacuerdo decide si el conocimiento necesita verificación externa o si su garantía se sigue de su propia producción. Este artículo se inclina por la primera; reconocer que la segunda también ha sido defendida con rigor muestra que la pregunta por los límites de la duda y la corrección no es una ocurrencia moderna.
+La pregunta por cómo se confirma el conocimiento también tiene una larga historia fuera de Europa. En la India clásica, la escuela Nyāya sostuvo que la validez de una cognición no es evidente por sí misma y que, cuando surge la duda, debe confirmarse mediante otra cognición o mediante la ausencia de un defecto. La epistemología budista de Dignāga y Dharmakīrti discutió esa exigencia y vinculó la validez con la eficacia causal y práctica de la cognición. El desacuerdo decide si el conocimiento necesita verificación externa o si su garantía se sigue de su propia producción. Este artículo se inclina por la primera; reconocer que la segunda también ha sido defendida con rigor muestra que la pregunta por los límites de la duda y la corrección no es una ocurrencia moderna (Bimal Krishna Matilal, *Perception*, 1986).
 
 Los científicos han testimoniado esta ética con palabras que han alcanzado ya rango de clásicos. Richard Feynman, ante los graduados de Caltech en 1974, formuló uno de sus principios fundamentales:
 
@@ -318,7 +318,7 @@ La ciencia es, en el fondo y sobre todo, **una vacuna contra la certeza sin prue
 
 El segundo testigo es la propia comunidad científica, que hace público su examen a través de las revistas especializadas. Este testimonio se manifiesta en la llamada crisis de replicación: la constatación de que una parte de los resultados publicados no logra reproducirse de manera consistente. John Ioannidis analizó las condiciones bajo las cuales numerosos hallazgos publicados pueden ser falsos (*Why Most Published Research Findings Are False*, 2005); diez años después, el Open Science Collaboration sometió a prueba cien estudios de psicología y encontró que las replicaciones obtenían, en conjunto, efectos más débiles y menos resultados estadísticamente significativos (*Estimating the Reproducibility of Psychological Science*, 2015).
 
-Esta crisis no refuta la ciencia; muestra a la comunidad científica sometiendo sus propios resultados a examen y haciendo visibles los errores que deben corregirse. **Su credibilidad no reside en ser infalible, sino en saber enmendarse**: la pretensión de infalibilidad solo la sostiene quien no se deja medir por nada; quien no se somete a examen.
+Esta crisis no refuta la ciencia; muestra a la comunidad científica sometiendo sus propios resultados a examen y haciendo visibles los errores que deben corregirse. **Su credibilidad no reside en ser infalible, sino en saber enmendarse**: la pretensión de infalibilidad solo la sostiene quien no se deja medir por nada, quien no se somete a examen.
 
 Uno de los hombres que más contribuyó a cambiar nuestro mapa del cosmos dejó escrito de dónde nace todo esto:
 
@@ -430,9 +430,9 @@ La tradición biográfica, desde Teresia Renata de Spiritu Sancto, le ha atribui
 
 Que la búsqueda tenga ese término no la privatiza. Es, ante todo, deber y derecho de toda persona humana. Como ya hemos señalado, el Concilio Vaticano II afirma que todos los hombres «están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión»; además, añade que, una vez conocida, «hay que aceptarla firmemente con asentimiento personal» (*Dignitatis humanae*, 2–3).
 
-La tradición judía ofrece un interlocutor cercano y, a la vez, irreductible. Maimónides comparte con San Agustín y Santo Tomás la convicción de que la razón puede elevarse hasta el umbral de Dios, pero insiste en los límites de nuestro lenguaje: de la esencia de Dios conocemos mejor lo que no es que lo que es; ese umbral no se franquea con conceptos. En la Guía de los perplejos, la Torá no constituye un simple límite para la especulación, sino que orienta el perfeccionamiento humano, también en su dimensión intelectual. Esa teología negativa ilumina la «docta ignorancia» que este artículo ya invoca. El judaísmo, no comparte la confesión cristiana de que Jesús es el Verbo encarnado; afirmar que la Verdad se hizo carne es, por tanto, una convicción cristiana, no una conclusión demostrada aquí de tal modo que obligue a todo interlocutor: no una conclusión que se imponga a quien comparte la búsqueda desde otra tradición.
+La tradición judía ofrece un interlocutor cercano y, a la vez, irreductible. Maimónides comparte con San Agustín y Santo Tomás la convicción de que la razón puede elevarse hasta el umbral de Dios, pero insiste en los límites de nuestro lenguaje: de la esencia de Dios conocemos mejor lo que no es que lo que es; ese umbral no se franquea con conceptos. En la *Guía de los perplejos*, la Torá no constituye un simple límite para la especulación, sino que orienta el perfeccionamiento humano, también en su dimensión intelectual. Esa teología negativa ilumina la «docta ignorancia» que este artículo ya invoca. La tradición judía, de la que Maimónides es una de las grandes voces, no reconoce en Jesús la encarnación de Dios; afirmar que la Verdad se hizo carne es, por tanto, una convicción cristiana, no una conclusión que se imponga a quien comparte la búsqueda desde otra tradición.
 
-La búsqueda de la verdad es la vocación más universal que existe: nace con la razón y se ejerce en todos los saberes y oficios. Para el cristiano, encuentra en Cristo su rostro definitivo. Desde la perspectiva que este articulo sostiene: también quien no cree tiene su término último en la Verdad subsistente e inmutable —Dios—, aunque no la reconozca como tal.
+La búsqueda de la verdad es la vocación más universal que existe: nace con la razón y se ejerce en todos los saberes y oficios. Para el cristiano, esa búsqueda encuentra en Cristo su rostro definitivo. Desde la perspectiva que este artículo sostiene, también quien no cree tiene su término último en la Verdad subsistente e inmutable —Dios—, aunque no la reconozca como tal.
 
 ![El triunfo de Santo Tomás de Aquino — Benozzo Gozzoli](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Le_Triomphe_de_saint_Thomas_d'Aquin_-_Benozzo_Gozzoli_-_Mus%C3%A9e_du_Louvre_Peintures_INV_104_%3B_MR_255_-_avec_cadre.jpg)
 *El triunfo de Santo Tomás de Aquino* — Benozzo Gozzoli, 1471
@@ -459,7 +459,7 @@ La sexta, para mí una de las más importantes, es la **transmisión**. La verda
 >
 > — Santo Tomás de Aquino, *Summa theologiae*, II-II, 188, 6.
 
-Santo Tomás añade la cláusula que completa y corona la ética entera del buscador: «toda verdad, dígala quien la diga, procede del Espíritu Santo» (Summa theologiae, I-II, 109, 1). No significa que toda verdad sea fruto de una revelación particular, sino que, para Santo Tomás, la capacidad natural de conocer y expresar la verdad procede, en último término, de Dios —la Verdad subsistente e inmutable, «la primera y la suma Verdad»—. Quien cree esto puede buscar la verdad en todas partes: en el laboratorio y en el taller, en el poema y en el claustro, en el amigo y en el adversario, con la paciencia de quien sabe de dónde procede toda agua clara.
+Santo Tomás añade la cláusula que completa y corona la ética entera del buscador: «toda verdad, dígala quien la diga, procede del Espíritu Santo» (*Summa theologiae*, I-II, 109, 1). No significa que toda verdad sea fruto de una revelación particular, sino que, para Santo Tomás, la capacidad natural de conocer y expresar la verdad procede, en último término, de Dios —la Verdad subsistente e inmutable, «la primera y la suma Verdad»—. Quien cree esto puede buscar la verdad en todas partes: en el laboratorio y en el taller, en el poema y en el claustro, en el amigo y en el adversario, con la paciencia de quien sabe de dónde procede toda agua clara.
 
 Buscar la verdad con estas seis virtudes es ya, en cierto modo y bajo mi punto de vista, habitarla.
 
@@ -481,12 +481,12 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 
 ## Bibliografía
 
-- San Agustín de Hipona: *Confesiones*, *Soliloquios*, *El libre albedrío* y *La verdadera religión*.
-- San Anselmo de Canterbury: *Proslogion* y *De veritate*.
+- San Agustín de Hipona: *Confesiones* (397–400), *Soliloquios* (386–387), *El libre albedrío* (388–395) y *La verdadera religión* (390).
+- San Anselmo de Canterbury: *Proslogion* (1077–1078) y *De veritate* (c. 1080–1085).
 - Hannah Arendt: *Truth and Politics* (1967).
-- Aristóteles: *Metafísica*, *Ética a Nicómaco* y *Poética*.
+- Aristóteles: *Metafísica* (siglo IV a. C.), *Ética a Nicómaco* (c. 340 a. C.) y *Poética* (c. 335–323 a. C.).
 - Benedicto XVI: *Encuentro con el mundo de la cultura* (Collège des Bernardins, 2008).
-- La Biblia: *Evangelio según San Juan* y *Carta a los Filipenses*.
+- La Biblia: *Evangelio según San Juan* (c. 90–100) y *Carta a los Filipenses* (c. 50–60).
 - Georges Braque: *Le Jour et la nuit: Cahiers 1917–1952* (1952).
 - David Brewster: *Memoirs of the Life, Writings, and Discoveries of Sir Isaac Newton* (1855).
 - Jacob Bronowski: *The Ascent of Man* (1973).
@@ -499,29 +499,29 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - Richard P. Feynman: *Cargo Cult Science* (1974).
 - Michel Foucault: *Truth and Power* (entrevista realizada en 1976; publicada originalmente en francés en 1977), en *Power/Knowledge* (1980).
 - Harry G. Frankfurt: *On Bullshit* (2005; ensayo original de 1986).
-- San Gregorio de Nisa: *Vida de Moisés*.
+- San Gregorio de Nisa: *Vida de Moisés* (c. 390).
 - Martin Heidegger: *El origen de la obra de arte* (conferencias de 1935–1936; publicación inicial en 1950).
 - John Ioannidis: *Why Most Published Research Findings Are False* (2005).
 - Juan Ramón Jiménez: *Eternidades* (1918).
-- Juan de Salisbury: *Metalogicon*.
+- Juan de Salisbury: *Metalogicon* (1159).
 - San Juan Pablo II: *Veritatis splendor* (1993), *Fides et ratio* (1998) y *Carta a los artistas* (1999).
 - Paul Klee: *Creative Credo* (*Schöpferische Konfession*, 1920).
 - Ziva Kunda: *The Case for Motivated Reasoning* (1990).
 - George Loewenstein: *The Psychology of Curiosity: A Review and Reinterpretation* (1994).
-- Antonio Machado: *Nuevas canciones* (1924) y *Proverbios y cantares*.
+- Antonio Machado: *Nuevas canciones* (1924), que incluye *Proverbios y cantares*.
 - Lee McIntyre: *Post-Truth* (2018).
 - Raymond S. Nickerson: *Confirmation Bias: A Ubiquitous Phenomenon in Many Guises* (1998).
 - C. Thi Nguyen: *Echo Chambers and Epistemic Bubbles* (2020).
 - Basarab Nicolescu: *Methodology of Transdisciplinarity* (2010).
-- Nicolás de Cusa: *De docta ignorantia*.
-- Friedrich Nietzsche: *Fragmentos póstumos*.
+- Nicolás de Cusa: *De docta ignorantia* (1440).
+- Friedrich Nietzsche: *Fragmentos póstumos* (1886–1887).
 - Open Science Collaboration: *Estimating the Reproducibility of Psychological Science* (2015).
 - Naomi Oreskes y Erik M. Conway: *Merchants of Doubt* (2010).
 - Oxford Dictionaries: anuncio de *post-truth* como palabra del año (2016).
 - Pablo VI: *Mensaje a los artistas* (1965).
 - Charles S. Peirce: The First Rule of Logic (1898), en The Essential Peirce, vol. II.
 - Pablo Picasso: *Picasso Speaks: A Statement by the Artist* (1923).
-- Platón: *Apología*, *Teeteto*, *Banquete* y *República*.
+- Platón: *Apología* (c. 399–390 a. C.), *Teeteto* (c. 369 a. C.), *Banquete* (c. 385–380 a. C.) y *República* (c. 380 a. C.).
 - Michael Polanyi: *The Tacit Dimension* (1966).
 - Karl Popper: *Conjeturas y refutaciones* (1963; edición original inglesa).
 - Robert N. Proctor y Londa Schiebinger (eds.): *Agnotology: The Making and Unmaking of Ignorance* (2008).
@@ -531,19 +531,22 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - C. P. Snow: *The Two Cultures and the Scientific Revolution* (1959).
 - Aleksandr Solzhenitsyn: *Nobel Lecture in Literature* (1970).
 - Edith Stein: carta a Adelgundis Jaegerschmid (23 de marzo de 1938).
-- Teresia Renata de Spiritu Sancto: *Edith Stein. Eine große Frau unseres Jahrhunderts*.
-- Santo Tomás de Aquino: *Summa theologiae* y *Cuestiones disputadas sobre la verdad*.
+- Teresia Renata de Spiritu Sancto: *Edith Stein. Eine große Frau unseres Jahrhunderts* (1950).
+- Santo Tomás de Aquino: *Summa theologiae* (1265–1274) y *Cuestiones disputadas sobre la verdad* (c. 1256–1259).
 - Miguel de Unamuno: intervención en el Paraninfo de Salamanca (1936).
 - Simone Weil: carta a Joë Bousquet (1942).
 - Oscar Wilde: *The Decay of Lying* (1889) y *Intentions* (1891).
-- Casiodoro: *Institutiones*.
+- Casiodoro: *Institutiones* (c. 560).
 - Concilio Vaticano II: *Dignitatis humanae* (1965).
 - II Concilio de Nicea (787).
-- Al-Fārābī: *Al-Farabi on the Perfect State* (*al-Madīna al-fāḍila*, 1985).
-- Al-Ghazālī: *The Incoherence of the Philosophers* (*Tahāfut al-falāsifa, 2000).
-- Ibn Rushd: *Decisive Treatise and Epistle Dedicatory* (*Faṣl al-maqāl*, 2001).
-- Ibn Sīnā: *The Metaphysics of the Healing* (*al-Shifāʾ: al-Ilāhiyyāt*, 2005).
-- Maimónides: *The Guide of the Perplexed* (1963).
+- Al-Fārābī: *La ciudad virtuosa* (*al-Madīna al-fāḍila*, siglo X).
+- Al-Ghazālī: *La incoherencia de los filósofos* (*Tahāfut al-falāsifa*, 1095).
+- Ibn Rushd: *La incoherencia de la incoherencia* (*Tahāfut al-Tahāfut*, c. 1180) y *El tratado decisivo* (*Faṣl al-maqāl*, 1178/9).
+- Ibn Sīnā: *La metafísica de la curación* (*al-Shifāʾ: al-Ilāhiyyāt*, 1027).
+- Maimónides: *Guía de los perplejos* (1190).
+- Gautama: *Nyāya-sūtra* (c. 200).
+- Dignāga: *Pramāṇasamuccaya* (c. 480–540).
+- Dharmakīrti: *Pramāṇavārttika* (siglo VI–VII).
 - Bimal Krishna Matilal: *Perception: An Essay on Classical Indian Theories of Knowledge* (1986).
 
 ### Lecturas complementarias
@@ -552,3 +555,6 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - Edward O. Wilson: *Consilience: The Unity of Knowledge* (1998).
 - Linda Zagzebski: *Virtues of the Mind* (1996).
 - Bernard Williams: *Truth and Truthfulness* (2002).
+- *Stanford Encyclopedia of Philosophy*: «al-Farabi», «al-Ghazali», «Ibn Rushd» e «Ibn Sina».
+- *Stanford Encyclopedia of Philosophy*: «Maimonides» y «Mind in Indian Buddhist Philosophy».
+- *Internet Encyclopedia of Philosophy*: «Nyaya».
