@@ -3,7 +3,7 @@ title: "Buscar la verdad"
 author: "NEBY"
 description: "Qué es la verdad, por qué la buscamos y qué exige esa búsqueda: sus niveles, sus obstáculos, la ciencia y el arte como sus dos cauces, y su horizonte ético y teológico."
 created: 2026-10-07
-edited: 2026-10-19
+edited: 2026-10-28
 draft: false
 featured: true
 tags:
@@ -40,6 +40,8 @@ Buscar la verdad no es un oficio reservado a especialistas ni tampoco un lujo de
 La necesidad de responder a estas preguntas y el orden en el que se plantean no obedecen al capricho, sino a una exigencia propia de la búsqueda rigurosa. Esta exige aclarar, al menos provisionalmente, qué entendemos por aquello que buscamos, pues no se busca con rigor lo que no se ha definido. Quien parte sin saber qué busca no camina con rumbo: divaga.
 
 La primera parte de este artículo examina la verdad y trata de definirla en su plenitud; la segunda recorre la búsqueda misma —su deseo y sus figuras, su historia y sus enemigos, así como sus dos grandes cauces humanos, la ciencia y el arte—; la tercera se asoma al término del camino y a la ética de quien lo emprende.
+
+Este recorrido no pretende ser una historia universal de la verdad. Parte del linaje que mejor conozco: el griego y romano, el cristiano y el europeo moderno. Otras tradiciones han planteado preguntas semejantes desde categorías propias; la revisión de este artículo y la exigencia de honestidad intelectual me han llevado a acercarme a algunas de ellas.
 
 «Verdad» se dice de varias maneras, y la honestidad intelectual exige precisar siempre en cuál de esos sentidos se emplea el término. Esta regla atravesará el artículo de principio a fin, y procuraré aplicarla con especial cuidado.
 
@@ -102,6 +104,8 @@ La posición que sostengo —inspirada en la tradición clásica que va de Arist
 Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo; no cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos revela despacio, por partes, sin que nuestro conocimiento llegue nunca a agotarla. Por eso la máxima de Charles S. Peirce —«No bloqueen el camino de la investigación» (The First Rule of Logic, 1898)— merece inscribirse, como él mismo propuso, en los muros de la ciudad de la filosofía.
 
 La honestidad obliga a reconocer que esta concepción clásica no ha transitado en paz. La filosofía moderna le ha planteado preguntas legítimas: en qué consiste exactamente «adecuarse», qué es un «hecho» si solo accedemos a él mediante descripciones, cómo comparar el juicio con la cosa si solo disponemos de juicios. Nietzsche anotó en sus cuadernos que «no hay hechos, solo interpretaciones» (*Fragmentos póstumos*).
+
+Conviene no despachar la objeción con un gesto. Nietzsche no niega simplemente que haya experiencias que nos corrijan; cuestiona que podamos alcanzar un hecho «en sí», al margen de toda interpretación. La objeción es más fuerte que el subjetivismo vulgar: que todo hecho nos llegue interpretado no significa que todo lo interpretado sea inventado. El realismo que aquí sostengo no promete hechos puros; afirma que nuestras interpretaciones pueden acertar o fallar respecto de una realidad que no depende de ellas. Nuestro intelecto es limitado y nunca llegaremos a conocer esa realidad en su plenitud; siempre partimos de una perspectiva desde la que intentamos comprenderla. Pero de ahí no se sigue que la realidad dependa de nuestras interpretaciones: podemos revisar nuestras ideas y corregir nuestros errores precisamente porque aquello que intentamos conocer no se reduce a lo que pensamos de ello. Quien reduzca la verdad a coherencia interna o a utilidad práctica podrá explicar el error dentro de su marco, pero tendrá que mostrar por qué ese marco no es, a su vez, una interpretación entre otras. La objeción de Nietzsche nos obliga, por tanto, a reconocer los límites de nuestro conocimiento, no necesariamente a renunciar a la posibilidad de distinguir entre interpretaciones más y menos acertadas.
 
 Estas objeciones no bastan, por sí solas, para refutar la correspondencia entre el decir y el ser, pero la obligan a precisarla. Precisarla es ya, también, una forma de buscar la verdad: afinamos nuestra comprensión de la verdad al definir cada vez mejor qué queremos decir con ella.
 
@@ -235,6 +239,8 @@ En el siglo XII, la escuela de Chartres expresó la humildad de la búsqueda acu
 
 **El conocimiento no nace de cero con cada generación.** En Bagdad, siglos antes, el movimiento de traducción grecoárabe había trasladado al árabe numerosos textos griegos; más tarde, los traductores de Toledo vertieron al latín obras de Aristóteles y de pensadores árabes, poniendo de nuevo en circulación una parte de aquel legado. Las universidades medievales dieron a esta búsqueda una forma institucional propia mediante la *quaestio disputata* («cuestión disputada»): un ejercicio reglado en el que se exponían y sopesaban los argumentos a favor y en contra de una cuestión antes de formular una conclusión. Esta práctica obligaba al estudioso a enfrentarse con razones contrarias a las suyas, una forma de contrarrestar la tendencia a confirmar las propias opiniones siglos antes de que la psicología estudiara el sesgo de confirmación.
 
+El mundo islámico no fue solo un vehículo de transmisión: fue también un centro de creación filosófica. Al-Fārābī e Ibn Sīnā desarrollaron la herencia aristotélica; al-Ghazālī sometió a crítica severa algunas de sus tesis en *La incoherencia de los filósofos*, e Ibn Rushd respondió directamente en *La incoherencia de la incoherencia*. En *El tratado decisivo*, este último defendió la legitimidad de la investigación filosófica y su relación con la revelación. Aquel debate, lejos de ofrecer una única respuesta, plantea una cuestión central para este artículo: qué puede establecer la razón mediante demostración y qué se acepta por autoridad revelada.
+
 ![San Jerónimo en su estudio — Antonello da Messina](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Antonello_da_Messina_-_St_Jerome_in_his_study_-_National_Gallery_London.jpg)
 *San Jerónimo en su estudio* — Antonello da Messina, c. 1475
 
@@ -287,6 +293,8 @@ Karl Popper describió su punto de partida con una frase que desconcierta solo h
 
 **La ciencia no nace de la certeza, sino de la conjetura audaz puesta a prueba; y su nobleza no consiste en no equivocarse, sino en corregirse.** Ella es —sigue Popper— «una de las muy pocas actividades humanas, quizá la única, en la que los errores se critican sistemáticamente y, con bastante frecuencia, se corrigen con el tiempo» (*Conjeturas y refutaciones*). A la verdad se tiende eliminando el error: una aproximación por descarte. La ciencia no alcanza una coronación definitiva, pues la realidad es inagotablemente compleja y nuestro conocimiento nunca llega a poseerla por completo. Siempre cabe reducir el margen de error y aproximarse más a la verdad.
 
+La cuestión de cómo se confirma el conocimiento —cómo distinguir el conocimiento del error— tiene también una larga historia fuera de Europa. En la India clásica, la escuela Nyāsya sostuvo que la validez de una cognición —un acto de conocimiento, como percibir algo o formarse un juicio sobre ello— no es evidente por sí misma y que, cuando surge la duda, debe confirmarse mediante otra cognición o mediante la ausencia de defecto. La epistemología budista de Dignāga y Dharmakīrti cuestionó esa exigencia y vinculó la validez del conocimiento con su capacidad de no engañar y de guiar eficazmente la acción. El desacuerdo plantea una pregunta fundamental: si la validez del conocimiento necesita una confirmación posterior o si puede reconocerse en la propia cognición y en su relación con aquello que conoce.
+
 Los científicos han testimoniado esta ética con palabras que han alcanzado ya rango de clásicos. Richard Feynman, ante los graduados de Caltech en 1974, formuló uno de sus principios fundamentales:
 
 > El primer principio es que no debes engañarte a ti mismo, y tú eres la persona más fácil de engañar.
@@ -323,6 +331,8 @@ Esta bella y memorable frase hace de bisagra y nos permite pasar a la segunda gr
 ### El arte: la búsqueda que desvela
 
 Hay una capa de la verdad que la verificación científica no agota. En esa capa se encuentra el taller del arte. Conforme a la regla de este artículo, conviene partir de una definición: la verdad del arte no opera principalmente en el nivel lógico —el del enunciado comprobado—, sino en un sentido más similar al ontológico. No es solo adecuación verificada, sino **desvelamiento de verdades más profundas: lo esencial dejándose ver**.
+
+Conviene precisar el sentido de «ontológico»: qué significa aquí que el arte desvela la verdad. No hablo de la verdad de un enunciado ni de la verdad ontológica en el sentido escolástico expuesto antes, sino del desvelamiento del que habla Heidegger: la obra puede hacer visible una dimensión de la realidad que la proposición no agota. Ese desvelamiento no se valida por sí mismo; una obra también puede ocultar o deformar, y por eso exige interpretación y recepción crítica. Decir que el arte puede desvelar la verdad no significa que toda obra sea verdadera.
 
 Platón fue severo con el arte imitativo: afirmó que la imitación queda «a tres grados de la verdad» (*República*, X). Toda exaltación del arte necesita un acusador serio, y el primero fue el mejor. Sin embargo, su discípulo Aristóteles vio lo que la crítica platónica dejaba fuera:
 
@@ -421,6 +431,8 @@ La tradición biográfica, desde Teresia Renata de Spiritu Sancto, le ha atribui
 Que la búsqueda tenga ese término no la privatiza. Es, ante todo, deber y derecho de toda persona humana. Como ya hemos señalado, el Concilio Vaticano II afirma que todos los hombres «están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión»; además, añade que, una vez conocida, «hay que aceptarla firmemente con asentimiento personal» (*Dignitatis humanae*, 2–3).
 
 La búsqueda de la verdad es la vocación más universal que existe: nace con la razón, se ejerce en todos los saberes y oficios; para quien cree, encuentra en Cristo su rostro definitivo; para quien no cree, tiene igualmente su término último en esa misma Verdad subsistente e inmutable —Dios—, aunque no la reconozca como tal.
+
+La tradición judía ofrece un interlocutor cercano y, a la vez, irreductible. Maimónides comparte con San Agustín y Santo Tomás la convicción de que la razón puede elevarse hasta el umbral de Dios, pero insiste en los límites de nuestro lenguaje: de la esencia de Dios conocemos mejor lo que no es que lo que es; ese umbral no se franquea con conceptos. En la Guía de los perplejos, la Torá no constituye un simple límite para la especulación, sino que orienta el perfeccionamiento humano, también en su dimensión intelectual. Esa teología negativa ilumina la «docta ignorancia» que este artículo ya invoca. El judaísmo, no comparte la confesión cristiana de que Jesús es el Verbo encarnado; afirmar que la Verdad se hizo carne es, por tanto, una convicción cristiana, no una conclusión demostrada aquí de tal modo que obligue a todo interlocutor: no una conclusión que se imponga a quien comparte la búsqueda desde otra tradición.
 
 ![El triunfo de Santo Tomás de Aquino — Benozzo Gozzoli](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Le_Triomphe_de_saint_Thomas_d'Aquin_-_Benozzo_Gozzoli_-_Mus%C3%A9e_du_Louvre_Peintures_INV_104_%3B_MR_255_-_avec_cadre.jpg)
 *El triunfo de Santo Tomás de Aquino* — Benozzo Gozzoli, 1471
@@ -525,6 +537,17 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - Simone Weil: carta a Joë Bousquet (1942).
 - Oscar Wilde: *The Decay of Lying* (1889) y *Intentions* (1891).
 - Casiodoro: *Institutiones*.
+- Concilio Vaticano II: *Dignitatis humanae* (1965).
+- II Concilio de Nicea (787).
+- Al-Fārābī: *Al-Farabi on the Perfect State* (*al-Madīna al-fāḍila*, 1985).
+- Al-Ghazālī: *The Incoherence of the Philosophers* (*Tahāfut al-falāsifa, 2000).
+- Ibn Rushd: *Decisive Treatise and Epistle Dedicatory* (*Faṣl al-maqāl*, 2001).
+- Ibn Sīnā: *The Metaphysics of the Healing* (*al-Shifāʾ: al-Ilāhiyyāt*, 2005).
+- Maimónides: *The Guide of the Perplexed* (1963).
+- Bimal Krishna Matilal: *Perception: An Essay on Classical Indian Theories of Knowledge* (1986).
+
+### Lecturas complementarias
+
 - Thomas S. Kuhn: *La estructura de las revoluciones científicas* (1962).
 - Edward O. Wilson: *Consilience: The Unity of Knowledge* (1998).
 - Linda Zagzebski: *Virtues of the Mind* (1996).
