@@ -75,9 +75,9 @@ Esta concepción de la verdad puede leerse como una toma de posición frente a l
 
 - La verdad **lógica** —la del enunciado—: un enunciado es verdadero cuando se corresponde con la realidad.
 
-- La verdad **ontológica** —la de la cosa—: una cosa puede llamarse «verdadera» cuando es auténtica o se ajusta a lo que se entiende que debe ser —un vino verdadero, un amigo verdadero—. En la tradición escolástica, esta verdad se entiende como la relación con el entendimiento al que la cosa se conforma.
+- La verdad **ontológica** —la de la cosa—: en la tradición escolástica, una cosa es verdadera en cuanto inteligible, en cuanto se conforma al entendimiento que la piensa. A este sentido se aproxima el uso corriente que llama «verdadera» a una cosa auténtica —un vino verdadero, un amigo verdadero—, porque realiza lo que su nombre promete.
 
-- La verdad **epistemológica** —la del conocimiento—: un juicio de la mente es verdadero cuando acierta acerca de la realidad. La diferencia respecto de la verdad lógica está en el enfoque: aquí atendemos al juicio mediante el cual conocemos; allí, a lo que afirma el enunciado.
+- La verdad **epistemológica** —la del conocimiento—: un juicio es verdadero cuando acierta acerca de la realidad. No es una clase distinta de verdad, sino la misma relación considerada en el acto de quien conoce: aquí atendemos al juicio; en la verdad lógica, a lo que el enunciado afirma.
 
 La nomenclatura varía según la tradición filosófica; empleo aquí estos tres niveles como una distinción de trabajo.
 
@@ -103,7 +103,7 @@ La posición que sostengo —inspirada en la tradición clásica que va de Arist
 
 Si «mi verdad» fuera la última medida, el error se evaporaría, y con él la posibilidad misma de buscar: no se busca lo que ya se posee por el mero hecho de creerlo; no cabe equivocarse ante un espejo que solo devuelve la propia cara. La búsqueda de la verdad tiene sentido *precisamente porque* la verdad es real, nos excede y se nos revela despacio, por partes, sin que nuestro conocimiento llegue nunca a agotarla. Por eso la máxima de Charles S. Peirce —«No bloqueen el camino de la investigación» (The First Rule of Logic, 1898)— merece inscribirse, como él mismo propuso, en los muros de la ciudad de la filosofía.
 
-La honestidad obliga a reconocer que esta concepción clásica no ha transitado en paz. La filosofía moderna le ha planteado preguntas legítimas: en qué consiste exactamente «adecuarse», qué es un «hecho» si solo accedemos a él mediante descripciones, cómo comparar el juicio con la cosa si solo disponemos de juicios. Nietzsche anotó en sus cuadernos que «no hay hechos, solo interpretaciones» (*Fragmentos póstumos*).
+La honestidad obliga a reconocer que esta concepción clásica no ha transitado en paz. La filosofía moderna le ha planteado preguntas legítimas: en qué consiste exactamente «adecuarse», qué es un «hecho» si solo accedemos a él mediante descripciones, cómo comparar el juicio con la cosa si solo disponemos de juicios. Nietzsche anotó en sus cuadernos que «no hay hechos, solo interpretaciones» (*Fragmentos póstumos*, 1886–1887, 7).
 
 Conviene no despachar la objeción con un gesto. Nietzsche no niega simplemente que haya experiencias que nos corrijan; cuestiona que podamos alcanzar un hecho «en sí», al margen de toda interpretación. La objeción es más fuerte que el subjetivismo vulgar: que todo hecho nos llegue interpretado no significa que todo lo interpretado sea inventado. El realismo que aquí sostengo no promete hechos puros; afirma que nuestras interpretaciones pueden acertar o fallar respecto de una realidad que no depende de ellas. Nuestro intelecto es limitado y nunca llegaremos a conocer esa realidad en su plenitud; siempre partimos de una perspectiva desde la que intentamos comprenderla. Pero de ahí no se sigue que la realidad dependa de nuestras interpretaciones: podemos revisar nuestras ideas y corregir nuestros errores precisamente porque aquello que intentamos conocer no se reduce a lo que pensamos de ello. Quien reduzca la verdad a coherencia interna o a utilidad práctica podrá explicar el error dentro de su marco, pero tendrá que mostrar por qué ese marco no es, a su vez, una interpretación entre otras. La objeción de Nietzsche nos obliga, por tanto, a reconocer los límites de nuestro conocimiento, no necesariamente a renunciar a la posibilidad de distinguir entre interpretaciones más y menos acertadas.
 
@@ -252,7 +252,7 @@ Sobre todas estas tradiciones de estudio y discusión se alza la advertencia de 
 
 Si la búsqueda es natural, ¿por qué fracasa tan a menudo? La respuesta se reparte entre el interior del buscador y el paisaje en el cual busca.
 
-Por dentro, el buscador tropieza ante todo consigo mismo. La psicología contemporánea lo ha documentado con frialdad estadística. Ziva Kunda resumió uno de sus mecanismos fundamentales: «hay pruebas considerables de que las personas tienden a llegar a las conclusiones que desean alcanzar, aunque su capacidad para hacerlo está limitada por su capacidad para construir justificaciones que parezcan razonables» (*The Case for Motivated Reasoning*, 1990). Por eso el autoengaño resulta tan difícil de sorprender en flagrante delito, incluso ante el propio espejo.
+Por dentro, el buscador tropieza ante todo consigo mismo. La psicología contemporánea lo ha documentado con frialdad estadística. Ziva Kunda resumió uno de sus mecanismos fundamentales: «hay pruebas considerables de que las personas tienden a llegar a las conclusiones que desean alcanzar, pero su capacidad para hacerlo está limitada por su capacidad para construir justificaciones que parezcan razonables» (*The Case for Motivated Reasoning*, 1990). Por eso el autoengaño resulta tan difícil de sorprender en flagrante delito, incluso ante el propio espejo.
 
 Este extravío adopta varias formas:
 
@@ -267,13 +267,13 @@ Buscar la verdad exige, por tanto, aprender primero a **reconocer la propia igno
 ![El sueño de la razón produce monstruos — Francisco de Goya](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Francisco_Jos%C3%A9_de_Goya_y_Lucientes_-_The_sleep_of_reason_produces_monsters_(No._43)%2C_from_Los_Caprichos_-_Google_Art_Project.jpg)
 *El sueño de la razón produce monstruos* — Francisco de Goya, 1797–1799
 
-Por fuera, el buscador se mueve en un mundo que no siempre quiere la verdad, como ya hemos visto en el apartado anterior. Michel Foucault lo resumió en una entrevista en 1976 con una frase que ha envejecido mal —para la especie, no para la frase—: «cada sociedad tiene su régimen de verdad» (*Truth and Power*, en *Power/Knowledge*). No significa simplemente que cada sociedad invente su propia verdad, sino que existen instituciones, discursos y procedimientos que condicionan qué se acepta como verdadero, quién está autorizado a afirmarlo y cómo se sanciona a quien lo hace. La cuestión no es solo qué es verdad, sino también qué lugar ocupa en una sociedad quien trata de decirla.
+Por fuera, el buscador se mueve en un mundo que no siempre quiere la verdad, como ya hemos visto en el apartado anterior. Michel Foucault lo resumió en una entrevista en 1976 con una frase que  ha envejecido mal —para la especie, no para la frase, pues por desgracia, sigue siendo actual—: «cada sociedad tiene su régimen de verdad» (*Truth and Power*, en *Power/Knowledge*). No significa simplemente que cada sociedad invente su propia verdad, sino que existen instituciones, discursos y procedimientos que condicionan qué se acepta como verdadero, quién está autorizado a afirmarlo y cómo se sanciona a quien lo hace. La cuestión no es solo qué es verdad, sino también qué lugar ocupa en una sociedad quien trata de decirla.
 
 Hannah Arendt advirtió que «las posibilidades de que la verdad factual sobreviva al asalto del poder son muy escasas» (*Truth and Politics*, 1967). El peligro de la mentira organizada no consiste únicamente en que una falsedad concreta llegue a aceptarse como verdadera, sino en algo mucho más profundo: **la destrucción del suelo común de los hechos** sobre el que nos orientamos en el mundo. Es la pérdida de la brújula que nos permite distinguir lo sucedido de lo inventado. Cuando ese suelo común se destruye, también se dificulta la posibilidad de discutir racionalmente sobre la responsabilidad, la justicia y el bien y el mal.
 
 Harry Frankfurt añade un matiz que ilumina muy bien nuestro presente: su análisis permite entender la charlatanería como una amenaza para la verdad incluso más corrosiva que la propia mentira (*On Bullshit*, 2005; ensayo original de 1986). El mentiroso sigue condicionado por la verdad: necesita tenerla en cuenta para ocultarla. Al charlatán, en cambio, le resulta sencillamente indiferente que lo que dice sea verdadero o falso. No pretende necesariamente describir la realidad ni ocultarla; habla sin someterse a sus exigencias.
 
-La posverdad —*post-truth*, palabra del año 2016 para Oxford Dictionaries— no es una doctrina: es un clima, inquietantemente parecido al actual. Designa una situación en la que los hechos objetivos pesan menos en la formación de la opinión pública que las apelaciones a las emociones y a las creencias personales (Lee McIntyre, *Post-Truth*, 2018). En ese clima prosperan las cámaras de eco: entornos que no se limitan a dejar fuera las voces contrarias, sino que desacreditan activamente esas voces y las fuentes de las que proceden.
+La posverdad —*post-truth*, palabra del año 2016 para Oxford Dictionaries— no es una doctrina: es un clima que describe con inquietante precisión el presente. Designa una situación en la que los hechos objetivos pesan menos en la formación de la opinión pública que las apelaciones a las emociones y a las creencias personales (Lee McIntyre, *Post-Truth*, 2018). En ese clima prosperan las cámaras de eco: entornos que no se limitan a dejar fuera las voces contrarias, sino que desacreditan activamente esas voces y las fuentes de las que proceden.
 
 C. Thi Nguyen (*Echo Chambers and Epistemic Bubbles*, 2020) advierte que no basta con presentar más hechos a quienes viven dentro de estas cámaras. Cuando alguien ha aprendido a desconfiar sistemáticamente de las fuentes externas, también desconfiará de la información que procede de ellas. **El problema no es solo de información, sino de confianza.** Quien intenta reparar esa desconfianza puede ser rechazado precisamente por los mecanismos que necesita desactivar.
 
@@ -281,9 +281,9 @@ La ignorancia, además, se fabrica en serie. Se llama **agnotología** al estudi
 
 Buscar la verdad en serio es, también, saber frente a qué se busca. También, si buscarla exige a veces defenderla, cabe una última observación: **en ocasiones, defender lo encontrado resulta más arduo que encontrarlo**.
 
-### La ciencia: la búsqueda que verifica
+### La ciencia: la búsqueda que contrasta
 
-Frente a los obstáculos de los apartados anteriores, la humanidad ha levantado dos grandes construcciones. La primera es la ciencia: **la verdad lógica llevada a método**, el arte de someter el enunciado a la realidad misma.
+Frente a los obstáculos de los apartados anteriores, la humanidad ha levantado dos grandes construcciones. La primera es la ciencia: **la pretensión de verdad sometida a examen**, **la verdad lógica llevada al método**, el arte de someter el enunciado a la realidad misma.
 
 Karl Popper describió su punto de partida con una frase que desconcierta solo hasta que se entiende:
 
@@ -293,7 +293,7 @@ Karl Popper describió su punto de partida con una frase que desconcierta solo h
 
 **La ciencia no nace de la certeza, sino de la conjetura audaz puesta a prueba; y su nobleza no consiste en no equivocarse, sino en corregirse.** Ella es —sigue Popper— «una de las muy pocas actividades humanas, quizá la única, en la que los errores se critican sistemáticamente y, con bastante frecuencia, se corrigen con el tiempo» (*Conjeturas y refutaciones*). A la verdad se tiende eliminando el error: una aproximación por descarte. La ciencia no alcanza una coronación definitiva, pues la realidad es inagotablemente compleja y nuestro conocimiento nunca llega a poseerla por completo. Siempre cabe reducir el margen de error y aproximarse más a la verdad.
 
-La cuestión de cómo se confirma el conocimiento —cómo distinguir el conocimiento del error— tiene también una larga historia fuera de Europa. En la India clásica, la escuela Nyāsya sostuvo que la validez de una cognición —un acto de conocimiento, como percibir algo o formarse un juicio sobre ello— no es evidente por sí misma y que, cuando surge la duda, debe confirmarse mediante otra cognición o mediante la ausencia de defecto. La epistemología budista de Dignāga y Dharmakīrti cuestionó esa exigencia y vinculó la validez del conocimiento con su capacidad de no engañar y de guiar eficazmente la acción. El desacuerdo plantea una pregunta fundamental: si la validez del conocimiento necesita una confirmación posterior o si puede reconocerse en la propia cognición y en su relación con aquello que conoce.
+La pregunta por cómo se confirma el conocimiento también tiene una larga historia fuera de Europa. En la India clásica, la escuela Nyāya sostuvo que la validez de una cognición no es evidente por sí misma y que, cuando surge la duda, debe confirmarse mediante otra cognición o mediante la ausencia de un defecto. La epistemología budista de Dignāga y Dharmakīrti discutió esa exigencia y vinculó la validez con la eficacia causal y práctica de la cognición. El desacuerdo decide si el conocimiento necesita verificación externa o si su garantía se sigue de su propia producción. Este artículo se inclina por la primera; reconocer que la segunda también ha sido defendida con rigor muestra que la pregunta por los límites de la duda y la corrección no es una ocurrencia moderna.
 
 Los científicos han testimoniado esta ética con palabras que han alcanzado ya rango de clásicos. Richard Feynman, ante los graduados de Caltech en 1974, formuló uno de sus principios fundamentales:
 
@@ -318,7 +318,7 @@ La ciencia es, en el fondo y sobre todo, **una vacuna contra la certeza sin prue
 
 El segundo testigo es la propia comunidad científica, que hace público su examen a través de las revistas especializadas. Este testimonio se manifiesta en la llamada crisis de replicación: la constatación de que una parte de los resultados publicados no logra reproducirse de manera consistente. John Ioannidis analizó las condiciones bajo las cuales numerosos hallazgos publicados pueden ser falsos (*Why Most Published Research Findings Are False*, 2005); diez años después, el Open Science Collaboration sometió a prueba cien estudios de psicología y encontró que las replicaciones obtenían, en conjunto, efectos más débiles y menos resultados estadísticamente significativos (*Estimating the Reproducibility of Psychological Science*, 2015).
 
-Esta crisis no refuta la ciencia; muestra a la comunidad científica sometiendo sus propios resultados a examen y haciendo visibles los errores que deben corregirse. **Su credibilidad no reside en ser infalible, sino en saber enmendarse**: infalible solo es quien no se deja medir por nada, quien no se somete a examen.
+Esta crisis no refuta la ciencia; muestra a la comunidad científica sometiendo sus propios resultados a examen y haciendo visibles los errores que deben corregirse. **Su credibilidad no reside en ser infalible, sino en saber enmendarse**: la pretensión de infalibilidad solo la sostiene quien no se deja medir por nada; quien no se somete a examen.
 
 Uno de los hombres que más contribuyó a cambiar nuestro mapa del cosmos dejó escrito de dónde nace todo esto:
 
@@ -394,9 +394,9 @@ A la verdad también se la busca con los ojos, con los oídos y con las manos. *
 
 ### Dos cauces de una misma sed
 
-La frase de Einstein que cerraba el apartado sobre la ciencia —el misterio como «fuente de todo arte y ciencia verdaderos»— sirve aquí de bisagra: ciencia y arte no son dos verdades rivales, sino dos cauces de una misma sed. La raíz es común: el asombro que Aristóteles puso en el origen de la filosofía y que la psicología contemporánea describe como la emoción capaz de reorganizar lo que creemos saber. Común es también la escalera: tanto el artesano como el científico ascienden en Aristóteles de la experiencia a lo universal, y la sabiduría corona los dos caminos. La diferencia es de función, no de rango: la ciencia *verifica* —adecúa, comprueba, corrige—; el arte *desvela* —abre, inquieta, hace visible—. Son los dos movimientos del caminante: asegurar el paso y levantarlo de nuevo. **Sin verificación se cae en la ilusión; sin inquietud se cae en el dogma.**
+La frase de Einstein que cerraba el apartado sobre la ciencia —el misterio como «fuente de todo arte y ciencia verdaderos»— sirve aquí de bisagra: ciencia y arte no son dos verdades rivales, sino dos cauces de una misma sed. La raíz es común: el asombro que Aristóteles puso en el origen de la filosofía y que la psicología contemporánea ha estudiado como la emoción capaz de reorganizar lo que creemos saber. Común es también la escalera: tanto el artesano como el científico ascienden en Aristóteles de la experiencia a lo universal, y la sabiduría corona los dos caminos. La diferencia es de función, no de rango: la ciencia *contrasta* —adecúa, comprueba, corrige—; el arte *desvela* —abre, inquieta, hace visible—. Son los dos movimientos del caminante: asegurar el paso y levantarlo de nuevo. **Sin verificación se cae en la ilusión; sin inquietud se cae en el dogma.**
 
-La historia moderna los separó, con pérdida para ambos. C. P. Snow diagnosticó esta fractura en 1959 en su conferencia *The Two Cultures and the Scientific Revolution*, posteriormente publicada como libro. Por su parte, T. S. Eliot formuló tres preguntas que deberían colgar en el claustro de toda universidad, pues señalan la verdadera jerarquía de la problemática:
+La historia moderna los separó, con pérdida para ambos. C. P. Snow diagnosticó una fractura análoga entre las culturas científica y humanística en 1959, en su conferencia *The Two Cultures and the Scientific Revolution*, posteriormente publicada como libro. Por su parte, T. S. Eliot formuló tres preguntas que deberían colgar en el claustro de toda universidad, pues señalan la verdadera jerarquía de la problemática:
 
 > ¿Dónde está la vida que perdimos viviendo?  
 > ¿Dónde la sabiduría que perdimos en el conocimiento?  
@@ -426,13 +426,13 @@ La búsqueda de la verdad no es un fin aislado: está entretejida con el bien y 
 >
 > — Edith Stein, carta a Adelgundis Jaegerschmid (1938).
 
-La tradición biográfica, desde Teresia Renata de Spiritu Sancto, le ha atribuido una frase que resume esa búsqueda: «Mi anhelo de verdad era una sola oración».
+La tradición biográfica, desde Teresia Renata de Spiritu Sancto, le ha atribuido una frase que resume esa búsqueda: «Mi ansia de verdad era mi única oración».
 
 Que la búsqueda tenga ese término no la privatiza. Es, ante todo, deber y derecho de toda persona humana. Como ya hemos señalado, el Concilio Vaticano II afirma que todos los hombres «están impulsados por su misma naturaleza y están obligados además moralmente a buscar la verdad, sobre todo la que se refiere a la religión»; además, añade que, una vez conocida, «hay que aceptarla firmemente con asentimiento personal» (*Dignitatis humanae*, 2–3).
 
-La búsqueda de la verdad es la vocación más universal que existe: nace con la razón, se ejerce en todos los saberes y oficios; para quien cree, encuentra en Cristo su rostro definitivo; para quien no cree, tiene igualmente su término último en esa misma Verdad subsistente e inmutable —Dios—, aunque no la reconozca como tal.
-
 La tradición judía ofrece un interlocutor cercano y, a la vez, irreductible. Maimónides comparte con San Agustín y Santo Tomás la convicción de que la razón puede elevarse hasta el umbral de Dios, pero insiste en los límites de nuestro lenguaje: de la esencia de Dios conocemos mejor lo que no es que lo que es; ese umbral no se franquea con conceptos. En la Guía de los perplejos, la Torá no constituye un simple límite para la especulación, sino que orienta el perfeccionamiento humano, también en su dimensión intelectual. Esa teología negativa ilumina la «docta ignorancia» que este artículo ya invoca. El judaísmo, no comparte la confesión cristiana de que Jesús es el Verbo encarnado; afirmar que la Verdad se hizo carne es, por tanto, una convicción cristiana, no una conclusión demostrada aquí de tal modo que obligue a todo interlocutor: no una conclusión que se imponga a quien comparte la búsqueda desde otra tradición.
+
+La búsqueda de la verdad es la vocación más universal que existe: nace con la razón y se ejerce en todos los saberes y oficios. Para el cristiano, encuentra en Cristo su rostro definitivo. Desde la perspectiva que este articulo sostiene: también quien no cree tiene su término último en la Verdad subsistente e inmutable —Dios—, aunque no la reconozca como tal.
 
 ![El triunfo de Santo Tomás de Aquino — Benozzo Gozzoli](https://pub-3eb47c9dbe5843faaa1314dd5c087d1a.r2.dev/images/Le_Triomphe_de_saint_Thomas_d'Aquin_-_Benozzo_Gozzoli_-_Mus%C3%A9e_du_Louvre_Peintures_INV_104_%3B_MR_255_-_avec_cadre.jpg)
 *El triunfo de Santo Tomás de Aquino* — Benozzo Gozzoli, 1471
@@ -445,7 +445,7 @@ La primera es la **humildad**: no poseemos toda la verdad, ni podemos abarcarla 
 
 Esta humildad la encarna una célebre anécdota atribuida a Isaac Newton y recogida por su biógrafo David Brewster. Newton se habría visto a sí mismo como «un niño que juega en la orilla del mar, divertido por encontrar de vez en cuando una piedra más lisa o una concha más bonita de lo corriente, mientras el gran océano de la verdad se extendía ante él sin descubrir» (*Memoirs of the Life, Writings, and Discoveries of Sir Isaac Newton*, II). Los enanos de Chartres y la docta ignorancia de Cusa nos hablan de esta misma humildad con otras palabras: se busca sobre hombros de gigantes, sabiendo que la verdad nos excede.
 
-La segunda es la **valentía**. Buscar no es tarea ligera, y más arduo aún es defender lo que se ha encontrado. Lo muestran Sócrates, el episodio de Unamuno, Solzhenitsyn y muchos otros casos mencionados a lo largo de este artículo. Lo muestran, sobre todo, los mártires, a quienes *Fides et ratio* llama «los testigos más auténticos de la verdad sobre la existencia» (32). La *parrhesía* —el decir veraz a riesgo propio— sigue siendo el precio que se paga cuando la verdad incomoda.
+La segunda es la **valentía**. Buscar no es tarea ligera, y más arduo aún es defender lo que se ha encontrado. Lo muestran Sócrates, el episodio de Unamuno, Solzhenitsyn y muchos otros casos mencionados a lo largo de este artículo. Lo muestran, sobre todo, los mártires: «El mártir, en efecto, es el testigo más auténtico de la verdad sobre la existencia», dice *Fides et ratio* (32). La *parrhesía* —el decir veraz a riesgo propio— sigue siendo el precio que se paga cuando la verdad incomoda.
 
 La tercera es la **honestidad**. No engañarse a uno mismo, como advirtió Feynman; anotar lo que contradice la propia tesis, como practicó y propuso Darwin; publicar también los fracasos, como exige la honestidad científica. El buscador se guarda, ante todo, de su propio deseo de tener razón.
 
@@ -467,7 +467,7 @@ El punto de partida era una copla de tres versos de Machado; el de llegada, una 
 
 - **Definir la verdad:** decir de lo que es que es, en todos sus niveles y hasta la cumbre.
 
-- **Buscarla:** con el deseo que nos constituye, en la historia que nos precede, contra los obstáculos de dentro y de fuera, y por los dos cauces de la verificación y del desvelamiento.
+- **Buscarla:** con el deseo que nos constituye, en la historia que nos precede, contra los obstáculos de dentro y de fuera, y por los dos cauces: el del contraste —la ciencia— y el del desvelamiento —el arte—.
 
 - **Permanecer en ella:** hasta que haga su obra, que es la libertad.
 
