@@ -3,7 +3,7 @@ title: "Buscar la verdad"
 author: "NEBY"
 description: "Qué es la verdad, por qué la buscamos y qué exige esa búsqueda: sus niveles, sus obstáculos, la ciencia y el arte como sus dos cauces, y su horizonte ético y teológico."
 created: 2026-10-07
-edited: 2026-10-28
+edited: 2026-11-16
 draft: false
 featured: true
 tags:
@@ -12,6 +12,7 @@ tags:
   - teologia
   - ciencia
   - arte
+  - polimatia
   - epistemologia
   - etica
 ---
@@ -408,7 +409,25 @@ Buscar la verdad es ascender de esa manera —de la información al conocimiento
 
 La ansiada unidad del conocimiento no exige fundir los métodos en uno solo —eso empobrecería una realidad que se deja abordar por muchos lados—; exige algo más riguroso: que cada disciplina use el método que su objeto pide y que las conexiones entre ellas sean reales, no retóricas. O en la fórmula de la transdisciplinariedad: «no hay transdisciplinariedad sin disciplinariedad» (Basarab Nicolescu, *Methodology of Transdisciplinarity*, 2010).
 
-Es, dicho sea de paso, la misma convicción con la que se abre este jardín: la realidad es una, y las disciplinas no son fronteras en ella, sino perspectivas de un intelecto finito ante un objeto infinitamente complejo.
+#### La polimatía: un objeto y muchas perspectivas
+
+Si la realidad es una y el intelecto que la mira es limitado, la pluralidad de las disciplinas no es un accidente administrativo, sino la forma que adopta una mirada incapaz de abarcar de una sola vez todo su objeto. Cada disciplina es una perspectiva legítima sobre una misma cosa: ilumina una cara y deja las otras en sombra, y ninguna agota la realidad que observa.
+
+El peligro no está en mirar desde una sola parte —inevitable para la limitada mirada humana—, sino en confundir la parte con el todo: en tomar la propia perspectiva por la realidad entera.
+
+Hay una figura que encarna esta convicción con el cuerpo entero: el polímata. La polimatía («el saber de muchas cosas») no es una colección de saberes acumulados, sino una manera de buscar y de entender la realidad: la de quien se niega a tomar su disciplina por la realidad entera y mira el mismo objeto desde varias perspectivas. Considero que hay pocas figuras más admirables en la historia de la búsqueda.
+
+Leonardo da Vinci es su ejemplo más célebre: sostuvo por escrito que la pintura es una ciencia y que el pintor debe dominar la óptica, la anatomía y la proporción (*Tratado de pintura*). Sus cuadernos —los Códices *Atlántico*, *Arundel*, *Leicester* y *Madrid*— entreveran estudios de la luz, los músculos, las rocas y las plantas con notas de pintura. De esa integración nacieron comprensiones que el pintor formado solo en el taller jamás habría alcanzado: el *sfumato* («el esfumado»), la perspectiva aérea, los gestos de *La Última Cena*, la expresión de *La Gioconda*, los fondos rocosos de *La Virgen de las Rocas*, etcétera (Martin Kemp, *Leonardo da Vinci*, 1981).
+
+Reducirlo a un pintor que estudiaba óptica, geología, botánica y anatomía sería mutilar su obra. Leonardo fue ingeniero e inventor tanto como artista. Diseñó máquinas voladoras como el tornillo aéreo —precursor conceptual del helicóptero—, junto con el paracaídas e ingenios hidráulicos y bélicos (Kemp, *Leonardo da Vinci*, 1981). Fue, además, un observador que se adelantó a su siglo: interpretó los fósiles marinos como restos de seres vivos e hizo grandes descubrimientos en geología (*Códice Leicester*). También abrió más de treinta cuerpos humanos para dibujar la anatomía desde la observación directa, más que desde la autoridad de unos libros que nadie había puesto en duda (dibujos anatómicos de Windsor). Sus cuadernos —miles de páginas que se conservan, pero que representan apenas una parte de lo que escribió— atesoran tanta sabiduría y tantos descubrimientos que en ellos la ciencia no es el adorno del arte, sino una obra paralela a la pintura (Kemp, *Leonardo da Vinci*, 1981).
+
+No fue, además, el único de su tiempo: el artista-ingeniero era una figura común en el Renacimiento —Alberti, Brunelleschi, Francesco di Giorgio—, aunque Leonardo es el más celebrado (Kenneth Clark, *Leonardo da Vinci*, 1939). Por lo demás, el linaje es antiguo: lo abre el propio Aristóteles —cuya lógica, ética y poética este artículo ha recorrido— y lo continúa San Alberto Magno, a quien la tradición llamó el «Doctor Universal» (Yves Congar, «*In dulcedine societatis quaerere veritatem*», 1981).
+
+Conviene admirar la polimatía sin idealizarla: no es un rango superior ni un programa para todos, y tiene sus costes —Leonardo, por ejemplo, no publicó casi nada—. La dispersión es el precio de la amplitud, y la especialización sigue siendo la forma honrada de la finitud.
+
+**El polímata no acumula saberes: multiplica miradas sobre lo mismo.**
+
+Es, dicho sea de paso, la misma convicción con la que se abre este jardín: **la realidad es una, y las disciplinas no son fronteras en ella, sino perspectivas de un intelecto finito ante un objeto infinitamente complejo**.
 
 [Sobre este sitio](/es/about/).
 
@@ -493,6 +512,7 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - *Catecismo de la Iglesia Católica* (1992; edición típica latina de 1997).
 - Paul Cézanne: carta a Émile Bernard (1905).
 - G. K. Chesterton: *Autobiography* (1936).
+- Yves Congar: «*In dulcedine societatis quaerere veritatem*» (1981).
 - Charles Darwin: *The Life and Letters of Charles Darwin* (1887).
 - Albert Einstein: *What I Believe* (1930).
 - T. S. Eliot: *La roca* (*The Rock*, 1934).
@@ -507,6 +527,7 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - San Juan Pablo II: *Veritatis splendor* (1993), *Fides et ratio* (1998) y *Carta a los artistas* (1999).
 - Paul Klee: *Creative Credo* (*Schöpferische Konfession*, 1920).
 - Ziva Kunda: *The Case for Motivated Reasoning* (1990).
+- Leonardo da Vinci: *Tratado de pintura* (compilación póstuma de F. Melzi); Códices *Atlántico*, *Arundel*, *Leicester* y *Madrid*; dibujos anatómicos de Windsor.
 - George Loewenstein: *The Psychology of Curiosity: A Review and Reinterpretation* (1994).
 - Antonio Machado: *Nuevas canciones* (1924), que incluye *Proverbios y cantares*.
 - Lee McIntyre: *Post-Truth* (2018).
@@ -551,6 +572,8 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 
 ### Lecturas complementarias
 
+- Kenneth Clark: *Leonardo da Vinci* (1939).
+- Martin Kemp: *Leonardo da Vinci: The Marvellous Works of Nature and Man* (1981).
 - Thomas S. Kuhn: *La estructura de las revoluciones científicas* (1962).
 - Edward O. Wilson: *Consilience: The Unity of Knowledge* (1998).
 - Linda Zagzebski: *Virtues of the Mind* (1996).
