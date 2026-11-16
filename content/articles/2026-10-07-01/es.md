@@ -1,7 +1,7 @@
 ---
 title: "Buscar la verdad"
 author: "NEBY"
-description: "Qué es la verdad, por qué la buscamos y qué exige esa búsqueda: sus niveles, sus obstáculos, la ciencia y el arte como sus dos cauces, y su horizonte ético y teológico."
+description: "Qué es la verdad, por qué la buscamos y qué exige esa búsqueda: sus niveles, sus obstáculos, la ciencia y el arte como sus dos cauces, la polimatía como mirada múltiple y su horizonte ético y teológico."
 created: 2026-10-07
 edited: 2026-11-16
 draft: false
@@ -409,7 +409,7 @@ Buscar la verdad es ascender de esa manera —de la información al conocimiento
 
 La ansiada unidad del conocimiento no exige fundir los métodos en uno solo —eso empobrecería una realidad que se deja abordar por muchos lados—; exige algo más riguroso: que cada disciplina use el método que su objeto pide y que las conexiones entre ellas sean reales, no retóricas. O en la fórmula de la transdisciplinariedad: «no hay transdisciplinariedad sin disciplinariedad» (Basarab Nicolescu, *Methodology of Transdisciplinarity*, 2010).
 
-#### La polimatía: un objeto y muchas perspectivas
+#### La polimatía: muchas miradas sobre un mismo objeto
 
 Si la realidad es una y el intelecto que la mira es limitado, la pluralidad de las disciplinas no es un accidente administrativo, sino la forma que adopta una mirada incapaz de abarcar de una sola vez todo su objeto. Cada disciplina es una perspectiva legítima sobre una misma cosa: ilumina una cara y deja las otras en sombra, y ninguna agota la realidad que observa.
 
