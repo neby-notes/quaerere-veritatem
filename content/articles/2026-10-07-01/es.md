@@ -544,7 +544,7 @@ Escribo, como digo en la portada de este jardín, para contemplar y para transmi
 - Oxford Dictionaries: anuncio de *post-truth* como palabra del año (2016).
 - Pablo VI: *Mensaje a los artistas* (1965).
 - Charles S. Peirce: The First Rule of Logic (1898), en The Essential Peirce, vol. II.
-- Pablo Picasso: *Picasso Speaks: A Statement by the Artist* (1923).
+- Pablo Picasso: *Picasso Speaks: A Statement by the Artist* (entrevista con Marius de Zayas para la revista The Arts, , Mayo 1923).
 - Platón: *Apología* (c. 399–390 a. C.), *Teeteto* (c. 369 a. C.), *Banquete* (c. 385–380 a. C.) y *República* (c. 380 a. C.).
 - Michael Polanyi: *The Tacit Dimension* (1966).
 - Karl Popper: *Conjeturas y refutaciones* (1963; edición original inglesa).
